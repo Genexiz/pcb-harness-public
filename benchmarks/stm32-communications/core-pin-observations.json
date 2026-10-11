@@ -1,0 +1,606 @@
+{
+  "schema_version": 1,
+  "status": "candidate-observations",
+  "human_confirmed": false,
+  "parts": [
+    {
+      "ref": "U1",
+      "mpn": "STM32F103C8T6",
+      "package": "LQFP48 7x7mm pitch0.5",
+      "source_id": "stm32-ds",
+      "source_url": "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf",
+      "source_sha256": null,
+      "package_code": "LQFP48",
+      "pinout_locator": "DS5319 Rev20 Figure8 p26; Table5 LQFP48 column",
+      "package_locator": "DS5319 Rev20 LQFP48 package section and ordering scheme",
+      "notes": "Web-only observation; original PDF unavailable. Alternate functions and electrical pin types remain separate review.",
+      "pins": [
+        {
+          "number": "1",
+          "manufacturer_name": "VBAT",
+          "symbol_name": "VBAT"
+        },
+        {
+          "number": "2",
+          "manufacturer_name": "PC13",
+          "symbol_name": "PC13"
+        },
+        {
+          "number": "3",
+          "manufacturer_name": "PC14",
+          "symbol_name": "PC14"
+        },
+        {
+          "number": "4",
+          "manufacturer_name": "PC15",
+          "symbol_name": "PC15"
+        },
+        {
+          "number": "5",
+          "manufacturer_name": "PD0",
+          "symbol_name": "PD0"
+        },
+        {
+          "number": "6",
+          "manufacturer_name": "PD1",
+          "symbol_name": "PD1"
+        },
+        {
+          "number": "7",
+          "manufacturer_name": "NRST",
+          "symbol_name": "NRST"
+        },
+        {
+          "number": "8",
+          "manufacturer_name": "VSSA",
+          "symbol_name": "VSSA"
+        },
+        {
+          "number": "9",
+          "manufacturer_name": "VDDA",
+          "symbol_name": "VDDA"
+        },
+        {
+          "number": "10",
+          "manufacturer_name": "PA0",
+          "symbol_name": "PA0"
+        },
+        {
+          "number": "11",
+          "manufacturer_name": "PA1",
+          "symbol_name": "PA1"
+        },
+        {
+          "number": "12",
+          "manufacturer_name": "PA2",
+          "symbol_name": "PA2"
+        },
+        {
+          "number": "13",
+          "manufacturer_name": "PA3",
+          "symbol_name": "PA3"
+        },
+        {
+          "number": "14",
+          "manufacturer_name": "PA4",
+          "symbol_name": "PA4"
+        },
+        {
+          "number": "15",
+          "manufacturer_name": "PA5",
+          "symbol_name": "PA5"
+        },
+        {
+          "number": "16",
+          "manufacturer_name": "PA6",
+          "symbol_name": "PA6"
+        },
+        {
+          "number": "17",
+          "manufacturer_name": "PA7",
+          "symbol_name": "PA7"
+        },
+        {
+          "number": "18",
+          "manufacturer_name": "PB0",
+          "symbol_name": "PB0"
+        },
+        {
+          "number": "19",
+          "manufacturer_name": "PB1",
+          "symbol_name": "PB1"
+        },
+        {
+          "number": "20",
+          "manufacturer_name": "PB2",
+          "symbol_name": "PB2"
+        },
+        {
+          "number": "21",
+          "manufacturer_name": "PB10",
+          "symbol_name": "PB10"
+        },
+        {
+          "number": "22",
+          "manufacturer_name": "PB11",
+          "symbol_name": "PB11"
+        },
+        {
+          "number": "23",
+          "manufacturer_name": "VSS",
+          "symbol_name": "VSS"
+        },
+        {
+          "number": "24",
+          "manufacturer_name": "VDD",
+          "symbol_name": "VDD"
+        },
+        {
+          "number": "25",
+          "manufacturer_name": "PB12",
+          "symbol_name": "PB12"
+        },
+        {
+          "number": "26",
+          "manufacturer_name": "PB13",
+          "symbol_name": "PB13"
+        },
+        {
+          "number": "27",
+          "manufacturer_name": "PB14",
+          "symbol_name": "PB14"
+        },
+        {
+          "number": "28",
+          "manufacturer_name": "PB15",
+          "symbol_name": "PB15"
+        },
+        {
+          "number": "29",
+          "manufacturer_name": "PA8",
+          "symbol_name": "PA8"
+        },
+        {
+          "number": "30",
+          "manufacturer_name": "PA9",
+          "symbol_name": "PA9"
+        },
+        {
+          "number": "31",
+          "manufacturer_name": "PA10",
+          "symbol_name": "PA10"
+        },
+        {
+          "number": "32",
+          "manufacturer_name": "PA11",
+          "symbol_name": "PA11"
+        },
+        {
+          "number": "33",
+          "manufacturer_name": "PA12",
+          "symbol_name": "PA12"
+        },
+        {
+          "number": "34",
+          "manufacturer_name": "PA13",
+          "symbol_name": "PA13"
+        },
+        {
+          "number": "35",
+          "manufacturer_name": "VSS",
+          "symbol_name": "VSS"
+        },
+        {
+          "number": "36",
+          "manufacturer_name": "VDD",
+          "symbol_name": "VDD"
+        },
+        {
+          "number": "37",
+          "manufacturer_name": "PA14",
+          "symbol_name": "PA14"
+        },
+        {
+          "number": "38",
+          "manufacturer_name": "PA15",
+          "symbol_name": "PA15"
+        },
+        {
+          "number": "39",
+          "manufacturer_name": "PB3",
+          "symbol_name": "PB3"
+        },
+        {
+          "number": "40",
+          "manufacturer_name": "PB4",
+          "symbol_name": "PB4"
+        },
+        {
+          "number": "41",
+          "manufacturer_name": "PB5",
+          "symbol_name": "PB5"
+        },
+        {
+          "number": "42",
+          "manufacturer_name": "PB6",
+          "symbol_name": "PB6"
+        },
+        {
+          "number": "43",
+          "manufacturer_name": "PB7",
+          "symbol_name": "PB7"
+        },
+        {
+          "number": "44",
+          "manufacturer_name": "BOOT0",
+          "symbol_name": "BOOT0"
+        },
+        {
+          "number": "45",
+          "manufacturer_name": "PB8",
+          "symbol_name": "PB8"
+        },
+        {
+          "number": "46",
+          "manufacturer_name": "PB9",
+          "symbol_name": "PB9"
+        },
+        {
+          "number": "47",
+          "manufacturer_name": "VSS",
+          "symbol_name": "VSS"
+        },
+        {
+          "number": "48",
+          "manufacturer_name": "VDD",
+          "symbol_name": "VDD"
+        }
+      ]
+    },
+    {
+      "ref": "U2/U3",
+      "mpn": "MCP2518FD-E/SL",
+      "package": "SOIC14 3.9mm body",
+      "source_id": "mcp2518fd",
+      "source_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/External-CAN-FD-Controller-with-SPI-Interface-DS20006027B.pdf",
+      "source_sha256": "0041b5bddb2a341794958f7a3195b931b349eb863f685935bb80aee377661ff5",
+      "package_code": "SL",
+      "pinout_locator": "DS20006027B Table1-1 p4 SOIC column",
+      "package_locator": "DS20006027B pp86-88 SL package drawing; p95 product identification",
+      "notes": "INT/INT1/INT0 active low; nCS and overbar-CS are explicit aliases. SOIC has no VDFN EP15.",
+      "pins": [
+        {
+          "number": "1",
+          "manufacturer_name": "TXCAN",
+          "symbol_name": "TXCAN"
+        },
+        {
+          "number": "2",
+          "manufacturer_name": "RXCAN",
+          "symbol_name": "RXCAN"
+        },
+        {
+          "number": "3",
+          "manufacturer_name": "CLKO/SOF",
+          "symbol_name": "CLKO/SOF"
+        },
+        {
+          "number": "4",
+          "manufacturer_name": "INT",
+          "symbol_name": "~{INT}"
+        },
+        {
+          "number": "5",
+          "manufacturer_name": "OSC2",
+          "symbol_name": "OSC2"
+        },
+        {
+          "number": "6",
+          "manufacturer_name": "OSC1",
+          "symbol_name": "OSC1"
+        },
+        {
+          "number": "7",
+          "manufacturer_name": "VSS",
+          "symbol_name": "VSS"
+        },
+        {
+          "number": "8",
+          "manufacturer_name": "INT1/GPIO1",
+          "symbol_name": "~{INT1}/GPIO1"
+        },
+        {
+          "number": "9",
+          "manufacturer_name": "INT0/GPIO0/XSTBY",
+          "symbol_name": "~{INT0}/GPIO0/XSTBY"
+        },
+        {
+          "number": "10",
+          "manufacturer_name": "SCK",
+          "symbol_name": "SCK"
+        },
+        {
+          "number": "11",
+          "manufacturer_name": "SDI",
+          "symbol_name": "SDI"
+        },
+        {
+          "number": "12",
+          "manufacturer_name": "SDO",
+          "symbol_name": "SDO"
+        },
+        {
+          "number": "13",
+          "manufacturer_name": "nCS",
+          "symbol_name": "~{CS}"
+        },
+        {
+          "number": "14",
+          "manufacturer_name": "VDD",
+          "symbol_name": "VDD"
+        }
+      ]
+    },
+    {
+      "ref": "U4/U5",
+      "mpn": "MCP2562FD-E/SN",
+      "package": "SOIC8",
+      "source_id": "can-phy",
+      "source_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/20005284A.pdf",
+      "source_sha256": "79321323eb3295c5800a1aaabfea595f1486a26e2c17016b70bd26c52369fc14",
+      "package_code": "SN",
+      "pinout_locator": "DS20005284A Table1-2 p4 MCP2562FD PDIP/SOIC column",
+      "package_locator": "DS20005284A pp24-25 SN drawing; p29 product identification",
+      "notes": "VIO is pin5; MCP2561FD SPLIT is not a substitute. SOIC has no DFN EP9.",
+      "pins": [
+        {
+          "number": "1",
+          "manufacturer_name": "TXD",
+          "symbol_name": "TXD"
+        },
+        {
+          "number": "2",
+          "manufacturer_name": "VSS",
+          "symbol_name": "VSS"
+        },
+        {
+          "number": "3",
+          "manufacturer_name": "VDD",
+          "symbol_name": "VDD"
+        },
+        {
+          "number": "4",
+          "manufacturer_name": "RXD",
+          "symbol_name": "RXD"
+        },
+        {
+          "number": "5",
+          "manufacturer_name": "VIO",
+          "symbol_name": "Vio"
+        },
+        {
+          "number": "6",
+          "manufacturer_name": "CANL",
+          "symbol_name": "CANL"
+        },
+        {
+          "number": "7",
+          "manufacturer_name": "CANH",
+          "symbol_name": "CANH"
+        },
+        {
+          "number": "8",
+          "manufacturer_name": "STBY",
+          "symbol_name": "STBY"
+        }
+      ]
+    },
+    {
+      "ref": "U6",
+      "mpn": "THVD1450DR",
+      "package": "SOIC8",
+      "source_id": "rs485",
+      "source_url": "https://www.ti.com/lit/ds/symlink/thvd1450.pdf",
+      "source_sha256": "58ecc4cc07dd1d3206c2e67ffa734ad21a6d3a9e3c8c307068e6385bd79ee897",
+      "package_code": "D",
+      "pinout_locator": "SLLSEY3E section6 p5 D/SOIC column",
+      "package_locator": "SLLSEY3E PDF p32 ordering addendum; pp41-43 D0008A drawing",
+      "notes": "R/RO and D/DI are explicit receive/drive aliases; RE is active low. D package has no VSON thermal pad.",
+      "pins": [
+        {
+          "number": "1",
+          "manufacturer_name": "R",
+          "symbol_name": "RO"
+        },
+        {
+          "number": "2",
+          "manufacturer_name": "RE",
+          "symbol_name": "~{RE}"
+        },
+        {
+          "number": "3",
+          "manufacturer_name": "DE",
+          "symbol_name": "DE"
+        },
+        {
+          "number": "4",
+          "manufacturer_name": "D",
+          "symbol_name": "DI"
+        },
+        {
+          "number": "5",
+          "manufacturer_name": "GND",
+          "symbol_name": "GND"
+        },
+        {
+          "number": "6",
+          "manufacturer_name": "A",
+          "symbol_name": "A"
+        },
+        {
+          "number": "7",
+          "manufacturer_name": "B",
+          "symbol_name": "B"
+        },
+        {
+          "number": "8",
+          "manufacturer_name": "VCC",
+          "symbol_name": "VCC"
+        }
+      ]
+    },
+    {
+      "ref": "U7",
+      "mpn": "MAX3232IDR",
+      "package": "SOIC16",
+      "source_id": "rs232",
+      "source_url": "https://www.ti.com/lit/ds/symlink/max3232.pdf",
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "package_code": "D",
+      "pinout_locator": "SLLS410O Table5-1 p3",
+      "package_locator": "SLLS410O p1 D/SOIC body9.90x3.91mm; Figure5-1 p3; PDF p15 ordering addendum (exact MAX3232IDR row absent)",
+      "notes": "MAX232-derived T/R naming is explicitly mapped to TI DIN/DOUT/RIN/ROUT. Family D geometry only; exact orderable/lifecycle evidence remains unresolved. Retained PDF has no narrow-SOIC D land-pattern drawing; do not accept the footprint from family body size.",
+      "pins": [
+        {
+          "number": "1",
+          "manufacturer_name": "C1+",
+          "symbol_name": "C1+"
+        },
+        {
+          "number": "2",
+          "manufacturer_name": "V+",
+          "symbol_name": "VS+"
+        },
+        {
+          "number": "3",
+          "manufacturer_name": "C1-",
+          "symbol_name": "C1-"
+        },
+        {
+          "number": "4",
+          "manufacturer_name": "C2+",
+          "symbol_name": "C2+"
+        },
+        {
+          "number": "5",
+          "manufacturer_name": "C2-",
+          "symbol_name": "C2-"
+        },
+        {
+          "number": "6",
+          "manufacturer_name": "V-",
+          "symbol_name": "VS-"
+        },
+        {
+          "number": "7",
+          "manufacturer_name": "DOUT2",
+          "symbol_name": "T2OUT"
+        },
+        {
+          "number": "8",
+          "manufacturer_name": "RIN2",
+          "symbol_name": "R2IN"
+        },
+        {
+          "number": "9",
+          "manufacturer_name": "ROUT2",
+          "symbol_name": "R2OUT"
+        },
+        {
+          "number": "10",
+          "manufacturer_name": "DIN2",
+          "symbol_name": "T2IN"
+        },
+        {
+          "number": "11",
+          "manufacturer_name": "DIN1",
+          "symbol_name": "T1IN"
+        },
+        {
+          "number": "12",
+          "manufacturer_name": "ROUT1",
+          "symbol_name": "R1OUT"
+        },
+        {
+          "number": "13",
+          "manufacturer_name": "RIN1",
+          "symbol_name": "R1IN"
+        },
+        {
+          "number": "14",
+          "manufacturer_name": "DOUT1",
+          "symbol_name": "T1OUT"
+        },
+        {
+          "number": "15",
+          "manufacturer_name": "GND",
+          "symbol_name": "GND"
+        },
+        {
+          "number": "16",
+          "manufacturer_name": "VCC",
+          "symbol_name": "VCC"
+        }
+      ]
+    },
+    {
+      "ref": "U8",
+      "mpn": "TPS62162DSGR",
+      "package": "WSON8 2x2mm exposed pad",
+      "source_id": "buck",
+      "source_url": "https://www.ti.com/lit/ds/symlink/tps62160.pdf",
+      "source_sha256": "abc824ca04ee985ede3a513172ccdd2a42c8e1fdcfc3af5acdbe2c1af31aaa72",
+      "package_code": "DSG",
+      "pinout_locator": "SLVSAM2E section6 p4 DSG/WSON table; PDF p39 thermal-pad number9",
+      "package_locator": "SLVSAM2E PDF p30 ordering row; PDF pp39-41 DSG0008A drawing",
+      "notes": "EP9 is grounded to AGND. Four copper pad9 shapes are one electrical contact; stencil apertures are not pins. Land-pattern/thermal-via qualification is separate.",
+      "pins": [
+        {
+          "number": "1",
+          "manufacturer_name": "PGND",
+          "symbol_name": "PGND"
+        },
+        {
+          "number": "2",
+          "manufacturer_name": "VIN",
+          "symbol_name": "VIN"
+        },
+        {
+          "number": "3",
+          "manufacturer_name": "EN",
+          "symbol_name": "EN"
+        },
+        {
+          "number": "4",
+          "manufacturer_name": "AGND",
+          "symbol_name": "AGND"
+        },
+        {
+          "number": "5",
+          "manufacturer_name": "FB",
+          "symbol_name": "FB"
+        },
+        {
+          "number": "6",
+          "manufacturer_name": "VOS",
+          "symbol_name": "VOS"
+        },
+        {
+          "number": "7",
+          "manufacturer_name": "SW",
+          "symbol_name": "SW"
+        },
+        {
+          "number": "8",
+          "manufacturer_name": "PG",
+          "symbol_name": "PG"
+        },
+        {
+          "number": "9",
+          "manufacturer_name": "EP",
+          "symbol_name": "PAD"
+        }
+      ]
+    }
+  ]
+}

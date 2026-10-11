@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "tiny",
+  "functional": [
+    {
+      "id": "parallel",
+      "description": "Three parallel passive resistors",
+      "required_constraint_ids": [
+        "route-width"
+      ]
+    }
+  ],
+  "power_inputs": [],
+  "board": {
+    "width_mm": 60,
+    "height_mm": 20,
+    "layers": 2,
+    "thickness_mm": 1.6
+  },
+  "interfaces": [],
+  "concurrent_groups": [],
+  "environment": {
+    "temperature_range_c": [
+      0,
+      40
+    ]
+  },
+  "assembly": "none"
+}

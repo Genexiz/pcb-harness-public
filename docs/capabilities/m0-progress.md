@@ -1,0 +1,35 @@
+# Execution ledger — plan: docs/superpowers/plans/2026-10-03-m0-kicad-capability.md
+
+- User authorized implementation with “เริ่มเลย”. Scope starts with M0 capability spike.
+- Ruling: use the existing new-project checkout on work/m0-kicad-capability; no second worktree — repository did not previously exist and the directory contains only approved design documents.
+- Pre-flight: fixture identity is shared by IPC editing, saved-file CLI and snapshot operations. All mutations must select the exact scratch document.
+- Ruling: prototype probe scripts and generated fixtures are experimental; production Kernel code is not yet being implemented. Persistent verifier helpers receive behavioral tests before implementation.
+- Setup: Git initialized on development branch; official kicad-python 0.8.0 and pytest 9.1.1 installed from PyPI into local .venv. No global Python packages changed.
+- Task 1: complete. Runtime/CLI help/dependency/input-hash artifacts captured; local IPC server queried on approved unsandboxed process.
+- Task 2: complete. Native 3-resistor/2-net fixture is ERC/DRC/parity clean. Known-bad shorts, clearance, width, open, net mismatch and output conflict detected. Real CLI and unit suite: 28 passed.
+- Ruling: native CLI schematic parity needs approved unsandboxed execution on this macOS setup — sandbox caused reproducible GUI-registration SIGABRT; same command succeeded outside sandbox. Cost if wrong: platform-dependent execution requirements; retain process evidence and fail closed.
+- Ruling: parse ERC per-sheet violations and preserve local net-name prefixes — native JSON/netlist evidence disproved the initial guessed report shape/names. Cost if wrong: false pass or connectivity mismatch; pin schema/source and native fixtures.
+- Task 3/4: blocked on GUI access. Mac locked before opening scratch board; user asked asynchronously to unlock. IPC mutation probe is prepared, not yet run.
+- Task 5: partial. SVG export verified; zone fill and crop coordinate calibration pending.
+- Task 6: in progress. Capability report and run instructions written; M0 not marked complete.
+- Ruling: open a run-directory copy (`runs/capability/live`) for IPC rather than the versioned fixture — native saves reformat files and must not mutate the CLI regression baseline. Cost if wrong: wrong-path selection; exact document checks cover this.
+- Ruling: use explicit units in custom rules and gate the known M0 rule subset before CLI — negative probe showed unitless thresholds did not enforce intended width and malformed rule text was silently ignored. Cost if wrong: incomplete rule coverage; unknown rules are blocked and a general compiler is deferred to M3.
+- Final review: fresh read-only reviewer found four Important issues. Fixed stale PASS summaries, guarded revert, durable uncertain operation state and zone-poll deadlines; associated safety tests watched RED→GREEN. Actual guards on a live board remain unverified.
+- Final review minors regraded: overwrite guards and assertion-hidden mutations are safety issues, corrected with partial-bundle rejection tests and separated mutation/readback checks. Track update and via properties now have readback checks in the unexecuted probe.
+- Ruling: full-board hash plus project-file checks are a pre-revert guard, not atomic multi-writer recovery — a writer can race the check and unsaved settings may be invisible. Cost if wrong: discarded concurrent scratch edits; require isolated single-writer run, stop/preserve on detected conflict, retain concurrency gate as unverified.
+- M0 continuation: Mac unlocked and live board opened. Native query, move/rotate staged result, create/delete footprint, exact track/via update/delete, published commit/revert and zone fill verified in ipc-run-3; saved live board DRC/ERC/parity clean afterward.
+- Ruling: native save destinations must be absolute — relative paths resolve under the board project, not Python cwd. Added RED→GREEN absolute-path guard; first failed run retained as evidence.
+- Ruling: native transactions stage items but Queries return published state until push_commit — diagnosed from update response versus query, then corrected probes. Cost if wrong: false transaction validation; Kernel must publish then verify with guarded rollback, not pre-commit query.
+- Native limitations: FlipItems unsupported on KiCad 10.0.0; API moves locked footprint to [26,20] despite locked flag. Kernel must gate flip and enforce lock itself.
+- M0 core gate achieved: scripted real mutations + native rollback + saved-file verification. Extended manual GUI edit, process restart/uncertain delivery, crop-coordinate calibration and complete checkpoint conflict semantics remain unverified.
+- M1 start: execution plan docs/superpowers/plans/2026-10-03-m1-kernel.md. GUI locked again during optional manual-edit check; user notified; Kernel/test work can proceed independently.
+
+- User steering: “ทำ M0 ต่อ”. Finish M0 evidence/report; do not claim M1 complete from existing experimental work.
+- Continuation socket ruling: default api.sock now belongs to Manager and has no GetOpenDocuments handler. PCB Editor launched with api-74261.sock; exact document confirmed before mutation. Rebound to api-74371.sock after restart. Cost if wrong: wrong instance or failed query; document identity is mandatory.
+- Native ipc-run-6: 9 supported operations, FlipItems unsupported; baseline_restored=true. Raw unsupported error retained.
+- GUI edit verified: R1 X=20→22 via Properties, IPC reads new geometry; stale guard refuses restore and keeps edit. GUI undo restores own probe edit. Evidence manual-reload/evidence.json.
+- Native save/reopen verified: new editor instance socket; exact baseline geometry and saved-board SHA256 identical. This proves saved reload, not crash recovery of unsaved work.
+- Lost reply verified: send native EndCommit once, close before receiving reply. Durable uncertain operation persists; independent observer reads committed X=24; no retry; guarded explicit saved-board restore returns baseline. Controlled fault injection is not an OS-crash/all-timings guarantee.
+- Render mapping verified for this fixture: six pad centers, eight native tracks and rectangular outline agree with IPC. Native path styles override group styles; corrected calibration after observing actual SVG. R1 crop mm viewBox produced; wrong IPC geometry negative rejected.
+- Final M0 regression: 47 passed (10 native fixture, 37 report/safety). Immutable fixture DRC/parity/ERC/SVG pass; final live fixture DRC/parity/ERC pass after all probes.
+- M0 core complete: capability report updated with supported/unsupported/unverified results. Atomic multi-writer/settings recovery, general profiles/assets/geometry and OS-crash delivery coverage remain explicit limits. API key is not needed for M0.

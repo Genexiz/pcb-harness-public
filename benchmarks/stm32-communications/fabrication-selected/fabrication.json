@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "id": "stm32-jlcpcb-4l-7628-v1",
+  "revision": "2026-10-10",
+  "vendor": "JLCPCB",
+  "service": "4-layer FR4 1.6mm JLC04161H-7628; regular routed; 1oz outer/0.5oz inner; ENIG; green LPI; top SMT plus manual THT",
+  "source_fact_ids": [
+    "jlcpcb:track_width",
+    "jlcpcb:clearance",
+    "jlcpcb:via_drill",
+    "jlcpcb:via_diameter",
+    "jlcpcb:annular_ring",
+    "jlcpcb:inner_drill_clearance",
+    "jlcpcb:pth_size",
+    "jlcpcb:npth_size",
+    "jlcpcb:hole_to_hole",
+    "jlcpcb:copper_edge",
+    "jlcpcb:slots",
+    "jlcpcb:mask_opening",
+    "jlcpcb:mask_web",
+    "jlcpcb:silk_width",
+    "jlcpcb:silk_height",
+    "jlcpcb:silk_clearance",
+    "jlcpcb:assembly_spacing"
+  ],
+  "retrieved_at": "2026-10-10",
+  "layers": 4,
+  "material": "FR4 JLC04161H-7628",
+  "thickness_mm": 1.6,
+  "copper_oz": [
+    1,
+    0.5,
+    0.5,
+    1
+  ],
+  "finish": "ENIG",
+  "mask": "Green LPI",
+  "via_process": "through",
+  "assembly": "top_smd",
+  "categories": [
+    {
+      "id": "track_width",
+      "applicable": true,
+      "reason": "Traces: multilayer1oz width/space",
+      "fact_ids": [
+        "jlcpcb:track_width"
+      ],
+      "manufacturer_floor": 0.09,
+      "design_target": 0.2,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "clearance",
+      "applicable": true,
+      "reason": "Traces: SMD pad-to-pad different-net clearance; stricter than trace space",
+      "fact_ids": [
+        "jlcpcb:clearance"
+      ],
+      "manufacturer_floor": 0.15,
+      "design_target": 0.2,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "via_drill",
+      "applicable": true,
+      "reason": "Drilling: multilayer minimum via hole",
+      "fact_ids": [
+        "jlcpcb:via_drill"
+      ],
+      "manufacturer_floor": 0.15,
+      "design_target": 0.3,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "via_diameter",
+      "applicable": true,
+      "reason": "Drilling: multilayer minimum via diameter; chosen0.7 allows0.20 annular",
+      "fact_ids": [
+        "jlcpcb:via_diameter"
+      ],
+      "manufacturer_floor": 0.25,
+      "design_target": 0.7,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "annular_ring",
+      "applicable": true,
+      "reason": "Traces: multilayer1oz absolute PTH minimum; recommended0.20",
+      "fact_ids": [
+        "jlcpcb:annular_ring"
+      ],
+      "manufacturer_floor": 0.15,
+      "design_target": 0.2,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "inner_drill_clearance",
+      "applicable": true,
+      "reason": "Traces: inner PTH hole-to-copper0.30; via0.20 covered by strictertarget",
+      "fact_ids": [
+        "jlcpcb:inner_drill_clearance"
+      ],
+      "manufacturer_floor": 0.3,
+      "design_target": 0.35,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "pth_size",
+      "applicable": true,
+      "reason": "Drilling: multilayer minimum drill; per-part lead fit remains required",
+      "fact_ids": [
+        "jlcpcb:pth_size"
+      ],
+      "manufacturer_floor": 0.15,
+      "design_target": 0.5,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    },
+    {
+      "id": "npth_size",
+      "applicable": true,
+      "reason": "Drilling: minimum unplated hole",
+      "fact_ids": [
+        "jlcpcb:npth_size"
+      ],
+      "manufacturer_floor": 0.5,
+      "design_target": 1.0,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    },
+    {
+      "id": "hole_to_hole",
+      "applicable": true,
+      "reason": "Drilling: pad hole-to-hole0.45; via0.20 covered by strictertarget",
+      "fact_ids": [
+        "jlcpcb:hole_to_hole"
+      ],
+      "manufacturer_floor": 0.45,
+      "design_target": 0.5,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "copper_edge",
+      "applicable": true,
+      "reason": "Outline: routed copper edge/slot clearance; noVscore",
+      "fact_ids": [
+        "jlcpcb:copper_edge"
+      ],
+      "manufacturer_floor": 0.2,
+      "design_target": 0.5,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "slots",
+      "applicable": true,
+      "reason": "Drilling: multilayer plated slot minimum0.35; noNPTHslots selected",
+      "fact_ids": [
+        "jlcpcb:slots"
+      ],
+      "manufacturer_floor": 0.35,
+      "design_target": 0.5,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    },
+    {
+      "id": "mask_opening",
+      "applicable": true,
+      "reason": "Soldermask:1to1 openings; separately keep0.09 adjacent trace clearance",
+      "fact_ids": [
+        "jlcpcb:mask_opening"
+      ],
+      "manufacturer_floor": 0.0,
+      "design_target": 0.0,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    },
+    {
+      "id": "mask_web",
+      "applicable": true,
+      "reason": "Soldermask:1oz green minimum bridge",
+      "fact_ids": [
+        "jlcpcb:mask_web"
+      ],
+      "manufacturer_floor": 0.1,
+      "design_target": 0.15,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    },
+    {
+      "id": "silk_width",
+      "applicable": true,
+      "reason": "Legend: minimum stroke",
+      "fact_ids": [
+        "jlcpcb:silk_width"
+      ],
+      "manufacturer_floor": 0.15,
+      "design_target": 0.18,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    },
+    {
+      "id": "silk_height",
+      "applicable": true,
+      "reason": "Legend: minimum text height",
+      "fact_ids": [
+        "jlcpcb:silk_height"
+      ],
+      "manufacturer_floor": 1.0,
+      "design_target": 1.2,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    },
+    {
+      "id": "silk_clearance",
+      "applicable": true,
+      "reason": "Legend: pad-to-silkscreen minimum",
+      "fact_ids": [
+        "jlcpcb:silk_clearance"
+      ],
+      "manufacturer_floor": 0.15,
+      "design_target": 0.2,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    },
+    {
+      "id": "assembly_spacing",
+      "applicable": true,
+      "reason": "SMT spacing table: QFP/QFP1.25; global1.5 covers selected nonBGA classes",
+      "fact_ids": [
+        "jlcpcb:assembly_spacing"
+      ],
+      "manufacturer_floor": 1.25,
+      "design_target": 1.5,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    }
+  ]
+}

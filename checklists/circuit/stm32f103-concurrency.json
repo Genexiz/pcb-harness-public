@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "id": "stm32f103-native-concurrency-reference",
+  "status": "unconfirmed",
+  "source_url": "https://www.st.com/content/st_com/en/technical-documents/an4879-introduction-to-usb-hardware-and-pcb-guidelines-using-stm32-mcus-stmicroelectronics_asset/chunk-001-topic-an4879-usb-on-stm32-products.html",
+  "locator": "AN4879 USB on STM32 products, dedicated packet buffer SRAM footnote",
+  "mpn": "STM32F103C8T6",
+  "peripherals": ["USB", "CAN"],
+  "policy": "Reject concurrent native use on one MCU; external CAN is a separate peripheral path.",
+  "scope": "Reference decision from approved design; no real package allocation or human fact confirmation."
+}

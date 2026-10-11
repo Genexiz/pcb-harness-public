@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "revision": "m4-source-completion-v1",
+  "human_confirmed": false,
+  "documents": [
+    {
+      "id": "stm32-ds",
+      "title": "DS5319 Rev 20",
+      "url": "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf",
+      "retrieved_url": "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf",
+      "path": "stm32-ds.pdf",
+      "repository_path": "runs/m4/source-recovery-2026-10-10/sources/stm32-ds.pdf",
+      "locator": "Table 2 PDF p10; Figure 8 LQFP48 pinout PDF p26; Table 5 pin definitions PDF pp28-33; LQFP48 package PDF pp98-100; revision history PDF p113",
+      "human_confirmed": false,
+      "status": "retrieved",
+      "sha256": "1e54ce18e6c34c5b4a78986f26e245e143748c721009fc9af5953795c30686bc",
+      "bytes": 1965230,
+      "original_publisher_bytes": true,
+      "attempt": "020-browserprofile-ds",
+      "validation": {
+        "format": "PDF",
+        "page_count": 114,
+        "verified_revision_or_title": "DS5319 Rev 20",
+        "validation_tool": "pypdf",
+        "first_page_match": true,
+        "encrypted": false,
+        "text_path": "runs/m4/source-recovery-2026-10-10/text/stm32-ds.txt"
+      },
+      "retrieval_metadata_path": "runs/m4/source-recovery-2026-10-10/attempts/020-browserprofile-ds.json",
+      "retrieved_at_utc": "2026-10-10T11:49:06.629277+00:00"
+    },
+    {
+      "id": "stm32-rm",
+      "title": "RM0008 Rev 21",
+      "url": "https://www.st.com/resource/en/reference_manual/rm0008-stm32f101xx-stm32f102xx-stm32f103xx-stm32f105xx-and-stm32f107xx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf",
+      "retrieved_url": "https://www.st.com/resource/en/reference_manual/rm0008-stm32f101xx-stm32f102xx-stm32f103xx-stm32f105xx-and-stm32f107xx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf",
+      "path": "stm32-rm.pdf",
+      "repository_path": "runs/m4/source-recovery-2026-10-10/sources/stm32-rm.pdf",
+      "locator": "Section 13.3.7, Figure 50 DMA1 mapping PDF p281, Table 78 PDF p282; AFIO_MAPR PDF pp177-181; SPI chapter 25; I2C chapter 26; USART chapter 27; USB chapter 23",
+      "human_confirmed": false,
+      "status": "retrieved",
+      "sha256": "4c1b8ac2729cc1f45a4685eea9e91e6139e24e58804fba21e27201dfcc2ad149",
+      "bytes": 13119424,
+      "original_publisher_bytes": true,
+      "attempt": "021-browserprofile-rm",
+      "validation": {
+        "format": "PDF",
+        "page_count": 1136,
+        "verified_revision_or_title": "RM0008 Rev 21",
+        "validation_tool": "pypdf",
+        "first_page_match": true,
+        "encrypted": false,
+        "text_path": "runs/m4/source-recovery-2026-10-10/text/stm32-rm.txt"
+      },
+      "retrieval_metadata_path": "runs/m4/source-recovery-2026-10-10/attempts/021-browserprofile-rm.json",
+      "retrieved_at_utc": "2026-10-10T11:49:06.629355+00:00"
+    },
+    {
+      "id": "stm32-errata",
+      "title": "ES096 Rev 15",
+      "url": "https://www.st.com/resource/en/errata_sheet/es096-stm32f101x8b-stm32f102x8b-and-stm32f103x8b-mediumdensity-device-limitations-stmicroelectronics.pdf",
+      "retrieved_url": "https://www.st.com/resource/en/errata_sheet/es096-stm32f101x8b-stm32f102x8b-and-stm32f103x8b-mediumdensity-device-limitations-stmicroelectronics.pdf",
+      "path": "stm32-errata.pdf",
+      "repository_path": "runs/m4/source-recovery-2026-10-10/sources/stm32-errata.pdf",
+      "locator": "Table 1/2 applicability and REV_ID PDF p1; Table 3 per-silicon limitation matrix PDF pp2-4; I2C Section 2.8 PDF pp17-20; USB Section 2.12 PDF pp23-24",
+      "human_confirmed": false,
+      "status": "retrieved",
+      "sha256": "7bcdf58d8b602292d68abb59e181a4f44a038f215d8b01b0167f6d7139285490",
+      "bytes": 956332,
+      "original_publisher_bytes": true,
+      "attempt": "022-browserprofile-es",
+      "validation": {
+        "format": "PDF",
+        "page_count": 31,
+        "verified_revision_or_title": "ES096 - Rev 15",
+        "validation_tool": "pypdf",
+        "first_page_match": true,
+        "encrypted": false,
+        "text_path": "runs/m4/source-recovery-2026-10-10/text/stm32-errata.txt"
+      },
+      "retrieval_metadata_path": "runs/m4/source-recovery-2026-10-10/attempts/022-browserprofile-es.json",
+      "retrieved_at_utc": "2026-10-10T11:49:06.629415+00:00"
+    },
+    {
+      "id": "rs232",
+      "title": "MAX3232 SLLS410O, current TI package addendum",
+      "url": "https://www.ti.com/lit/ds/symlink/max3232.pdf",
+      "retrieved_url": "https://www.ti.com/lit/ds/symlink/max3232.pdf",
+      "path": "max3232.pdf",
+      "repository_path": "runs/m4/source-recovery-2026-10-10/sources/max3232.pdf",
+      "locator": "MAX3232IDWR Active SOIC(DW),16,-40..85C orderable row PDF p15 (addendum date 23-Dec-2025); DW0016A drawing PDF p24, board/stencil layout PDF pp25-26",
+      "human_confirmed": false,
+      "status": "retrieved",
+      "sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "bytes": 1783899,
+      "original_publisher_bytes": true,
+      "attempt": "023-ti-max3232",
+      "validation": {
+        "format": "PDF",
+        "page_count": 30,
+        "verified_revision_or_title": "SLLS410O",
+        "validation_tool": "pypdf",
+        "first_page_match": true,
+        "encrypted": false,
+        "text_path": "runs/m4/source-recovery-2026-10-10/text/max3232.txt"
+      },
+      "retrieval_metadata_path": "runs/m4/source-recovery-2026-10-10/attempts/023-ti-max3232.headers",
+      "retrieved_at_utc": "2026-10-10T11:50:36.342733+00:00"
+    },
+    {
+      "id": "max3232idwr-part",
+      "title": "MAX3232IDWR exact orderable page",
+      "url": "https://www.ti.com/product/MAX3232/part-details/MAX3232IDWR",
+      "retrieved_url": "https://www.ti.com/product/MAX3232/part-details/MAX3232IDWR",
+      "path": "max3232idwr-part.html",
+      "repository_path": "runs/m4/source-recovery-2026-10-10/sources/max3232idwr-part.html",
+      "locator": "Original HTML meta description lines114,128; structured additionalProperty ACTIVE_true line146; packaging SOIC(DW)|16 line1686",
+      "human_confirmed": false,
+      "status": "retrieved",
+      "sha256": "6178505d1302d9c6fe18d35f5a2ca8360a6d3958c666e002ce7f89a732679474",
+      "bytes": 83469,
+      "original_publisher_bytes": true,
+      "attempt": "009-ti-idwr",
+      "retrieval_metadata_path": "runs/m4/source-recovery-2026-10-10/attempts/009-ti-idwr.headers",
+      "retrieved_at_utc": "2026-10-10T11:50:20.541798+00:00"
+    },
+    {
+      "id": "max3232idwr-carrier",
+      "title": "MAX3232IDWR carrier report",
+      "url": "https://www.ti.com/packaging/docs/carriermaterial/downloadCarrierReport?OPN=MAX3232IDWR",
+      "retrieved_url": "https://www.ti.com/packaging/docs/carriermaterial/downloadCarrierReport?OPN=MAX3232IDWR",
+      "path": "max3232idwr-carrier.pdf",
+      "repository_path": "runs/m4/source-recovery-2026-10-10/sources/max3232idwr-carrier.pdf",
+      "locator": "PDF p1 exact MAX3232IDWR; PackageName DW, PackageType SOIC,16 pins,SPQ2000",
+      "human_confirmed": false,
+      "status": "retrieved",
+      "sha256": "320eeed439d886745b4c2b4c3a7af56257c410a6e6219971af3626bc5941e5a1",
+      "bytes": 129296,
+      "original_publisher_bytes": true,
+      "attempt": "014-ti-idwr-carrier",
+      "validation": {
+        "format": "PDF",
+        "page_count": 2,
+        "verified_revision_or_title": "Carrier Material Report for MAX3232IDWR",
+        "validation_tool": "pypdf",
+        "first_page_match": true,
+        "encrypted": false,
+        "text_path": "runs/m4/source-recovery-2026-10-10/text/max3232idwr-carrier.txt"
+      },
+      "retrieval_metadata_path": "runs/m4/source-recovery-2026-10-10/attempts/014-ti-idwr-carrier.headers",
+      "retrieved_at_utc": "2026-10-10T11:50:20.531744+00:00"
+    }
+  ],
+  "files": [
+    {
+      "path": "observations-v1.json",
+      "repository_path": "benchmarks/stm32-communications/source-recovery/observations-v1.json",
+      "sha256": "5447f447d46a205be6747d73548700db1fda71de680f2f392a9f08688d0b6b41"
+    },
+    {
+      "path": "page-checks.json",
+      "repository_path": "benchmarks/stm32-communications/source-recovery/page-checks.json",
+      "sha256": "7144353ef652feb38be0970b51a4639c0308da26cba7749cf37680d5d72305a4"
+    },
+    {
+      "path": "assets/SOIC-16W_7.5x10.3mm_P1.27mm.kicad_mod",
+      "repository_path": "benchmarks/stm32-communications/source-recovery/assets/SOIC-16W_7.5x10.3mm_P1.27mm.kicad_mod",
+      "sha256": "07aa02ced9fcdc61d7c6bb5ea1b86803731041e9e171db91a991c3daa7817383"
+    }
+  ]
+}

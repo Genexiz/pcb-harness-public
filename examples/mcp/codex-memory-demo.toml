@@ -1,0 +1,7 @@
+# Explicit test-only Memory demo. These tools NEVER edit KiCad.
+# Replace /absolute/path/PCB_Harness with your local checkout.
+[mcp_servers.pcb_harness_demo]
+command = "/absolute/path/PCB_Harness/.venv/bin/python"
+args = ["-m", "pcb_harness.mcp_server", "--workspace", "/absolute/path/PCB_Harness", "--run-directory", "/absolute/path/PCB_Harness/runs/mcp/demo", "--backend", "memory", "--max-actions", "300", "--max-duration-seconds", "1200"]
+tool_timeout_sec = 120
+# Run limits freeze at launch; reconnect does not reset. Use an explicit fresh directory for a new experiment.

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "board": "board.kicad_pcb",
+  "refs": [
+    "R1",
+    "R2",
+    "R3"
+  ],
+  "nets": [
+    "/NET_A",
+    "/NET_B"
+  ],
+  "initial_track_count": 0,
+  "initial_via_count": 0,
+  "min_host_placement_actions": 1,
+  "sha256": {
+    "Harness.kicad_sym": "6cd0cc0c5b48f3cf9fc2444e234f4b4006d6d4ff44372a15d4bffd71601dca4f",
+    "Harness.pretty/Probe_R.kicad_mod": "ee1ac0d0a14d22bd5683250887e8d3f36816c45eb939de264ff8d46b374906ba",
+    "board.kicad_dru": "4b94f1b9459c9a427a124c088ddc391f66d9e29a3415d6714609f418a38e39f9",
+    "board.kicad_pcb": "eff9760b70f0ea320d8d71e53b2973922995b9fd4f6e418c5ac60d6a7541a72e",
+    "board.kicad_pro": "c2c838fdeed3433b6396df5387bb6555a6651597c48951abb3683601f730a06b",
+    "board.kicad_sch": "e46710df4b838ae787df4ff247bb34d8b1f9bb917e80f38371e6ec369bc3023a",
+    "fp-lib-table": "a55b9087a858239a6189c0ab0442d5fe1d4fe66db55a78769876f15c0c6620b6",
+    "sym-lib-table": "978972252232e57575e703b59033d1efbb0eed2bdcefd84ef4e881d674faf7d0"
+  }
+}

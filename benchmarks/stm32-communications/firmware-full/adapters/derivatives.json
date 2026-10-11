@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "original": "vendor/hal/Src/stm32f1xx_hal_pcd.c",
+  "original_sha256": "412e7819ef1900f3b33b550068c64e7f9679fe99793758a23e775712842c12a2",
+  "derivative": "adapters/stm32f1xx_hal_pcd_bounded.c",
+  "derivative_sha256": "b980a2597d182b457fefcc1c3994480190fab67c5300a07ed0b378fe49c6e29a",
+  "patch": "adapters/stm32f1xx_hal_pcd_bounded.patch",
+  "patch_sha256": "e180def6efeb569fe686c219e0c711104302f53221e6b1c72e74302f0b31a550",
+  "policy": "Original remains unmodified. Derivative preserves STlicense/copyright, bounds suspend RESET polling20us and correct-transfer ISR4iterations."
+}

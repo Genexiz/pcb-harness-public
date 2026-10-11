@@ -1,0 +1,3 @@
+(version 1)
+(rule "M0 minimum routing width"
+  (condition "A.Type == 'Track'") (constraint track_width (min 0.2mm)))

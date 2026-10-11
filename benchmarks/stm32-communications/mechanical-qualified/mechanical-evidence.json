@@ -1,0 +1,562 @@
+{
+  "schema_version": 1,
+  "revision": "m4-mechanical-evidence-v1",
+  "human_confirmed": false,
+  "module": {
+    "mpn": "WIZ550io v1.2",
+    "pin_coordinate_datum": "Top projection with RJ45 facing +X; origin at center of the exact v1.2 rectangular55x26 PCB; KiCad+Y down. Host sockets use same top-projection coordinates; do not mirror.",
+    "source_ids": [
+      "wiz550io-v1.2-pcbdoc",
+      "wiz550io-v1.2-bom",
+      "wiz550io-dimension",
+      "wiz550io-eagle-v1.1",
+      "wiz550io"
+    ],
+    "manufacturer_pcb_nominal_mm": [
+      55,
+      26,
+      1.6
+    ],
+    "manual_alternative_pcb_length_mm": 54,
+    "nominal_resolution": "Exact v1.2 original PcbDoc Edge.Cuts and v1.2 BOM item27 agree55x26. Manual54 preserved as contradictory summary, not a guaranteed tolerance.",
+    "imported_board_center_mm": [
+      148.5011,
+      105.0036
+    ],
+    "imported_board_bounds_mm": [
+      121.0011,
+      92.0036,
+      176.0011,
+      118.0036
+    ],
+    "pins": [
+      {
+        "number": "1",
+        "module_connector": "J1",
+        "module_pin": 1,
+        "x_mm": 7.44,
+        "y_mm": -11.43,
+        "source_module_pcb_drill_mm": 0.9144
+      },
+      {
+        "number": "2",
+        "module_connector": "J1",
+        "module_pin": 2,
+        "x_mm": 4.9,
+        "y_mm": -11.43,
+        "source_module_pcb_drill_mm": 0.9144
+      },
+      {
+        "number": "3",
+        "module_connector": "J1",
+        "module_pin": 3,
+        "x_mm": 2.36,
+        "y_mm": -11.43,
+        "source_module_pcb_drill_mm": 0.9144
+      },
+      {
+        "number": "4",
+        "module_connector": "J1",
+        "module_pin": 4,
+        "x_mm": -0.18,
+        "y_mm": -11.43,
+        "source_module_pcb_drill_mm": 0.9144
+      },
+      {
+        "number": "5",
+        "module_connector": "J1",
+        "module_pin": 5,
+        "x_mm": -2.72,
+        "y_mm": -11.43,
+        "source_module_pcb_drill_mm": 0.9144
+      },
+      {
+        "number": "6",
+        "module_connector": "J1",
+        "module_pin": 6,
+        "x_mm": -5.26,
+        "y_mm": -11.43,
+        "source_module_pcb_drill_mm": 0.9144
+      },
+      {
+        "number": "7",
+        "module_connector": "J1",
+        "module_pin": 7,
+        "x_mm": -7.8,
+        "y_mm": -11.43,
+        "source_module_pcb_drill_mm": 0.9144
+      },
+      {
+        "number": "8",
+        "module_connector": "J1",
+        "module_pin": 8,
+        "x_mm": -10.34,
+        "y_mm": -11.43,
+        "source_module_pcb_drill_mm": 0.9144
+      },
+      {
+        "number": "9",
+        "module_connector": "J2",
+        "module_pin": 1,
+        "x_mm": 4.9,
+        "y_mm": 11.43,
+        "source_module_pcb_drill_mm": 0.9144
+      },
+      {
+        "number": "10",
+        "module_connector": "J2",
+        "module_pin": 2,
+        "x_mm": 2.36,
+        "y_mm": 11.43,
+        "source_module_pcb_drill_mm": 0.9144
+      },
+      {
+        "number": "11",
+        "module_connector": "J2",
+        "module_pin": 3,
+        "x_mm": -0.18,
+        "y_mm": 11.43,
+        "source_module_pcb_drill_mm": 0.9144
+      },
+      {
+        "number": "12",
+        "module_connector": "J2",
+        "module_pin": 4,
+        "x_mm": -2.72,
+        "y_mm": 11.43,
+        "source_module_pcb_drill_mm": 0.9144
+      },
+      {
+        "number": "13",
+        "module_connector": "J2",
+        "module_pin": 5,
+        "x_mm": -5.26,
+        "y_mm": 11.43,
+        "source_module_pcb_drill_mm": 0.9144
+      },
+      {
+        "number": "14",
+        "module_connector": "J2",
+        "module_pin": 6,
+        "x_mm": -7.8,
+        "y_mm": 11.43,
+        "source_module_pcb_drill_mm": 0.9144
+      }
+    ],
+    "j1_pin1_mm": [
+      7.44,
+      -11.43
+    ],
+    "j2_pin1_mm": [
+      4.9,
+      11.43
+    ],
+    "header_pitch_mm": 2.54,
+    "header_row_spacing_mm": 22.86,
+    "rj45_imported_outline_bounds_mm": [
+      9.15,
+      -7.925,
+      30.45001,
+      7.925
+    ],
+    "retained_eagle_rj45_bounds_mm": [
+      8.9,
+      -8,
+      30.4,
+      8
+    ],
+    "module_height_documented_mm": [
+      23.5,
+      24.5
+    ],
+    "height_datum": "Frozen online manual overall height reference plane unspecified; no insertion depth subtracted from additive stack.",
+    "socket_height_upper_mm": 8.64,
+    "additive_stack_upper_mm": 33.14,
+    "engineering_envelope_mm": [
+      60,
+      30,
+      34
+    ],
+    "engineering_courtyard_bounds_mm": [
+      -28.5,
+      -15,
+      31.5,
+      15
+    ],
+    "engineering_clearance_policy": "Reserve whole module+RJ45 body within60x30, no tall components beneath module,34mm abovehost. Envelope includes legacy mounting-lobe uncertainty; it is an adopted design allowance, not manufacturer tolerance.",
+    "source_module_drills_are_not_host_socket_drills": true
+  },
+  "sockets": [
+    {
+      "ref": "M1_SOCKET_2",
+      "mpn": "SSW-108-01-G-S",
+      "positions": 8,
+      "row": "single",
+      "straight": true,
+      "host_pin1_center_mm": [
+        7.44,
+        -11.43
+      ],
+      "contact_increment_mm": [
+        -2.54,
+        0
+      ],
+      "angle_if_library_contacts_increase_along_positive_Y_degrees": 270,
+      "body_length_nominal_mm": 20.83,
+      "body_length_tolerance_mm": 0.25,
+      "body_width_reference_mm": 2.41,
+      "body_height_nominal_mm": 8.51,
+      "body_height_tolerance_mm": 0.13,
+      "tail_length_nominal_mm": 2.64,
+      "tail_length_tolerance_mm": 0.13,
+      "tail_section_reference_mm": [
+        0.79,
+        0.41
+      ],
+      "tail_diagonal_nominal_mm": 0.89006,
+      "retained_host_pad_drill_mm": 1.016,
+      "nominal_diametral_tail_clearance_mm": 0.12594,
+      "required_male_insertion_mm": [
+        3.68,
+        6.35
+      ],
+      "accepted_post_nominal_square_mm": 0.64,
+      "source_ids": [
+        "female-header",
+        "female-catalog"
+      ],
+      "locator": "SSW drawing RevCL physical PDF p1 Fig1/Tables1,2; catalog F226 p1 insertion depth and.025square post",
+      "qualification": "Nominal pitch and solder-tail geometric fit established; actual module male section/protrusion and finished-host-hole tolerance are not manufacturer-guaranteed by these sources.",
+      "human_confirmed": false
+    },
+    {
+      "ref": "M1_SOCKET_1",
+      "mpn": "SSW-106-01-G-S",
+      "positions": 6,
+      "row": "single",
+      "straight": true,
+      "host_pin1_center_mm": [
+        4.9,
+        11.43
+      ],
+      "contact_increment_mm": [
+        -2.54,
+        0
+      ],
+      "angle_if_library_contacts_increase_along_positive_Y_degrees": 270,
+      "body_length_nominal_mm": 15.75,
+      "body_length_tolerance_mm": 0.25,
+      "body_width_reference_mm": 2.41,
+      "body_height_nominal_mm": 8.51,
+      "body_height_tolerance_mm": 0.13,
+      "tail_length_nominal_mm": 2.64,
+      "tail_length_tolerance_mm": 0.13,
+      "tail_section_reference_mm": [
+        0.79,
+        0.41
+      ],
+      "tail_diagonal_nominal_mm": 0.89006,
+      "retained_host_pad_drill_mm": 1.016,
+      "nominal_diametral_tail_clearance_mm": 0.12594,
+      "required_male_insertion_mm": [
+        3.68,
+        6.35
+      ],
+      "accepted_post_nominal_square_mm": 0.64,
+      "source_ids": [
+        "female-header",
+        "female-catalog"
+      ],
+      "locator": "SSW drawing RevCL physical PDF p1 Fig1/Tables1,2; catalog F226 p1 insertion depth and.025square post",
+      "qualification": "Nominal pitch and solder-tail geometric fit established; actual module male section/protrusion and finished-host-hole tolerance are not manufacturer-guaranteed by these sources.",
+      "human_confirmed": false
+    }
+  ],
+  "connectors": [
+    {
+      "interface": "usb",
+      "ref": "J3",
+      "mpn": "USB4105-GF-A",
+      "manufacturer_nominal_body_mm": [
+        7.35,
+        8.94,
+        3.31
+      ],
+      "manufacturer_default_dimension_tolerance_mm": 0.15,
+      "engineering_envelope_mm": [
+        9,
+        10.5,
+        4
+      ],
+      "engineering_mated_height_limit_mm": 7,
+      "source_ids": [
+        "usb-drawing"
+      ],
+      "locator": "USB4105 drawing RevB4 physical PDF p1 body7.35/8.94/3.31; general X.XX tolerance±.15; mating plug6.5max; recommended PCB layout±.05",
+      "access_policy": "Receptacle mouth at host board edge, USB plug6.5max profile; reserve20mm clear insertion corridor outside PCB. Actual cable bend radius/enclosure outside this desktop target."
+    },
+    {
+      "interface": "uart",
+      "ref": "J8",
+      "mpn": "HTSW-103-07-G-S",
+      "manufacturer_nominal_body_mm": [
+        7.62,
+        2.54,
+        2.54
+      ],
+      "derived_nominal_unmated_height_above_pcb_mm": 8.38,
+      "manufacturer_post_above_body_nominal_mm": 5.84,
+      "manufacturer_tail_below_body_nominal_mm": 2.54,
+      "engineering_envelope_mm": [
+        10,
+        5.5,
+        9
+      ],
+      "engineering_mated_height_limit_mm": 15,
+      "source_ids": [
+        "header",
+        "header-catalog",
+        "header-land",
+        "female-catalog",
+        "female-header"
+      ],
+      "locator": "TSW/HTSW catalog F226 PDF p1 straight-S N×2.54 body; style07 A10.92,B2.54,C5.84; SSW catalog p1 insertion3.68..6.35; drawing tolerances",
+      "access_policy": "Mate only using standard2.54mm.025square-post socket family sized to exact contact count; reserve vertical insertion/removal and20mm hand-access corridor.15mm static height is engineering allowance forSSW-style mate with≥3.68mm engagement; no unspecified oversized harness guarantee."
+    },
+    {
+      "interface": "rs232",
+      "ref": "J7",
+      "mpn": "HTSW-103-07-G-S",
+      "manufacturer_nominal_body_mm": [
+        7.62,
+        2.54,
+        2.54
+      ],
+      "derived_nominal_unmated_height_above_pcb_mm": 8.38,
+      "manufacturer_post_above_body_nominal_mm": 5.84,
+      "manufacturer_tail_below_body_nominal_mm": 2.54,
+      "engineering_envelope_mm": [
+        10,
+        5.5,
+        9
+      ],
+      "engineering_mated_height_limit_mm": 15,
+      "source_ids": [
+        "header",
+        "header-catalog",
+        "header-land",
+        "female-catalog",
+        "female-header"
+      ],
+      "locator": "TSW/HTSW catalog F226 PDF p1 straight-S N×2.54 body; style07 A10.92,B2.54,C5.84; SSW catalog p1 insertion3.68..6.35; drawing tolerances",
+      "access_policy": "Mate only using standard2.54mm.025square-post socket family sized to exact contact count; reserve vertical insertion/removal and20mm hand-access corridor.15mm static height is engineering allowance forSSW-style mate with≥3.68mm engagement; no unspecified oversized harness guarantee."
+    },
+    {
+      "interface": "rs485",
+      "ref": "J6",
+      "mpn": "HTSW-103-07-G-S",
+      "manufacturer_nominal_body_mm": [
+        7.62,
+        2.54,
+        2.54
+      ],
+      "derived_nominal_unmated_height_above_pcb_mm": 8.38,
+      "manufacturer_post_above_body_nominal_mm": 5.84,
+      "manufacturer_tail_below_body_nominal_mm": 2.54,
+      "engineering_envelope_mm": [
+        10,
+        5.5,
+        9
+      ],
+      "engineering_mated_height_limit_mm": 15,
+      "source_ids": [
+        "header",
+        "header-catalog",
+        "header-land",
+        "female-catalog",
+        "female-header"
+      ],
+      "locator": "TSW/HTSW catalog F226 PDF p1 straight-S N×2.54 body; style07 A10.92,B2.54,C5.84; SSW catalog p1 insertion3.68..6.35; drawing tolerances",
+      "access_policy": "Mate only using standard2.54mm.025square-post socket family sized to exact contact count; reserve vertical insertion/removal and20mm hand-access corridor.15mm static height is engineering allowance forSSW-style mate with≥3.68mm engagement; no unspecified oversized harness guarantee."
+    },
+    {
+      "interface": "i2c",
+      "ref": "J9",
+      "mpn": "HTSW-104-07-G-S",
+      "manufacturer_nominal_body_mm": [
+        10.16,
+        2.54,
+        2.54
+      ],
+      "derived_nominal_unmated_height_above_pcb_mm": 8.38,
+      "manufacturer_post_above_body_nominal_mm": 5.84,
+      "manufacturer_tail_below_body_nominal_mm": 2.54,
+      "engineering_envelope_mm": [
+        13,
+        5.5,
+        9
+      ],
+      "engineering_mated_height_limit_mm": 15,
+      "source_ids": [
+        "header",
+        "header-catalog",
+        "header-land",
+        "female-catalog",
+        "female-header"
+      ],
+      "locator": "TSW/HTSW catalog F226 PDF p1 straight-S N×2.54 body; style07 A10.92,B2.54,C5.84; SSW catalog p1 insertion3.68..6.35; drawing tolerances",
+      "access_policy": "Mate only using standard2.54mm.025square-post socket family sized to exact contact count; reserve vertical insertion/removal and20mm hand-access corridor.15mm static height is engineering allowance forSSW-style mate with≥3.68mm engagement; no unspecified oversized harness guarantee."
+    },
+    {
+      "interface": "spi",
+      "ref": "J10",
+      "mpn": "HTSW-106-07-G-S",
+      "manufacturer_nominal_body_mm": [
+        15.24,
+        2.54,
+        2.54
+      ],
+      "derived_nominal_unmated_height_above_pcb_mm": 8.38,
+      "manufacturer_post_above_body_nominal_mm": 5.84,
+      "manufacturer_tail_below_body_nominal_mm": 2.54,
+      "engineering_envelope_mm": [
+        18,
+        5.5,
+        9
+      ],
+      "engineering_mated_height_limit_mm": 15,
+      "source_ids": [
+        "header",
+        "header-catalog",
+        "header-land",
+        "female-catalog",
+        "female-header"
+      ],
+      "locator": "TSW/HTSW catalog F226 PDF p1 straight-S N×2.54 body; style07 A10.92,B2.54,C5.84; SSW catalog p1 insertion3.68..6.35; drawing tolerances",
+      "access_policy": "Mate only using standard2.54mm.025square-post socket family sized to exact contact count; reserve vertical insertion/removal and20mm hand-access corridor.15mm static height is engineering allowance forSSW-style mate with≥3.68mm engagement; no unspecified oversized harness guarantee."
+    },
+    {
+      "interface": "can_classical",
+      "ref": "J4",
+      "mpn": "HTSW-103-07-G-S",
+      "manufacturer_nominal_body_mm": [
+        7.62,
+        2.54,
+        2.54
+      ],
+      "derived_nominal_unmated_height_above_pcb_mm": 8.38,
+      "manufacturer_post_above_body_nominal_mm": 5.84,
+      "manufacturer_tail_below_body_nominal_mm": 2.54,
+      "engineering_envelope_mm": [
+        10,
+        5.5,
+        9
+      ],
+      "engineering_mated_height_limit_mm": 15,
+      "source_ids": [
+        "header",
+        "header-catalog",
+        "header-land",
+        "female-catalog",
+        "female-header"
+      ],
+      "locator": "TSW/HTSW catalog F226 PDF p1 straight-S N×2.54 body; style07 A10.92,B2.54,C5.84; SSW catalog p1 insertion3.68..6.35; drawing tolerances",
+      "access_policy": "Mate only using standard2.54mm.025square-post socket family sized to exact contact count; reserve vertical insertion/removal and20mm hand-access corridor.15mm static height is engineering allowance forSSW-style mate with≥3.68mm engagement; no unspecified oversized harness guarantee."
+    },
+    {
+      "interface": "can_fd",
+      "ref": "J5",
+      "mpn": "HTSW-103-07-G-S",
+      "manufacturer_nominal_body_mm": [
+        7.62,
+        2.54,
+        2.54
+      ],
+      "derived_nominal_unmated_height_above_pcb_mm": 8.38,
+      "manufacturer_post_above_body_nominal_mm": 5.84,
+      "manufacturer_tail_below_body_nominal_mm": 2.54,
+      "engineering_envelope_mm": [
+        10,
+        5.5,
+        9
+      ],
+      "engineering_mated_height_limit_mm": 15,
+      "source_ids": [
+        "header",
+        "header-catalog",
+        "header-land",
+        "female-catalog",
+        "female-header"
+      ],
+      "locator": "TSW/HTSW catalog F226 PDF p1 straight-S N×2.54 body; style07 A10.92,B2.54,C5.84; SSW catalog p1 insertion3.68..6.35; drawing tolerances",
+      "access_policy": "Mate only using standard2.54mm.025square-post socket family sized to exact contact count; reserve vertical insertion/removal and20mm hand-access corridor.15mm static height is engineering allowance forSSW-style mate with≥3.68mm engagement; no unspecified oversized harness guarantee."
+    },
+    {
+      "interface": "ethernet",
+      "ref": "M1/P1",
+      "mpn": "WIZ550io v1.2 integrated J1B1211CCD",
+      "manufacturer_nominal_module_pcb_mm": [
+        55,
+        26,
+        1.6
+      ],
+      "engineering_envelope_mm": [
+        60,
+        30,
+        34
+      ],
+      "source_ids": [
+        "wiz550io-v1.2-bom",
+        "wiz550io-v1.2-pcbdoc",
+        "wiz550io",
+        "female-header"
+      ],
+      "locator": "v1.2 BOM PDFp1 items9/10/12/27; exactPcbDoc J1/J2/P1; online manual height24±.5; SSW drawingPDFp1 body8.51±.13",
+      "access_policy": "RJ45 faces+X and mouth at edge; reserve25mm insertion/latch-access corridor outsidehost board. Use patch cable whose plug/latch/bend fits declared open desktop corridor; enclosure and cable-strain acceptance pending."
+    }
+  ],
+  "other_access": {
+    "power": "J1 HTSW102 body5.08x2.54; same9mm unmated/15mm selected-mate allowance",
+    "swd": "J2 FTSH10501LDVK body6.35x3.43ref; style01 post3.05 plusbody2.51ref=5.56nom; reserve9x8x10mm including selectedFFSD mate; keyedposition7omitted; sourceFTSHp1 andFFSDcatalogp1",
+    "mounting": "Keep4 hostM3 holes outsideconnector/componentcourtyards; holeland/source/fabrication clearance parent-owned."
+  },
+  "desktop_fit_sanity": {
+    "target_board_mm": [
+      100,
+      100
+    ],
+    "example_board_mm": [
+      100,
+      100
+    ],
+    "engineering_floorplan_boxes_mm": {
+      "ethernet_module": [
+        3,
+        3,
+        63,
+        33
+      ],
+      "core_power": [
+        3,
+        38,
+        63,
+        95
+      ],
+      "edge_headers": [
+        70,
+        3,
+        97,
+        97
+      ]
+    },
+    "module_plan_area_mm2": 1800,
+    "board_area_mm2": 10000,
+    "statement": "Boxes show conservative module reserve leaves usable hostarea and edgeaccess within100x100. This is not placed-boardcollision/DRC proof; actualfloorplan must recheck orientation,courtyards,routing,mounting and cable-access."
+  },
+  "limits": [
+    "Module BOM names generic2.54maleheaders, not exactheaderMPN, postcross-sectionorfreeprotrusion.",
+    "No supplier drawing tolerance forWIZ550io planar outline; conservative designallowance chosen.",
+    "SSW tailsection andbodywidthmarkedREF; nominalfit not manufacturing guarantee.",
+    "KiCad Altium import maps original staticgeometry; unusedinternalplane andfontwarnings mean electrical/3Drender fidelity is not certified."
+  ]
+}

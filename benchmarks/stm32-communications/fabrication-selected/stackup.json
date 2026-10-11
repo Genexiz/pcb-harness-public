@@ -1,0 +1,55 @@
+{
+  "id": "JLC04161H-7628",
+  "url": "https://jlcpcb.com/impedance",
+  "sha256": "a56802a989ebabbcd0635d9937d835149aa122c96fd6fb95e43b4258b294532e",
+  "nominal_board_mm": 1.6,
+  "layers": [
+    {
+      "name": "F.Cu",
+      "material": "copper",
+      "thickness_mm": 0.035
+    },
+    {
+      "name": "dielectric1",
+      "material": "7628",
+      "thickness_mm": 0.2104,
+      "epsilon_r": 4.4
+    },
+    {
+      "name": "In1.Cu",
+      "material": "copper",
+      "thickness_mm": 0.0152
+    },
+    {
+      "name": "core",
+      "material": "FR4",
+      "thickness_mm": 1.065,
+      "epsilon_r": 4.6
+    },
+    {
+      "name": "In2.Cu",
+      "material": "copper",
+      "thickness_mm": 0.0152
+    },
+    {
+      "name": "dielectric2",
+      "material": "7628",
+      "thickness_mm": 0.2104,
+      "epsilon_r": 4.4
+    },
+    {
+      "name": "B.Cu",
+      "material": "copper",
+      "thickness_mm": 0.035
+    }
+  ],
+  "thickness_tolerance_percent": 10,
+  "impedance_tolerance_percent": 10,
+  "layer_functions": [
+    "signals/components",
+    "continuous GND",
+    "power/signals",
+    "signals"
+  ],
+  "status": "unconfirmed"
+}

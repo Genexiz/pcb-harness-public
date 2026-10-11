@@ -1,0 +1,81 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "revision": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_url": {
+            "type": "string",
+            "minLength": 1
+          },
+          "retrieved_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "license": {
+            "type": "string",
+            "minLength": 1
+          },
+          "redistribution": {
+            "enum": [
+              "allowed",
+              "restricted",
+              "unknown"
+            ]
+          },
+          "source": {
+            "enum": [
+              "manufacturer",
+              "engineering_choice",
+              "synthetic"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "revision",
+          "source_url",
+          "retrieved_at",
+          "path",
+          "sha256",
+          "license",
+          "redistribution",
+          "source"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "documents"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

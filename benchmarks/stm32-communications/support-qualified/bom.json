@@ -1,0 +1,1087 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "ref": "C1",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "C2",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "C3",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "C4",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "C5",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "C6",
+      "part_id": "C_4U7",
+      "mpn": "C2012X7R1C475K125AB",
+      "value": "4.7uF X7R",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "C7",
+      "part_id": "C_1U",
+      "mpn": "C1608X7R1C105K080AC",
+      "value": "1uF X7R",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "R1",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10k",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "C10",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "R2",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10k",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "R3",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10k",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "C11",
+      "part_id": "C_10U",
+      "mpn": "C3225X7R1E106K250AC",
+      "value": "10uF X7R",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "C12",
+      "part_id": "C_22U",
+      "mpn": "C3225X7R1C226K250AC",
+      "value": "22uF X7R",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "C13",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "R4",
+      "part_id": "R_100K",
+      "mpn": "CRCW0603100KFKEA",
+      "value": "100k",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "R5",
+      "part_id": "R_5K10",
+      "mpn": "CRCW06035K10FKEA",
+      "value": "5.1k",
+      "procurement": "component",
+      "block": "usb"
+    },
+    {
+      "ref": "R6",
+      "part_id": "R_5K10",
+      "mpn": "CRCW06035K10FKEA",
+      "value": "5.1k",
+      "procurement": "component",
+      "block": "usb"
+    },
+    {
+      "ref": "R7",
+      "part_id": "R_22R0",
+      "mpn": "CRCW060322R0FKEA",
+      "value": "22R",
+      "procurement": "component",
+      "block": "usb"
+    },
+    {
+      "ref": "R8",
+      "part_id": "R_22R0",
+      "mpn": "CRCW060322R0FKEA",
+      "value": "22R",
+      "procurement": "component",
+      "block": "usb"
+    },
+    {
+      "ref": "R9",
+      "part_id": "R_47K0",
+      "mpn": "CRCW060347K0FKEA",
+      "value": "47k",
+      "procurement": "component",
+      "block": "usb"
+    },
+    {
+      "ref": "R10",
+      "part_id": "R_100K",
+      "mpn": "CRCW0603100KFKEA",
+      "value": "100k",
+      "procurement": "component",
+      "block": "usb"
+    },
+    {
+      "ref": "R11",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10k",
+      "procurement": "component",
+      "block": "usb"
+    },
+    {
+      "ref": "R12",
+      "part_id": "R_1K50",
+      "mpn": "CRCW06031K50FKEA",
+      "value": "1.5k",
+      "procurement": "component",
+      "block": "usb"
+    },
+    {
+      "ref": "C16",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "classical"
+    },
+    {
+      "ref": "C17",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "classical"
+    },
+    {
+      "ref": "C18",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "classical"
+    },
+    {
+      "ref": "R13",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10k",
+      "procurement": "component",
+      "block": "classical"
+    },
+    {
+      "ref": "R14",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10k",
+      "procurement": "component",
+      "block": "classical"
+    },
+    {
+      "ref": "R15",
+      "part_id": "R_120_HP",
+      "mpn": "CRCW1206120RFKEAHP",
+      "value": "120R",
+      "procurement": "component",
+      "block": "classical"
+    },
+    {
+      "ref": "C21",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "fd"
+    },
+    {
+      "ref": "C22",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "fd"
+    },
+    {
+      "ref": "C23",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "fd"
+    },
+    {
+      "ref": "R16",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10k",
+      "procurement": "component",
+      "block": "fd"
+    },
+    {
+      "ref": "R17",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10k",
+      "procurement": "component",
+      "block": "fd"
+    },
+    {
+      "ref": "R18",
+      "part_id": "R_120_HP",
+      "mpn": "CRCW1206120RFKEAHP",
+      "value": "120R",
+      "procurement": "component",
+      "block": "fd"
+    },
+    {
+      "ref": "C24",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "rs485"
+    },
+    {
+      "ref": "R19",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10k",
+      "procurement": "component",
+      "block": "rs485"
+    },
+    {
+      "ref": "R20",
+      "part_id": "R_120_HP",
+      "mpn": "CRCW1206120RFKEAHP",
+      "value": "120R",
+      "procurement": "component",
+      "block": "rs485"
+    },
+    {
+      "ref": "C25",
+      "part_id": "C_PUMP",
+      "mpn": "C3216C0G1H104J160AA",
+      "value": "0.1uF C0G",
+      "procurement": "component",
+      "block": "rs232"
+    },
+    {
+      "ref": "C26",
+      "part_id": "C_PUMP",
+      "mpn": "C3216C0G1H104J160AA",
+      "value": "0.1uF C0G",
+      "procurement": "component",
+      "block": "rs232"
+    },
+    {
+      "ref": "C27",
+      "part_id": "C_PUMP",
+      "mpn": "C3216C0G1H104J160AA",
+      "value": "0.1uF C0G",
+      "procurement": "component",
+      "block": "rs232"
+    },
+    {
+      "ref": "C28",
+      "part_id": "C_PUMP",
+      "mpn": "C3216C0G1H104J160AA",
+      "value": "0.1uF C0G",
+      "procurement": "component",
+      "block": "rs232"
+    },
+    {
+      "ref": "C29",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "rs232"
+    },
+    {
+      "ref": "C30",
+      "part_id": "C_10U",
+      "mpn": "C3225X7R1E106K250AC",
+      "value": "10uF X7R",
+      "procurement": "component",
+      "block": "ethernet"
+    },
+    {
+      "ref": "C31",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "0.1uF X7R",
+      "procurement": "component",
+      "block": "ethernet"
+    },
+    {
+      "ref": "R21",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10k",
+      "procurement": "component",
+      "block": "ethernet"
+    },
+    {
+      "ref": "R22",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10k",
+      "procurement": "component",
+      "block": "ethernet"
+    },
+    {
+      "ref": "R23",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10k",
+      "procurement": "component",
+      "block": "ethernet"
+    },
+    {
+      "ref": "R24",
+      "part_id": "R_4K70",
+      "mpn": "CRCW06034K70FKEA",
+      "value": "4.7k",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "R25",
+      "part_id": "R_4K70",
+      "mpn": "CRCW06034K70FKEA",
+      "value": "4.7k",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "R26",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10k",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "Y1",
+      "part_id": "OSC_8",
+      "mpn": "ASE-8.000MHZ-L-C-T",
+      "value": "ASE-8.000MHZ-L-C-T",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "Y2",
+      "part_id": "OSC_20",
+      "mpn": "ASE-20.000MHZ-L-C-T",
+      "value": "ASE-20.000MHZ-L-C-T",
+      "procurement": "component",
+      "block": "classical"
+    },
+    {
+      "ref": "Y3",
+      "part_id": "OSC_20",
+      "mpn": "ASE-20.000MHZ-L-C-T",
+      "value": "ASE-20.000MHZ-L-C-T",
+      "procurement": "component",
+      "block": "fd"
+    },
+    {
+      "ref": "L1",
+      "part_id": "L_BUCK",
+      "mpn": "XAL4030-332MEC",
+      "value": "3.3uH",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "J3",
+      "part_id": "USB_CONNECTOR",
+      "mpn": "USB4105-GF-A",
+      "value": "USB4105-GF-A",
+      "procurement": "component",
+      "block": "usb"
+    },
+    {
+      "ref": "D1",
+      "part_id": "USB_TVS",
+      "mpn": "PESD2USB5UX-T,215",
+      "value": "PESD2USB5UX-T,215",
+      "procurement": "component",
+      "block": "usb"
+    },
+    {
+      "ref": "D2",
+      "part_id": "CAN_TVS",
+      "mpn": "PESD2CANFD24V-T,215",
+      "value": "PESD2CANFD24V-T,215",
+      "procurement": "component",
+      "block": "classical"
+    },
+    {
+      "ref": "D3",
+      "part_id": "CAN_TVS",
+      "mpn": "PESD2CANFD24V-T,215",
+      "value": "PESD2CANFD24V-T,215",
+      "procurement": "component",
+      "block": "fd"
+    },
+    {
+      "ref": "D4",
+      "part_id": "RS485_TVS",
+      "mpn": "SM712-02HTG",
+      "value": "SM712-02HTG",
+      "procurement": "component",
+      "block": "rs485"
+    },
+    {
+      "ref": "Q1",
+      "part_id": "NPN_SENSE",
+      "mpn": "MMBT3904,215",
+      "value": "MMBT3904,215",
+      "procurement": "component",
+      "block": "usb"
+    },
+    {
+      "ref": "J1",
+      "part_id": "HDR_2",
+      "mpn": "HTSW-102-07-G-S",
+      "value": "HTSW-102-07-G-S",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "J4",
+      "part_id": "HDR_3",
+      "mpn": "HTSW-103-07-G-S",
+      "value": "HTSW-103-07-G-S",
+      "procurement": "component",
+      "block": "classical"
+    },
+    {
+      "ref": "J5",
+      "part_id": "HDR_3",
+      "mpn": "HTSW-103-07-G-S",
+      "value": "HTSW-103-07-G-S",
+      "procurement": "component",
+      "block": "fd"
+    },
+    {
+      "ref": "J6",
+      "part_id": "HDR_3",
+      "mpn": "HTSW-103-07-G-S",
+      "value": "HTSW-103-07-G-S",
+      "procurement": "component",
+      "block": "rs485"
+    },
+    {
+      "ref": "J7",
+      "part_id": "HDR_3",
+      "mpn": "HTSW-103-07-G-S",
+      "value": "HTSW-103-07-G-S",
+      "procurement": "component",
+      "block": "rs232"
+    },
+    {
+      "ref": "J8",
+      "part_id": "HDR_3",
+      "mpn": "HTSW-103-07-G-S",
+      "value": "HTSW-103-07-G-S",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "J9",
+      "part_id": "HDR_4",
+      "mpn": "HTSW-104-07-G-S",
+      "value": "HTSW-104-07-G-S",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "J10",
+      "part_id": "HDR_6",
+      "mpn": "HTSW-106-07-G-S",
+      "value": "HTSW-106-07-G-S",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "JP1",
+      "part_id": "HDR_2",
+      "mpn": "HTSW-102-07-G-S",
+      "value": "HTSW-102-07-G-S",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "JP2",
+      "part_id": "HDR_2",
+      "mpn": "HTSW-102-07-G-S",
+      "value": "HTSW-102-07-G-S",
+      "procurement": "component",
+      "block": "classical"
+    },
+    {
+      "ref": "JP3",
+      "part_id": "HDR_2",
+      "mpn": "HTSW-102-07-G-S",
+      "value": "HTSW-102-07-G-S",
+      "procurement": "component",
+      "block": "fd"
+    },
+    {
+      "ref": "JP4",
+      "part_id": "HDR_2",
+      "mpn": "HTSW-102-07-G-S",
+      "value": "HTSW-102-07-G-S",
+      "procurement": "component",
+      "block": "rs485"
+    },
+    {
+      "ref": "J2",
+      "part_id": "SWD_EXACT",
+      "mpn": "FTSH-105-01-L-DV-K",
+      "value": "FTSH-105-01-L-DV-K",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "SW1",
+      "part_id": "RESET_EXACT",
+      "mpn": "B3F-1000",
+      "value": "B3F-1000",
+      "procurement": "component",
+      "block": "mcu"
+    },
+    {
+      "ref": "H1",
+      "part_id": "M3_PCB",
+      "mpn": "PCB-FAB:M3-3.2-GND",
+      "value": "PCB-FAB:M3-3.2-GND",
+      "procurement": "pcb_feature",
+      "block": "mechanical"
+    },
+    {
+      "ref": "H2",
+      "part_id": "M3_PCB",
+      "mpn": "PCB-FAB:M3-3.2-GND",
+      "value": "PCB-FAB:M3-3.2-GND",
+      "procurement": "pcb_feature",
+      "block": "mechanical"
+    },
+    {
+      "ref": "H3",
+      "part_id": "M3_PCB",
+      "mpn": "PCB-FAB:M3-3.2-GND",
+      "value": "PCB-FAB:M3-3.2-GND",
+      "procurement": "pcb_feature",
+      "block": "mechanical"
+    },
+    {
+      "ref": "H4",
+      "part_id": "M3_PCB",
+      "mpn": "PCB-FAB:M3-3.2-GND",
+      "value": "PCB-FAB:M3-3.2-GND",
+      "procurement": "pcb_feature",
+      "block": "mechanical"
+    },
+    {
+      "ref": "TP1",
+      "part_id": "TP_PCB",
+      "mpn": "PCB-FAB:TESTPAD-1.0",
+      "value": "PCB-FAB:TESTPAD-1.0",
+      "procurement": "pcb_feature",
+      "block": "power"
+    },
+    {
+      "ref": "TP2",
+      "part_id": "TP_PCB",
+      "mpn": "PCB-FAB:TESTPAD-1.0",
+      "value": "PCB-FAB:TESTPAD-1.0",
+      "procurement": "pcb_feature",
+      "block": "power"
+    },
+    {
+      "ref": "TP3",
+      "part_id": "TP_PCB",
+      "mpn": "PCB-FAB:TESTPAD-1.0",
+      "value": "PCB-FAB:TESTPAD-1.0",
+      "procurement": "pcb_feature",
+      "block": "power"
+    },
+    {
+      "ref": "TP4",
+      "part_id": "TP_PCB",
+      "mpn": "PCB-FAB:TESTPAD-1.0",
+      "value": "PCB-FAB:TESTPAD-1.0",
+      "procurement": "pcb_feature",
+      "block": "headers"
+    },
+    {
+      "ref": "TP5",
+      "part_id": "TP_PCB",
+      "mpn": "PCB-FAB:TESTPAD-1.0",
+      "value": "PCB-FAB:TESTPAD-1.0",
+      "procurement": "pcb_feature",
+      "block": "headers"
+    },
+    {
+      "ref": "TP6",
+      "part_id": "TP_PCB",
+      "mpn": "PCB-FAB:TESTPAD-1.0",
+      "value": "PCB-FAB:TESTPAD-1.0",
+      "procurement": "pcb_feature",
+      "block": "headers"
+    },
+    {
+      "ref": "TP7",
+      "part_id": "TP_PCB",
+      "mpn": "PCB-FAB:TESTPAD-1.0",
+      "value": "PCB-FAB:TESTPAD-1.0",
+      "procurement": "pcb_feature",
+      "block": "headers"
+    },
+    {
+      "ref": "TP8",
+      "part_id": "TP_PCB",
+      "mpn": "PCB-FAB:TESTPAD-1.0",
+      "value": "PCB-FAB:TESTPAD-1.0",
+      "procurement": "pcb_feature",
+      "block": "headers"
+    },
+    {
+      "ref": "TP9",
+      "part_id": "TP_PCB",
+      "mpn": "PCB-FAB:TESTPAD-1.0",
+      "value": "PCB-FAB:TESTPAD-1.0",
+      "procurement": "pcb_feature",
+      "block": "headers"
+    },
+    {
+      "ref": "U9",
+      "part_id": "USB_MUX",
+      "mpn": "TMUX1574PWR",
+      "value": "TMUX1574PWR",
+      "procurement": "component",
+      "block": "usb"
+    },
+    {
+      "ref": "U10",
+      "part_id": "MISO_BUFFER",
+      "mpn": "SN74LVC1G125DBVR",
+      "value": "SN74LVC1G125DBVR",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "U11",
+      "part_id": "HEADER_BUFFER",
+      "mpn": "SN74LVC125APWR",
+      "value": "SN74LVC125APWR",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "U12",
+      "part_id": "HEADER_BUFFER",
+      "mpn": "SN74LVC125APWR",
+      "value": "SN74LVC125APWR",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "U13",
+      "part_id": "I2C_BUFFER",
+      "mpn": "TCA9511ADR",
+      "value": "TCA9511ADR",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "U14",
+      "part_id": "BRANCH_LIMIT",
+      "mpn": "TPS2553DBVR",
+      "value": "TPS2553DBVR",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "U15",
+      "part_id": "INPUT_EFUSE",
+      "mpn": "TPS259470ARPWR",
+      "value": "TPS259470ARPWR",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "U16",
+      "part_id": "INPUT_EFUSE",
+      "mpn": "TPS259470ARPWR",
+      "value": "TPS259470ARPWR",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "R27",
+      "part_id": "R_6K65",
+      "mpn": "CRCW06036K65FKEA",
+      "value": "6.65k",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "R28",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10.0k",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "R29",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10.0k",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "R30",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10.0k",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "R31",
+      "part_id": "R_4K70",
+      "mpn": "CRCW06034K70FKEA",
+      "value": "4.7k",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "R32",
+      "part_id": "R_4K70",
+      "mpn": "CRCW06034K70FKEA",
+      "value": "4.7k",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "R33",
+      "part_id": "R_383K",
+      "mpn": "TNPW0805383KBEEA",
+      "value": "383.0k",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "R34",
+      "part_id": "R_150K",
+      "mpn": "TNPW0805150KBEEA",
+      "value": "150.0k",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "R35",
+      "part_id": "R_510K",
+      "mpn": "TNPW0805510KBEEA",
+      "value": "510.0k",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "R36",
+      "part_id": "R_150K",
+      "mpn": "TNPW0805150KBEEA",
+      "value": "150.0k",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "R37",
+      "part_id": "R_3K32",
+      "mpn": "CRCW06033K32FKEA",
+      "value": "3.32k",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "R38",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10.0k",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "C32",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "C33",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "C34",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "C35",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "C36",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "C37",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "headers"
+    },
+    {
+      "ref": "C38",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "C39",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "C40",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "C41",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "C42",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "C43",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "C44",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "power"
+    },
+    {
+      "ref": "U17",
+      "part_id": "HEADER_BUFFER",
+      "mpn": "SN74LVC125APWR",
+      "value": "SN74LVC125APWR",
+      "procurement": "component",
+      "block": "ethernet"
+    },
+    {
+      "ref": "U18",
+      "part_id": "HEADER_BUFFER",
+      "mpn": "SN74LVC125APWR",
+      "value": "SN74LVC125APWR",
+      "procurement": "component",
+      "block": "ethernet"
+    },
+    {
+      "ref": "R41",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10.0k",
+      "procurement": "component",
+      "block": "ethernet"
+    },
+    {
+      "ref": "R42",
+      "part_id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "value": "10.0k",
+      "procurement": "component",
+      "block": "ethernet"
+    },
+    {
+      "ref": "C45",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "ethernet"
+    },
+    {
+      "ref": "C46",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "ethernet"
+    },
+    {
+      "ref": "C47",
+      "part_id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "value": "100nF",
+      "procurement": "component",
+      "block": "ethernet"
+    },
+    {
+      "ref": "R39",
+      "part_id": "R_330R",
+      "mpn": "CRCW0603330RFKEA",
+      "value": "330R",
+      "procurement": "component",
+      "block": "rs485"
+    },
+    {
+      "ref": "R40",
+      "part_id": "R_330R",
+      "mpn": "CRCW0603330RFKEA",
+      "value": "330R",
+      "procurement": "component",
+      "block": "rs485"
+    },
+    {
+      "ref": "JP5",
+      "part_id": "HDR_2",
+      "mpn": "HTSW-102-07-G-S",
+      "value": "HTSW-102-07-G-S",
+      "procurement": "component",
+      "block": "rs485"
+    },
+    {
+      "ref": "JP6",
+      "part_id": "HDR_2",
+      "mpn": "HTSW-102-07-G-S",
+      "value": "HTSW-102-07-G-S",
+      "procurement": "component",
+      "block": "rs485"
+    }
+  ],
+  "accessories": [
+    {
+      "ref": "JPA1-JPA6",
+      "quantity": 6,
+      "mpn": "SNT-100-BK-G",
+      "manufacturer": "Samtec",
+      "source_id": "shunt",
+      "note": "Removable2.54mmshunt;alltermination,bias,BOOTshunts initiallyremoved."
+    },
+    {
+      "ref": "M1_SOCKET_1",
+      "quantity": 1,
+      "mpn": "SSW-106-01-G-S",
+      "manufacturer": "Samtec",
+      "source_id": "female-catalog",
+      "note": "WIZ550io6pin2.54mmsocket;orientation/source modulegeometry required."
+    },
+    {
+      "ref": "M1_SOCKET_2",
+      "quantity": 1,
+      "mpn": "SSW-108-01-G-S",
+      "manufacturer": "Samtec",
+      "source_id": "female-catalog",
+      "note": "WIZ550io8pin2.54mmsocket;socketheight8.51mm source;envelope remainsparent."
+    }
+  ]
+}

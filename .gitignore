@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.pyc
+*.kicad_prl
+*.lck
+~*.lck
+*-backups/
+runs/
+.superpowers/
+.env
+.env.*
+!.env.example
+*.egg-info/
+build/
+dist/

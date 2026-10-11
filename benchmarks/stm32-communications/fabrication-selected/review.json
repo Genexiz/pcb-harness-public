@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "release_eligible": false,
+  "issues": [],
+  "unknowns": [
+    {
+      "id": "track_width",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "clearance",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "via_drill",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "via_diameter",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "annular_ring",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "inner_drill_clearance",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "pth_size",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "npth_size",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "hole_to_hole",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "copper_edge",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "slots",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "mask_opening",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "mask_web",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "silk_width",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "silk_height",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "silk_clearance",
+      "critical": true,
+      "status": "unknown"
+    },
+    {
+      "id": "assembly_spacing",
+      "critical": true,
+      "status": "unknown"
+    }
+  ]
+}

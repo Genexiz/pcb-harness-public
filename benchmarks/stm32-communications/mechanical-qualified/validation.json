@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "revision": "m4-mechanical-evidence-v1",
+  "original_documents_verified": 16,
+  "parsed_pdfs": [
+    {
+      "source_id": "wiz550io-schematic",
+      "physical_pdf_pages": 1,
+      "parseable": true,
+      "encrypted": false,
+      "original_sha256": "0489aeaf0da8f245d6de9e623662dc4d61ec821b4cb1e1dadaee3d6e3d08b4b2"
+    },
+    {
+      "source_id": "usb-drawing",
+      "physical_pdf_pages": 2,
+      "parseable": true,
+      "encrypted": true,
+      "original_sha256": "fb331fbabee8392ed2937ed757c1610cb0f174b84625147c0b580a18eea8c0e5"
+    },
+    {
+      "source_id": "header",
+      "physical_pdf_pages": 6,
+      "parseable": true,
+      "encrypted": false,
+      "original_sha256": "047ecedcc921fb0aed7127f08b9ba0fc1200d92d33fb7ded1b311d0ed8f42063"
+    },
+    {
+      "source_id": "header-catalog",
+      "physical_pdf_pages": 2,
+      "parseable": true,
+      "encrypted": false,
+      "original_sha256": "3a5770b11668f4e5a11ba9ceeb4817a23f467b8507e3592f55fb6bd8f96e71bc"
+    },
+    {
+      "source_id": "header-land",
+      "physical_pdf_pages": 1,
+      "parseable": true,
+      "encrypted": false,
+      "original_sha256": "264658121ff2dad25ebd6259e726b123bf1ea31f9145bc695607999181af028f"
+    },
+    {
+      "source_id": "female-header",
+      "physical_pdf_pages": 3,
+      "parseable": true,
+      "encrypted": false,
+      "original_sha256": "281eaf2b78d84184cade49c841f7d5badb0f92cd2e012a50e764a45b53aeca0d"
+    },
+    {
+      "source_id": "female-catalog",
+      "physical_pdf_pages": 1,
+      "parseable": true,
+      "encrypted": false,
+      "original_sha256": "6d89f5c186a49e0f52f37d7bf7b5095081aff8f98e5ba18a85b0811caaf6f509"
+    },
+    {
+      "source_id": "ftsh",
+      "physical_pdf_pages": 5,
+      "parseable": true,
+      "encrypted": false,
+      "original_sha256": "fccf00541693d43ebe960af7ad6c8ce28f4dd4e4f5c05c69564f53eefccd8d25"
+    },
+    {
+      "source_id": "swd-land",
+      "physical_pdf_pages": 4,
+      "parseable": true,
+      "encrypted": false,
+      "original_sha256": "caa205b92560423f3b0aea9c69d6c38340d1b7f01b0655092994450e935edcb3"
+    },
+    {
+      "source_id": "keyed-cable",
+      "physical_pdf_pages": 1,
+      "parseable": true,
+      "encrypted": false,
+      "original_sha256": "46b65c82f5aa388bea0cd2e3cc590e7ac04f8d27dece36eec852c50d3e6f05fb"
+    },
+    {
+      "source_id": "wiz550io-v1.2-bom",
+      "physical_pdf_pages": 1,
+      "parseable": true,
+      "encrypted": false,
+      "original_sha256": "136d60d582a1eaee48a0015b7356981dedcb649ba2d46eb5c2d6455914ed7a7a"
+    }
+  ],
+  "archive_member_verified": true,
+  "exact_v1_2_nominal_and_header_centers_verified": true,
+  "retained_eagle_all_14_centers_match_exact_v1_2": true,
+  "connectors_verified": 9,
+  "kicad_import_errors": [],
+  "human_confirmed": false,
+  "mating_fit_qualified": false
+}

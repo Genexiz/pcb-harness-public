@@ -1,0 +1,124 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+          },
+          "requirement_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "fact_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "status": {
+            "enum": [
+              "confirmed",
+              "unconfirmed"
+            ]
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1
+          },
+          "severity": {
+            "enum": [
+              "error",
+              "warning"
+            ]
+          },
+          "mandatory": {
+            "type": "boolean"
+          },
+          "kind": {
+            "enum": [
+              "rule",
+              "visual",
+              "manual"
+            ]
+          },
+          "quantity": {
+            "type": "string",
+            "minLength": 1
+          },
+          "units": {
+            "enum": [
+              "mm",
+              "V",
+              "A",
+              "W",
+              "none"
+            ]
+          },
+          "tolerance": {
+            "type": "number",
+            "minimum": 0
+          },
+          "value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "evaluator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "id",
+          "requirement_ids",
+          "fact_ids",
+          "status",
+          "scope",
+          "severity",
+          "mandatory",
+          "kind",
+          "quantity",
+          "units",
+          "tolerance",
+          "value",
+          "evaluator",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "constraints"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "parts": [
+    {
+      "id": "resistor",
+      "mpn": "SYNTHETIC-R",
+      "manufacturer": "PCB Harness synthetic",
+      "package": "Probe_R",
+      "revision": "1",
+      "lifecycle": "synthetic",
+      "symbol_id": "Harness:R",
+      "footprint_id": "Harness:Probe_R",
+      "symbol": {
+        "path": "assets/Harness.kicad_sym",
+        "sha256": "6cd0cc0c5b48f3cf9fc2444e234f4b4006d6d4ff44372a15d4bffd71601dca4f",
+        "license": "project-license-unselected"
+      },
+      "footprint": {
+        "path": "assets/Harness.pretty/Probe_R.kicad_mod",
+        "sha256": "ee1ac0d0a14d22bd5683250887e8d3f36816c45eb939de264ff8d46b374906ba",
+        "license": "project-license-unselected"
+      },
+      "pins": [
+        {
+          "id": "p1",
+          "number": "1",
+          "name": "",
+          "type": "passive",
+          "operating_range_v": null,
+          "operating_fact_id": null,
+          "absolute_maximum_fact_id": null
+        },
+        {
+          "id": "p2",
+          "number": "2",
+          "name": "",
+          "type": "passive",
+          "operating_range_v": null,
+          "operating_fact_id": null,
+          "absolute_maximum_fact_id": null
+        }
+      ],
+      "pin_map": [
+        {
+          "pin_id": "p1",
+          "symbol_pin": "1",
+          "pads": [
+            "1"
+          ]
+        },
+        {
+          "pin_id": "p2",
+          "symbol_pin": "2",
+          "pads": [
+            "2"
+          ]
+        }
+      ],
+      "fact_ids": [
+        "fixture"
+      ],
+      "required_fact_ids": [],
+      "errata_fact_ids": []
+    }
+  ]
+}

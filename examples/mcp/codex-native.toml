@@ -1,0 +1,8 @@
+# Replace /absolute/path/PCB_Harness with your local checkout.
+# Existing Codex ChatGPT sign-in supplies inference; no provider key is forwarded.
+# Native edits require the connected scratch backend on verified KiCad 10.0.6.
+[mcp_servers.pcb_harness]
+command = "/absolute/path/PCB_Harness/.venv/bin/python"
+args = ["-m", "pcb_harness.mcp_server", "--workspace", "/absolute/path/PCB_Harness", "--run-directory", "/absolute/path/PCB_Harness/runs/mcp/native-accepted-2026-10-09", "--backend", "kicad", "--project", "/absolute/path/PCB_Harness/runs/capability/live/board.kicad_pcb", "--max-actions", "300", "--max-duration-seconds", "1200"]
+tool_timeout_sec = 120
+# Run limits freeze at launch; reconnect does not reset. Use an explicit fresh directory for a new experiment.

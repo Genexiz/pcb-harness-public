@@ -1,0 +1,177 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+    },
+    "revision": {
+      "type": "string",
+      "minLength": 1
+    },
+    "vendor": {
+      "type": "string",
+      "minLength": 1
+    },
+    "service": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_fact_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "layers": {
+      "enum": [
+        2,
+        4
+      ]
+    },
+    "material": {
+      "type": "string",
+      "minLength": 1
+    },
+    "thickness_mm": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "copper_oz": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "exclusiveMinimum": 0
+      }
+    },
+    "finish": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mask": {
+      "type": "string",
+      "minLength": 1
+    },
+    "via_process": {
+      "enum": [
+        "through"
+      ]
+    },
+    "assembly": {
+      "enum": [
+        "none",
+        "top_smd",
+        "both_sides"
+      ]
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+          },
+          "applicable": {
+            "type": "boolean"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "fact_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "manufacturer_floor": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "design_target": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "units": {
+            "enum": [
+              "mm",
+              "none"
+            ]
+          },
+          "status": {
+            "enum": [
+              "confirmed",
+              "unconfirmed"
+            ]
+          },
+          "critical": {
+            "type": "boolean"
+          },
+          "evaluator": {
+            "enum": [
+              "rule",
+              "manual"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "applicable",
+          "reason",
+          "fact_ids",
+          "manufacturer_floor",
+          "design_target",
+          "units",
+          "status",
+          "critical",
+          "evaluator"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "revision",
+    "vendor",
+    "service",
+    "source_fact_ids",
+    "retrieved_at",
+    "layers",
+    "material",
+    "thickness_mm",
+    "copper_oz",
+    "finish",
+    "mask",
+    "via_process",
+    "assembly",
+    "categories"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

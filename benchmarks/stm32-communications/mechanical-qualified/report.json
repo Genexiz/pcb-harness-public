@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "revision": "m4-mechanical-evidence-v1",
+  "scope": "Source-bound static geometry and conservative desktop envelope; no physical mating guarantee",
+  "human_confirmed": false,
+  "hardware_revision": "unknown",
+  "source_retrieval_complete": true,
+  "source_documents": 16,
+  "documentary_geometry_complete": true,
+  "mating_fit_qualified": false,
+  "conservative_envelope_mm": [
+    60,
+    30,
+    34
+  ],
+  "source_sha256": {
+    "wiz550io": "9869c0e996064e670c65fbd7cefaf9f921e3b35312b105f8370e3e66139c1297",
+    "wiz550io-dimension": "9aae61a24d7c43f2cfec778314448cd2678aa22a7efd081d287dffeb0d028d87",
+    "wiz550io-schematic": "0489aeaf0da8f245d6de9e623662dc4d61ec821b4cb1e1dadaee3d6e3d08b4b2",
+    "usb-drawing": "fb331fbabee8392ed2937ed757c1610cb0f174b84625147c0b580a18eea8c0e5",
+    "header": "047ecedcc921fb0aed7127f08b9ba0fc1200d92d33fb7ded1b311d0ed8f42063",
+    "header-catalog": "3a5770b11668f4e5a11ba9ceeb4817a23f467b8507e3592f55fb6bd8f96e71bc",
+    "header-land": "264658121ff2dad25ebd6259e726b123bf1ea31f9145bc695607999181af028f",
+    "female-header": "281eaf2b78d84184cade49c841f7d5badb0f92cd2e012a50e764a45b53aeca0d",
+    "female-catalog": "6d89f5c186a49e0f52f37d7bf7b5095081aff8f98e5ba18a85b0811caaf6f509",
+    "ftsh": "fccf00541693d43ebe960af7ad6c8ce28f4dd4e4f5c05c69564f53eefccd8d25",
+    "swd-land": "caa205b92560423f3b0aea9c69d6c38340d1b7f01b0655092994450e935edcb3",
+    "keyed-cable": "46b65c82f5aa388bea0cd2e3cc590e7ac04f8d27dece36eec852c50d3e6f05fb",
+    "wiz550io-eagle-v1.1": "db43a64d52c1aa966f3067e599a15338ac6d56221db19f2a834e37f9f33fa0a3",
+    "wiz550io-v1.2-bom": "136d60d582a1eaee48a0015b7356981dedcb649ba2d46eb5c2d6455914ed7a7a",
+    "wiz550io-v1.2-altium": "a12db477782182ee243d995dfeadbffad57a3d3a2314f56f34633431ca406844",
+    "wiz550io-v1.2-pcbdoc": "3552d4ad1f312b15a800263f0224901005e46507045377caaf854279298cc338"
+  },
+  "checks": [
+    {
+      "id": "exact-v1.2-source-retained",
+      "passed": true
+    },
+    {
+      "id": "exact-v1.2-55x26-and-14pins",
+      "passed": true
+    },
+    {
+      "id": "all14-eagle-to-v1.2-header-centers-match",
+      "passed": true
+    },
+    {
+      "id": "source-bound-socket-body-and-tail",
+      "passed": true
+    },
+    {
+      "id": "all-nine-interface-connector-dimensions",
+      "passed": true
+    },
+    {
+      "id": "conservative-whole-module-rj45-stack-envelope",
+      "passed": true
+    },
+    {
+      "id": "actual-module-post-section-and-insertion-qualified",
+      "passed": false
+    },
+    {
+      "id": "finished-host-socket-hole-tolerance-qualified",
+      "passed": false
+    }
+  ],
+  "layout_allowed": false,
+  "release_eligible": false,
+  "remaining_dependencies": [
+    "Obtain exact WIZ550io male header post width/free protrusion or inspect purchased module; verify SSW 3.68-6.35 mm actual insertion and parallel seating.",
+    "Agree finished host socket hole/tail tolerances with assembly/fabricator; nominal 1.016 mm drill is not guaranteed finished hole.",
+    "Validate actual host floorplan/courtyards/mounting/cable access inside 100x100 target."
+  ],
+  "integration_notes": [
+    "Use exact v1.2 header centers to source-bind retained M1 electrical pads; preserve original v1.1 import packet independently.",
+    "Do not substitute imported module 0.9144 mm header drill for host socket drill; the host tail is a different component.",
+    "Replace old 56x27x25.5 screening with 60x30x34 whole module/socket envelope.",
+    "Keep BOM accessories: SSW-106 mounts J2 six pins, SSW-108 mounts J1 eight pins."
+  ],
+  "original_source_root": "runs/m4/mechanical-source-2026-10-11",
+  "derived_import_path": "runs/m4/mechanical-source-2026-10-11/wiz550io-v1.2-import.kicad_pcb"
+}

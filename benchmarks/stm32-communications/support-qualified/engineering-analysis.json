@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "classification": "source-bound engineering analysis; hardware unverified",
+  "supply_input": {
+    "voltage_nominal_v": 5.0,
+    "tolerance_fraction": 0.02,
+    "minimum_v": 4.9,
+    "maximum_v": 5.1,
+    "mode": "externalregulated5Vonly;USBVBUSsenseonly"
+  },
+  "input_dividers": {
+    "ovlo": {
+      "top_ohm": 510000,
+      "bottom_ohm": 150000,
+      "resistance_model_fraction": 0.0025,
+      "leakage_max_a": 1e-07,
+      "rising_min_v": 5.134266652119702,
+      "rising_max_v": 5.453170607769424
+    },
+    "uvlo": {
+      "top_ohm": 383000,
+      "bottom_ohm": 150000,
+      "resistance_model_fraction": 0.0025,
+      "leakage_max_a": 1e-07,
+      "rising_min_v": 4.150323779925188,
+      "rising_max_v": 4.399775181913117
+    }
+  },
+  "current_limits": {
+    "wiz_branch": {
+      "part": "TPS259470ARPWR",
+      "RILM_ohm": 6650,
+      "R_tol_fraction": 0.01,
+      "design_min_a": 0.4207920792079208,
+      "design_max_a": 0.5808080808080808,
+      "source": "input-protection p9 electrical characteristics; current-limit table VIN=12V default test condition",
+      "datasheet_test_min_a": 0.425,
+      "datasheet_test_max_a": 0.575,
+      "datasheet_test_input_v": 12,
+      "selected_input_nominal_v": 3.3,
+      "guaranteed_at_selected_voltage": false,
+      "interpretation": "Datasheet p9 defaults VIN=12 V for ILIM rows. Selected rail is within operating range; use these limits as an explicit voltage-extrapolation engineering model pending vendor or hardware qualification."
+    },
+    "shared_headers": {
+      "part": "TPS2553DBVR",
+      "ILIM": "shortIN",
+      "min_a": 0.05,
+      "max_a": 0.1,
+      "source": "wiz-limit p7"
+    },
+    "system_input": {
+      "part": "TPS259470ARPWR",
+      "RILM_ohm": 3320,
+      "design_min_a": 0.8415841584158416,
+      "design_max_a": 1.1616161616161615,
+      "datasheet_test_input_v": 12,
+      "selected_input_nominal_v": 5.0,
+      "guaranteed_at_selected_voltage": false,
+      "interpretation": "Datasheet p9 defaults VIN=12 V for ILIM rows. Selected rail is within operating range; use these limits as an explicit voltage-extrapolation engineering model pending vendor or hardware qualification.",
+      "source": "input-protection p9 electrical characteristics; current-limit table VIN=12V default test condition"
+    }
+  },
+  "wiz_rail": {
+    "regulator_pwm_min_v": 3.2009999999999996,
+    "regulator_power_save_min_v": 3.1845,
+    "series_ron_max_ohm": 0.045,
+    "extra_forward_regulation_max_v": 0.0169,
+    "series_drop_conservative_v": 0.043036363636363636,
+    "worst_static_min_v": 3.141463636363636,
+    "wiz_required_min_v": 2.97,
+    "maximum_loss_w": 0.015180211202938474,
+    "theta_ja_model_c_w": 74.5,
+    "model_rise_c": 1.1309257346189163,
+    "source": "buck p6; input-protection pp9-10; WIZ550io originalHTML ElectricalCharacteristics table VDD2.97..3.63V (not3.135manufacturerbound)",
+    "engineering_target_min_v": 3.135
+  },
+  "clocks": {
+    "mpns": [
+      "ASE-8.000MHZ-L-C-T",
+      "ASE-20.000MHZ-L-C-T"
+    ],
+    "max_current_ma_total": 21,
+    "frequency_model_ppm_with_first_year_aging": 53,
+    "mcu_hse_max_hz": 8000424.000000001,
+    "mcu_cpu_pll6_max_hz": 48002544.00000001,
+    "mcp_sysclk_max_hz": 20001060.0,
+    "start_up_max_ms": 2,
+    "load_max_pf_per_clock": 15
+  },
+  "i2c": {
+    "segment_total_cap_max_pf": 200,
+    "R_pullup_ohm": 4700,
+    "R_tol_fraction": 0.01,
+    "rise_time_max_s": 8.044266200000001e-07,
+    "standard_mode_limit_s": 1e-06
+  },
+  "rs485_bias": {
+    "R_bias_ohm": 330,
+    "R_bias_tol_fraction": 0.01,
+    "termination_parallel_ohm": 60,
+    "v_supply_assumed_min_v": 3.135,
+    "minimum_differential_v": 0.2565,
+    "idle_current_max_a": 0.004814814814814815,
+    "default": "bothbiasshuntsremoved;selectwhenbusrequiresonebiaspoint"
+  },
+  "capacitor_models": {
+    "input_10uf": {
+      "mpn": "C3225X7R1E106K250AC",
+      "bias_v": 5.1,
+      "characterization_bias_loss_fraction_bound": 0.1,
+      "model_effective_uf": 6.7128749999999995
+    },
+    "output_22uf": {
+      "mpn": "C3225X7R1C226K250AC",
+      "bias_v": 3.432,
+      "characterization_bias_loss_fraction_bound": 0.1,
+      "model_effective_uf": 14.768324999999999
+    },
+    "pump_100nf": {
+      "mpn": "C3216C0G1H104J160AA",
+      "bias_effect_fraction_bound": 0.005,
+      "model_effective_nf": 94.525
+    },
+    "interpretation": "X7Rcurvesnotguaranteedminima. Explicittolerance/temp15%/aging2.5%model; actualeffectiveC/transientloopresponsehardwarevalidationrequiredafterlayout."
+  },
+  "thermal": {
+    "ambient_design_max_c": 50,
+    "buck": {
+      "part": "TPS62162DSGR",
+      "efficiency_model_lower_bound": 0.8,
+      "efficiency_is_guaranteed": false,
+      "theta_ja_datasheet_c_w": 61.8,
+      "theta_ja_design_multiplier": 1.5,
+      "theta_ja_design_c_w": 92.7,
+      "iout_example_a": 0.85,
+      "loss_model_w": 0.7012499999999999,
+      "junction_model_c": 115.00587499999999,
+      "junction_limit_c": 125,
+      "interpretation": "conditionalengineeringmodel;efficiencycurvecharacterizationandJEDECthetaarenotworstcaseproofforactual5VPCB"
+    }
+  },
+  "remaining_required_evidence": [
+    "WIZ startup/fulltraffic at declaredconditions: source gives141mAtypical and no wholemodulemaximum; limiter guarantees bounded fault current, not fault-free operation.",
+    "layout-dependentoscillatorload<=15pFandsignalcap/rise/ringing",
+    "regulatorbias-effectiveC,looptransients,efficiencyandboardthermalresistance;modelisevidenceofmarginbutnotguaranteed5VRDSmax",
+    "independentreviewofcriticalfactsandmechanicalclearances;humanconfirmationunchanged",
+    "hardware30minnineportprotocolacceptancebelongsactualhardwaregate;notrunornotpretended"
+  ],
+  "engineering_closed": [
+    "exactMPN/package/pad/sourceinventory",
+    "USBunpoweredrailsteeringandbodydiodepathremoved",
+    "CSgatedexternalMISO",
+    "off-stateheaderandWIZsignalbuffers",
+    "selectableRS485termination/bias",
+    "regulatedinputreverseblockingandcurrentfaultresponse",
+    "boundedWIZandexternalheaderrailcurrent"
+  ],
+  "module_source": {
+    "path": "runs/m4/sources/engineering-2026-10-10/wiz550io.html",
+    "sha256": "9869c0e996064e670c65fbd7cefaf9f921e3b35312b105f8370e3e66139c1297",
+    "url": "https://docs.wiznet.io/Product/ioModule/wiz550io",
+    "locator": "Electrical Characteristics / DC Characteristics / VDD and IDD rows",
+    "manufacturer_supply_min_v": 2.97,
+    "manufacturer_supply_max_v": 3.63,
+    "manufacturer_normal_current_typ_a": 0.141,
+    "manufacturer_normal_current_max_a": null
+  }
+}

@@ -1,0 +1,12 @@
+# Native acceptance and MCP unlock
+
+Spec: PCB Harness — Design Spec (v2).md / M1; subscription-first M2.
+Continue authorized inline work in the existing development checkout. Current M0+M1+settings-conflict native acceptance on KiCad 10.0.6 is actually green, with exact scratch baseline restored. Existing full-text guards remain unchanged; actual flip visibility differs from ordinary UpdateItems staging and the M0 probe now records it.
+
+1. Native evidence: completed current M0 probe, M1 full smoke, settings-conflict smoke. Preserve the failed flip probe and explicit exact-state reconciliation; no uncertainty deletion or action retry.
+2. Write boundary tests before code: exactly connected ScratchIPCBackend on server 10.0.6 can execute/checkpoint/restore through MCP; unconnected/demo/future/old version remains disabled. Add a small private predicate to MCPService, replacing hardcoded false/gate status with observed connected-backend/version readiness; no CLI flag can override native acceptance. Readiness requires the Kernel backend to be the connected native instance, not just a version string on another backend.
+3. Actual native STDIO acceptance: new fixed run, API-bound exact scratch, query→checkpoint→explicit small move→repeat ID→known short rollback→checkpoint restore→native final verification. No provider keys, no autorouter, restore exact baseline at end. Same-state reconnect/replay needs the unchanged run journal.
+4. Documentation: update 10.0.6 capability evidence and actual host live-render acceptance; broader versions/platforms/settings recovery/crash timing and full manufacturing release remain outside this acceptance. Update portable native config; update user's previously authorized local MCP config to an explicit fresh experiment directory, preserving every other setting and old journals. Existing loaded server needs host reload to use the revised gate; no false claim about its new code.
+5. Full suite + actual native STDIO; one fresh review of this new version-gate/probe slice only (do not redo previous M1/MCP reviews), fix Important findings RED→GREEN, commit local branch. No merge/push/publication.
+
+Review focus: connected identity and exact version gate; genuine native saved-copy/save/revert/replay evidence; old journal refuses new saved-byte revision; generic future-major/patch cannot silently unlock; host image has actual native provenance but isn't a screenshot or manufacturing pass.

@@ -1,0 +1,255 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "parts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+          },
+          "mpn": {
+            "type": "string",
+            "minLength": 1
+          },
+          "manufacturer": {
+            "type": "string",
+            "minLength": 1
+          },
+          "package": {
+            "type": "string",
+            "minLength": 1
+          },
+          "revision": {
+            "type": "string",
+            "minLength": 1
+          },
+          "lifecycle": {
+            "enum": [
+              "active",
+              "obsolete",
+              "unknown",
+              "synthetic"
+            ]
+          },
+          "symbol_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "footprint_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "symbol": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "license": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "path",
+              "sha256",
+              "license"
+            ],
+            "additionalProperties": false
+          },
+          "footprint": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "license": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "path",
+              "sha256",
+              "license"
+            ],
+            "additionalProperties": false
+          },
+          "pins": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+                },
+                "number": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "enum": [
+                    "passive",
+                    "input",
+                    "output",
+                    "bidirectional",
+                    "power_in",
+                    "power_out",
+                    "open_collector",
+                    "no_connect",
+                    "tri_state"
+                  ]
+                },
+                "operating_range_v": {
+                  "anyOf": [
+                    {
+                      "type": "array",
+                      "items": {
+                        "type": "number"
+                      },
+                      "minItems": 2,
+                      "maxItems": 2
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "operating_fact_id": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "absolute_maximum_fact_id": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "number",
+                "name",
+                "type",
+                "operating_range_v",
+                "operating_fact_id",
+                "absolute_maximum_fact_id"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "pin_map": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "pin_id": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+                },
+                "symbol_pin": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "pads": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 1
+                }
+              },
+              "required": [
+                "pin_id",
+                "symbol_pin",
+                "pads"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "fact_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "required_fact_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "errata_fact_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "id",
+          "mpn",
+          "manufacturer",
+          "package",
+          "revision",
+          "lifecycle",
+          "symbol_id",
+          "footprint_id",
+          "symbol",
+          "footprint",
+          "pins",
+          "pin_map",
+          "fact_ids",
+          "required_fact_ids",
+          "errata_fact_ids"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "parts"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

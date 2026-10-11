@@ -1,0 +1,43 @@
+--- vendor/hal/Src/stm32f1xx_hal_pcd.c
++++ adapters/stm32f1xx_hal_pcd_bounded.c
+@@ -56,6 +56,8 @@
+ 
+ /* Includes ------------------------------------------------------------------*/
+ #include "stm32f1xx_hal.h"
++#include "core.h"
++volatile uint32_t usb_driver_faults;
+ 
+ /** @addtogroup STM32F1xx_HAL_Driver
+   * @{
+@@ -1394,9 +1396,18 @@
+     /* CLEAR RESET */
+     hpcd->Instance->CNTR &= (uint16_t)(~USB_CNTR_FRES);
+ 
+-    /* wait for reset flag in ISTR */
+-    while ((hpcd->Instance->ISTR & USB_ISTR_RESET) == 0U)
+-    {
++    /* PCB Harness derivative: original ES096 suspend reset with a20us
++       DWT deadline. A failed USB macrocell cannot trap all lower IRQs. */
++    uint32_t reset_start = DWT->CYCCNT;
++    while (bounded_reset_wait((hpcd->Instance->ISTR & USB_ISTR_RESET) != 0U,
++                              reset_start, DWT->CYCCNT, SystemCoreClock / 50000U))
++    {
++    }
++    if ((hpcd->Instance->ISTR & USB_ISTR_RESET) == 0U)
++    {
++      usb_driver_faults++;
++      hpcd->Instance->CNTR = USB_CNTR_FRES;
++      return;
+     }
+ 
+     /* Clear Reset Flag */
+@@ -2196,7 +2207,8 @@
+ #endif /* USE_USB_DOUBLE_BUFFER */
+ 
+   /* stay in loop while pending interrupts */
+-  while ((hpcd->Instance->ISTR & USB_ISTR_CTR) != 0U)
++  uint8_t irq_quota = 4U;
++  while (((hpcd->Instance->ISTR & USB_ISTR_CTR) != 0U) && irq_budget_take(&irq_quota))
+   {
+     wIstr = hpcd->Instance->ISTR;
+ 

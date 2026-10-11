@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "documents": [
+    {
+      "id": "fixture-design",
+      "title": "Synthetic M3 circuit oracle",
+      "revision": "1",
+      "source_url": "local:fixture-design",
+      "retrieved_at": "2026-10-09",
+      "path": "sources/fixture-design.md",
+      "sha256": "62a515444ecec371a4882d2c4126127e5261f35d8b6eb05778f8275bdd043683",
+      "license": "project-license-unselected",
+      "redistribution": "unknown",
+      "source": "synthetic"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "tiny-independent",
+  "revision": "1",
+  "document_id": "fixture-design",
+  "document_sha256": "62a515444ecec371a4882d2c4126127e5261f35d8b6eb05778f8275bdd043683",
+  "expected_instances": [
+    {
+      "ref": "R1",
+      "mpn": "SYNTHETIC-R",
+      "package": "Probe_R",
+      "footprint_id": "Harness:Probe_R",
+      "pin_nets": {
+        "1": "/NET_A",
+        "2": "/NET_B"
+      }
+    },
+    {
+      "ref": "R2",
+      "mpn": "SYNTHETIC-R",
+      "package": "Probe_R",
+      "footprint_id": "Harness:Probe_R",
+      "pin_nets": {
+        "1": "/NET_A",
+        "2": "/NET_B"
+      }
+    },
+    {
+      "ref": "R3",
+      "mpn": "SYNTHETIC-R",
+      "package": "Probe_R",
+      "footprint_id": "Harness:Probe_R",
+      "pin_nets": {
+        "1": "/NET_A",
+        "2": "/NET_B"
+      }
+    }
+  ],
+  "interfaces": [],
+  "concurrent_groups": [],
+  "required_fact_ids": [
+    "fixture"
+  ],
+  "required_constraint_ids": [
+    "route-width"
+  ],
+  "required_errata_ids": [],
+  "no_connect": [],
+  "conflicts": [
+    {
+      "mpn": "STM32F103C8T6",
+      "peripherals": [
+        "USB",
+        "CAN"
+      ]
+    }
+  ]
+}

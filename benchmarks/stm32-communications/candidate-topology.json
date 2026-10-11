@@ -1,0 +1,1961 @@
+{
+  "schema_version": 1,
+  "id": "stm32-nine-port-review-v1",
+  "revision": "candidate-2026-10-10",
+  "human_confirmed": false,
+  "layout_allowed": false,
+  "support_types": {
+    "R0603": {
+      "symbol_template": "Device:R",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "UNSELECTED-R0603",
+      "qualification": "unconfirmed"
+    },
+    "R1206": {
+      "symbol_template": "Device:R",
+      "footprint_template": "Resistor_SMD:R_1206_3216Metric",
+      "mpn": "UNSELECTED-R1206",
+      "qualification": "unconfirmed"
+    },
+    "C0603": {
+      "symbol_template": "Device:C",
+      "footprint_template": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "UNSELECTED-C0603",
+      "qualification": "unconfirmed"
+    },
+    "C0805": {
+      "symbol_template": "Device:C",
+      "footprint_template": "Capacitor_SMD:C_0805_2012Metric",
+      "mpn": "UNSELECTED-C0805",
+      "qualification": "unconfirmed"
+    },
+    "C1210": {
+      "symbol_template": "Device:C",
+      "footprint_template": "Capacitor_SMD:C_1210_3225Metric",
+      "mpn": "UNSELECTED-C1210",
+      "qualification": "unconfirmed"
+    },
+    "L4": {
+      "symbol_template": "Device:L",
+      "footprint_template": "Inductor_SMD:L_Coilcraft_LPS4018",
+      "mpn": "UNSELECTED-L4",
+      "qualification": "unconfirmed"
+    },
+    "Y8": {
+      "symbol_template": "Device:Crystal",
+      "footprint_template": "Crystal:Crystal_SMD_HC49-SD",
+      "mpn": "UNSELECTED-Y8",
+      "qualification": "unconfirmed"
+    },
+    "Y40": {
+      "symbol_template": "Device:Crystal_GND24",
+      "footprint_template": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "mpn": "UNSELECTED-Y40",
+      "qualification": "unconfirmed"
+    },
+    "USB": {
+      "symbol_template": "Connector:USB_C_Receptacle_USB2.0_16P",
+      "footprint_template": "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+      "mpn": "TYPE-C-31-M-12 candidate",
+      "qualification": "unconfirmed"
+    },
+    "USBESD": {
+      "symbol_template": "Power_Protection:USBLC6-2SC6",
+      "footprint_template": "Package_TO_SOT_SMD:SOT-23-6",
+      "mpn": "USBLC6-2SC6",
+      "qualification": "unconfirmed"
+    },
+    "NPN": {
+      "symbol_template": "Transistor_BJT:MMBT3904",
+      "footprint_template": "Package_TO_SOT_SMD:SOT-23",
+      "mpn": "MMBT3904 candidate",
+      "qualification": "unconfirmed"
+    },
+    "PMOS": {
+      "symbol_template": "Transistor_FET:BSS84",
+      "footprint_template": "Package_TO_SOT_SMD:SOT-23",
+      "mpn": "BSS84 candidate",
+      "qualification": "unconfirmed"
+    },
+    "CANTVS": {
+      "symbol_template": "Power_Protection:NUP2105L",
+      "footprint_template": "Package_TO_SOT_SMD:SOT-23",
+      "mpn": "NUP2105L candidate",
+      "qualification": "unconfirmed"
+    },
+    "RS485TVS": {
+      "symbol_template": "Device:D_TVS_Dual_AAC",
+      "footprint_template": "Package_TO_SOT_SMD:SOT-23",
+      "mpn": "UNSELECTED-RS485TVS",
+      "qualification": "unconfirmed"
+    },
+    "HDR2": {
+      "symbol_template": "Connector_Generic:Conn_01x02",
+      "footprint_template": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "mpn": "UNSELECTED-HDR2",
+      "qualification": "unconfirmed"
+    },
+    "HDR3": {
+      "symbol_template": "Connector_Generic:Conn_01x03",
+      "footprint_template": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "mpn": "UNSELECTED-HDR3",
+      "qualification": "unconfirmed"
+    },
+    "HDR4": {
+      "symbol_template": "Connector_Generic:Conn_01x04",
+      "footprint_template": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "mpn": "UNSELECTED-HDR4",
+      "qualification": "unconfirmed"
+    },
+    "HDR6": {
+      "symbol_template": "Connector_Generic:Conn_01x06",
+      "footprint_template": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+      "mpn": "UNSELECTED-HDR6",
+      "qualification": "unconfirmed"
+    },
+    "SWD": {
+      "symbol_template": "Connector_Generic:Conn_02x05_Odd_Even",
+      "footprint_template": "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical",
+      "mpn": "UNSELECTED-SWD",
+      "qualification": "unconfirmed"
+    },
+    "JMP": {
+      "symbol_template": "Jumper:Jumper_2_Open",
+      "footprint_template": "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+      "mpn": "UNSELECTED-JMP",
+      "qualification": "unconfirmed"
+    },
+    "RESET": {
+      "symbol_template": "Switch:SW_Push",
+      "footprint_template": "Button_Switch_THT:SW_PUSH_6mm",
+      "mpn": "UNSELECTED-RESET",
+      "qualification": "unconfirmed"
+    },
+    "TP": {
+      "symbol_template": "Connector:TestPoint",
+      "footprint_template": "TestPoint:TestPoint_Pad_D1.0mm",
+      "mpn": "UNSELECTED-TP",
+      "qualification": "unconfirmed"
+    },
+    "MH": {
+      "symbol_template": "Mechanical:MountingHole_Pad",
+      "footprint_template": "MountingHole:MountingHole_3.2mm_M3_Pad",
+      "mpn": "UNSELECTED-MH",
+      "qualification": "unconfirmed"
+    }
+  },
+  "instances": [
+    {
+      "ref": "U1",
+      "part_id": "STM32F103C8T6",
+      "value": "STM32F103C8T6",
+      "block": "mcu",
+      "pins": {
+        "1": "3V3",
+        "2": "ETH_READY",
+        "3": null,
+        "4": null,
+        "5": "HSE_IN",
+        "6": "HSE_OUT",
+        "7": "NRST",
+        "8": "GND",
+        "9": "3V3",
+        "10": "VBUS_PRESENT_N",
+        "11": "RS485_DE",
+        "12": "RS485_TX",
+        "13": "RS485_RX",
+        "14": "CAN_CLASSICAL_CS",
+        "15": "SHARED_SCK",
+        "16": "SHARED_MISO",
+        "17": "SHARED_MOSI",
+        "18": "CAN_CLASSICAL_INT",
+        "19": "CAN_FD_INT",
+        "20": "BOOT1",
+        "21": "RS232_TX",
+        "22": "RS232_RX",
+        "23": "GND",
+        "24": "3V3",
+        "25": "ETH_CS",
+        "26": "ETH_SCK",
+        "27": "ETH_MISO",
+        "28": "ETH_MOSI",
+        "29": "CAN_FD_CS",
+        "30": "UART_TX",
+        "31": "UART_RX",
+        "32": "USB_DM_MCU",
+        "33": "USB_DP_MCU",
+        "34": "SWDIO",
+        "35": "GND",
+        "36": "3V3",
+        "37": "SWCLK",
+        "38": null,
+        "39": null,
+        "40": null,
+        "41": "ETH_RESET",
+        "42": "I2C_SCL",
+        "43": "I2C_SDA",
+        "44": "BOOT0",
+        "45": "ETH_INT",
+        "46": "EXTERNAL_SPI_CS",
+        "47": "GND",
+        "48": "3V3"
+      },
+      "schematic_position_mm": [
+        180.34,
+        90.17
+      ]
+    },
+    {
+      "ref": "C1",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "mcu",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        44.45,
+        175.26
+      ],
+      "qualification_note": "100nF / X7R / qualified MPN pending"
+    },
+    {
+      "ref": "C2",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "mcu",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        97.79,
+        175.26
+      ],
+      "qualification_note": "100nF / X7R / qualified MPN pending"
+    },
+    {
+      "ref": "C3",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "mcu",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        151.13,
+        175.26
+      ],
+      "qualification_note": "100nF / X7R / qualified MPN pending"
+    },
+    {
+      "ref": "C4",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "mcu",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        204.47,
+        175.26
+      ],
+      "qualification_note": "100nF / X7R / qualified MPN pending"
+    },
+    {
+      "ref": "C5",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "mcu",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        256.54,
+        175.26
+      ],
+      "qualification_note": "100nF / X7R / qualified MPN pending"
+    },
+    {
+      "ref": "C6",
+      "part_id": "C0805",
+      "value": "4.7uF",
+      "block": "mcu",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        309.88,
+        175.26
+      ],
+      "qualification_note": "4.7uF / X7R / bias qualification pending"
+    },
+    {
+      "ref": "C7",
+      "part_id": "C0603",
+      "value": "1uF VDDA",
+      "block": "mcu",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        44.45,
+        218.44
+      ],
+      "qualification_note": "1uF VDDA / source qualification pending"
+    },
+    {
+      "ref": "Y1",
+      "part_id": "Y8",
+      "value": "8MHz",
+      "block": "mcu",
+      "pins": {
+        "1": "HSE_IN",
+        "2": "HSE_OUT"
+      },
+      "schematic_position_mm": [
+        97.79,
+        218.44
+      ],
+      "qualification_note": "8MHz / CL18pF target / MPN pending"
+    },
+    {
+      "ref": "C8",
+      "part_id": "C0603",
+      "value": "27pF",
+      "block": "mcu",
+      "pins": {
+        "1": "HSE_IN",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        151.13,
+        218.44
+      ],
+      "qualification_note": "27pF / C0G / CL and stray review pending"
+    },
+    {
+      "ref": "C9",
+      "part_id": "C0603",
+      "value": "27pF",
+      "block": "mcu",
+      "pins": {
+        "1": "HSE_OUT",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        204.47,
+        218.44
+      ],
+      "qualification_note": "27pF / C0G / CL and stray review pending"
+    },
+    {
+      "ref": "R1",
+      "part_id": "R0603",
+      "value": "10k",
+      "block": "mcu",
+      "pins": {
+        "1": "NRST",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        256.54,
+        218.44
+      ],
+      "qualification_note": "10k"
+    },
+    {
+      "ref": "C10",
+      "part_id": "C0603",
+      "value": "100nF reset candidate",
+      "block": "mcu",
+      "pins": {
+        "1": "NRST",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        309.88,
+        218.44
+      ],
+      "qualification_note": "100nF reset candidate"
+    },
+    {
+      "ref": "SW1",
+      "part_id": "RESET",
+      "value": "RESET",
+      "block": "mcu",
+      "pins": {
+        "1": "NRST",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        44.45,
+        262.89
+      ],
+      "qualification_note": "RESET"
+    },
+    {
+      "ref": "R2",
+      "part_id": "R0603",
+      "value": "10k",
+      "block": "mcu",
+      "pins": {
+        "1": "BOOT0",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        97.79,
+        262.89
+      ],
+      "qualification_note": "10k"
+    },
+    {
+      "ref": "R3",
+      "part_id": "R0603",
+      "value": "10k",
+      "block": "mcu",
+      "pins": {
+        "1": "BOOT1",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        151.13,
+        262.89
+      ],
+      "qualification_note": "10k"
+    },
+    {
+      "ref": "JP1",
+      "part_id": "JMP",
+      "value": "BOOT enable",
+      "block": "mcu",
+      "pins": {
+        "1": "BOOT0",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        204.47,
+        262.89
+      ],
+      "qualification_note": "BOOT enable / OPEN default"
+    },
+    {
+      "ref": "J2",
+      "part_id": "SWD",
+      "value": "SWD 1.27mm",
+      "block": "mcu",
+      "pins": {
+        "1": "3V3",
+        "2": "SWDIO",
+        "3": "GND",
+        "4": "SWCLK",
+        "5": "GND",
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": "GND",
+        "10": "NRST"
+      },
+      "schematic_position_mm": [
+        256.54,
+        262.89
+      ],
+      "qualification_note": "SWD 1.27mm / keyed mating part pending"
+    },
+    {
+      "ref": "U8",
+      "part_id": "TPS62162DSGR",
+      "value": "TPS62162DSGR",
+      "block": "power",
+      "pins": {
+        "1": "GND",
+        "2": "5V",
+        "3": "5V",
+        "4": "GND",
+        "5": "GND",
+        "6": "3V3",
+        "7": "BUCK_SW",
+        "8": "BUCK_PG",
+        "9": "GND"
+      },
+      "schematic_position_mm": [
+        900.43,
+        90.17
+      ]
+    },
+    {
+      "ref": "J1",
+      "part_id": "HDR2",
+      "value": "REGULATED 5V ONLY",
+      "block": "power",
+      "pins": {
+        "1": "5V",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        764.54,
+        175.26
+      ],
+      "qualification_note": "REGULATED 5V ONLY / polarity keyed qualification pending"
+    },
+    {
+      "ref": "L1",
+      "part_id": "L4",
+      "value": "2.2uH",
+      "block": "power",
+      "pins": {
+        "1": "BUCK_SW",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        817.88,
+        175.26
+      ],
+      "qualification_note": "2.2uH / Isat and DCR pending"
+    },
+    {
+      "ref": "C11",
+      "part_id": "C1210",
+      "value": "10uF",
+      "block": "power",
+      "pins": {
+        "1": "5V",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        871.22,
+        175.26
+      ],
+      "qualification_note": "10uF / effective capacitance pending"
+    },
+    {
+      "ref": "C12",
+      "part_id": "C1210",
+      "value": "22uF",
+      "block": "power",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        924.56,
+        175.26
+      ],
+      "qualification_note": "22uF / effective capacitance pending"
+    },
+    {
+      "ref": "C13",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "power",
+      "pins": {
+        "1": "5V",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        976.63,
+        175.26
+      ],
+      "qualification_note": "100nF / X7R / qualified MPN pending"
+    },
+    {
+      "ref": "R4",
+      "part_id": "R0603",
+      "value": "100k",
+      "block": "power",
+      "pins": {
+        "1": "BUCK_PG",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        1029.97,
+        175.26
+      ],
+      "qualification_note": "100k"
+    },
+    {
+      "ref": "J3",
+      "part_id": "USB",
+      "value": "USB2 DEVICE ONLY",
+      "block": "usb",
+      "pins": {
+        "A1": "GND",
+        "A4": "USB_VBUS",
+        "A5": "CC1",
+        "A6": "USB_DP_PORT",
+        "A7": "USB_DM_PORT",
+        "A8": null,
+        "A9": "USB_VBUS",
+        "A12": "GND",
+        "B1": "GND",
+        "B4": "USB_VBUS",
+        "B5": "CC2",
+        "B6": "USB_DP_PORT",
+        "B7": "USB_DM_PORT",
+        "B8": null,
+        "B9": "USB_VBUS",
+        "B12": "GND",
+        "SH": "GND"
+      },
+      "schematic_position_mm": [
+        539.75,
+        90.17
+      ],
+      "qualification_note": "USB2 DEVICE ONLY / connector candidate"
+    },
+    {
+      "ref": "R5",
+      "part_id": "R0603",
+      "value": "5.1k",
+      "block": "usb",
+      "pins": {
+        "1": "CC1",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        405.13,
+        175.26
+      ],
+      "qualification_note": "5.1k / 1%"
+    },
+    {
+      "ref": "R6",
+      "part_id": "R0603",
+      "value": "5.1k",
+      "block": "usb",
+      "pins": {
+        "1": "CC2",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        458.47,
+        175.26
+      ],
+      "qualification_note": "5.1k / 1%"
+    },
+    {
+      "ref": "D1",
+      "part_id": "USBESD",
+      "value": "USBESD",
+      "block": "usb",
+      "pins": {
+        "1": "USB_DM_PORT",
+        "2": "GND",
+        "3": "USB_DP_PORT",
+        "4": "USB_DP_ESD",
+        "5": "USB_VBUS",
+        "6": "USB_DM_ESD"
+      },
+      "schematic_position_mm": [
+        510.54,
+        175.26
+      ],
+      "qualification_note": "USBESD"
+    },
+    {
+      "ref": "R7",
+      "part_id": "R0603",
+      "value": "22R",
+      "block": "usb",
+      "pins": {
+        "1": "USB_DM_ESD",
+        "2": "USB_DM_MCU"
+      },
+      "schematic_position_mm": [
+        563.88,
+        175.26
+      ],
+      "qualification_note": "22R / USB signal qualification pending"
+    },
+    {
+      "ref": "R8",
+      "part_id": "R0603",
+      "value": "22R",
+      "block": "usb",
+      "pins": {
+        "1": "USB_DP_ESD",
+        "2": "USB_DP_MCU"
+      },
+      "schematic_position_mm": [
+        617.22,
+        175.26
+      ],
+      "qualification_note": "22R / USB signal qualification pending"
+    },
+    {
+      "ref": "Q1",
+      "part_id": "NPN",
+      "value": "NPN",
+      "block": "usb",
+      "pins": {
+        "1": "VBUS_BASE",
+        "2": "GND",
+        "3": "VBUS_PRESENT_N"
+      },
+      "schematic_position_mm": [
+        670.56,
+        175.26
+      ],
+      "qualification_note": "NPN"
+    },
+    {
+      "ref": "R9",
+      "part_id": "R0603",
+      "value": "47k",
+      "block": "usb",
+      "pins": {
+        "1": "USB_VBUS",
+        "2": "VBUS_BASE"
+      },
+      "schematic_position_mm": [
+        405.13,
+        218.44
+      ],
+      "qualification_note": "47k"
+    },
+    {
+      "ref": "R10",
+      "part_id": "R0603",
+      "value": "100k",
+      "block": "usb",
+      "pins": {
+        "1": "VBUS_BASE",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        458.47,
+        218.44
+      ],
+      "qualification_note": "100k"
+    },
+    {
+      "ref": "R11",
+      "part_id": "R0603",
+      "value": "10k",
+      "block": "usb",
+      "pins": {
+        "1": "VBUS_PRESENT_N",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        510.54,
+        218.44
+      ],
+      "qualification_note": "10k"
+    },
+    {
+      "ref": "Q2",
+      "part_id": "PMOS",
+      "value": "PMOS",
+      "block": "usb",
+      "pins": {
+        "1": "VBUS_PRESENT_N",
+        "2": "3V3",
+        "3": "USB_ATTACH_SUPPLY"
+      },
+      "schematic_position_mm": [
+        563.88,
+        218.44
+      ],
+      "qualification_note": "PMOS"
+    },
+    {
+      "ref": "R12",
+      "part_id": "R0603",
+      "value": "1.5k",
+      "block": "usb",
+      "pins": {
+        "1": "USB_ATTACH_SUPPLY",
+        "2": "USB_DP_MCU"
+      },
+      "schematic_position_mm": [
+        617.22,
+        218.44
+      ],
+      "qualification_note": "1.5k / 1%"
+    },
+    {
+      "ref": "U2",
+      "part_id": "MCP2518FD-E_SL",
+      "value": "MCP2518FD-E_SL",
+      "block": "classical",
+      "pins": {
+        "1": "CAN_C_TX",
+        "2": "CAN_C_RX",
+        "3": null,
+        "4": "CAN_CLASSICAL_INT",
+        "5": "CAN_C_OSC2",
+        "6": "CAN_C_OSC1",
+        "7": "GND",
+        "8": null,
+        "9": null,
+        "10": "SHARED_SCK",
+        "11": "SHARED_MOSI",
+        "12": "SHARED_MISO",
+        "13": "CAN_CLASSICAL_CS",
+        "14": "3V3"
+      },
+      "schematic_position_mm": [
+        180.34,
+        350.52
+      ]
+    },
+    {
+      "ref": "U4",
+      "part_id": "MCP2562FD-E_SN",
+      "value": "MCP2562FD-E_SN",
+      "block": "classical",
+      "pins": {
+        "1": "CAN_C_TX",
+        "2": "GND",
+        "3": "5V",
+        "4": "CAN_C_RX",
+        "5": "3V3",
+        "6": "CAN_C_L",
+        "7": "CAN_C_H",
+        "8": "GND"
+      },
+      "schematic_position_mm": [
+        44.45,
+        435.61
+      ]
+    },
+    {
+      "ref": "Y2",
+      "part_id": "Y40",
+      "value": "40MHz fundamental",
+      "block": "classical",
+      "pins": {
+        "1": "CAN_C_OSC1",
+        "2": "GND",
+        "3": "CAN_C_OSC2",
+        "4": "GND"
+      },
+      "schematic_position_mm": [
+        97.79,
+        435.61
+      ],
+      "qualification_note": "40MHz fundamental / CL12pF target / MPN pending"
+    },
+    {
+      "ref": "C14",
+      "part_id": "C0603",
+      "value": "18pF",
+      "block": "classical",
+      "pins": {
+        "1": "CAN_C_OSC1",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        151.13,
+        435.61
+      ],
+      "qualification_note": "18pF / C0G / CL and stray review pending"
+    },
+    {
+      "ref": "C15",
+      "part_id": "C0603",
+      "value": "18pF",
+      "block": "classical",
+      "pins": {
+        "1": "CAN_C_OSC2",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        204.47,
+        435.61
+      ],
+      "qualification_note": "18pF / C0G / CL and stray review pending"
+    },
+    {
+      "ref": "C16",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "classical",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        256.54,
+        435.61
+      ],
+      "qualification_note": "100nF / X7R / qualified MPN pending"
+    },
+    {
+      "ref": "C17",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "classical",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        309.88,
+        435.61
+      ],
+      "qualification_note": "100nF / X7R / qualified MPN pending"
+    },
+    {
+      "ref": "C18",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "classical",
+      "pins": {
+        "1": "5V",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        44.45,
+        478.79
+      ],
+      "qualification_note": "100nF / X7R / qualified MPN pending"
+    },
+    {
+      "ref": "R13",
+      "part_id": "R0603",
+      "value": "10k",
+      "block": "classical",
+      "pins": {
+        "1": "CAN_CLASSICAL_CS",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        97.79,
+        478.79
+      ],
+      "qualification_note": "10k"
+    },
+    {
+      "ref": "R14",
+      "part_id": "R0603",
+      "value": "10k",
+      "block": "classical",
+      "pins": {
+        "1": "CAN_CLASSICAL_INT",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        151.13,
+        478.79
+      ],
+      "qualification_note": "10k"
+    },
+    {
+      "ref": "J4",
+      "part_id": "HDR3",
+      "value": "CANH",
+      "block": "classical",
+      "pins": {
+        "1": "CAN_C_H",
+        "2": "CAN_C_L",
+        "3": "GND"
+      },
+      "schematic_position_mm": [
+        204.47,
+        478.79
+      ],
+      "qualification_note": "CANH / CANL / GND"
+    },
+    {
+      "ref": "JP2",
+      "part_id": "JMP",
+      "value": "120R TERMINATION",
+      "block": "classical",
+      "pins": {
+        "1": "CAN_C_H",
+        "2": "CAN_C_TERM"
+      },
+      "schematic_position_mm": [
+        256.54,
+        478.79
+      ],
+      "qualification_note": "120R TERMINATION / OPEN default"
+    },
+    {
+      "ref": "R15",
+      "part_id": "R1206",
+      "value": "120R",
+      "block": "classical",
+      "pins": {
+        "1": "CAN_C_TERM",
+        "2": "CAN_C_L"
+      },
+      "schematic_position_mm": [
+        309.88,
+        478.79
+      ],
+      "qualification_note": "120R / power qualification pending"
+    },
+    {
+      "ref": "D2",
+      "part_id": "CANTVS",
+      "value": "CANTVS",
+      "block": "classical",
+      "pins": {
+        "1": "CAN_C_H",
+        "2": "CAN_C_L",
+        "3": "GND"
+      },
+      "schematic_position_mm": [
+        44.45,
+        523.24
+      ],
+      "qualification_note": "CANTVS"
+    },
+    {
+      "ref": "U3",
+      "part_id": "MCP2518FD-E_SL",
+      "value": "MCP2518FD-E_SL",
+      "block": "fd",
+      "pins": {
+        "1": "CAN_F_TX",
+        "2": "CAN_F_RX",
+        "3": null,
+        "4": "CAN_FD_INT",
+        "5": "CAN_F_OSC2",
+        "6": "CAN_F_OSC1",
+        "7": "GND",
+        "8": null,
+        "9": null,
+        "10": "SHARED_SCK",
+        "11": "SHARED_MOSI",
+        "12": "SHARED_MISO",
+        "13": "CAN_FD_CS",
+        "14": "3V3"
+      },
+      "schematic_position_mm": [
+        539.75,
+        350.52
+      ]
+    },
+    {
+      "ref": "U5",
+      "part_id": "MCP2562FD-E_SN",
+      "value": "MCP2562FD-E_SN",
+      "block": "fd",
+      "pins": {
+        "1": "CAN_F_TX",
+        "2": "GND",
+        "3": "5V",
+        "4": "CAN_F_RX",
+        "5": "3V3",
+        "6": "CAN_F_L",
+        "7": "CAN_F_H",
+        "8": "GND"
+      },
+      "schematic_position_mm": [
+        405.13,
+        435.61
+      ]
+    },
+    {
+      "ref": "Y3",
+      "part_id": "Y40",
+      "value": "40MHz fundamental",
+      "block": "fd",
+      "pins": {
+        "1": "CAN_F_OSC1",
+        "2": "GND",
+        "3": "CAN_F_OSC2",
+        "4": "GND"
+      },
+      "schematic_position_mm": [
+        458.47,
+        435.61
+      ],
+      "qualification_note": "40MHz fundamental / CL12pF target / MPN pending"
+    },
+    {
+      "ref": "C19",
+      "part_id": "C0603",
+      "value": "18pF",
+      "block": "fd",
+      "pins": {
+        "1": "CAN_F_OSC1",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        510.54,
+        435.61
+      ],
+      "qualification_note": "18pF / C0G / CL and stray review pending"
+    },
+    {
+      "ref": "C20",
+      "part_id": "C0603",
+      "value": "18pF",
+      "block": "fd",
+      "pins": {
+        "1": "CAN_F_OSC2",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        563.88,
+        435.61
+      ],
+      "qualification_note": "18pF / C0G / CL and stray review pending"
+    },
+    {
+      "ref": "C21",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "fd",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        617.22,
+        435.61
+      ],
+      "qualification_note": "100nF / X7R / qualified MPN pending"
+    },
+    {
+      "ref": "C22",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "fd",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        670.56,
+        435.61
+      ],
+      "qualification_note": "100nF / X7R / qualified MPN pending"
+    },
+    {
+      "ref": "C23",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "fd",
+      "pins": {
+        "1": "5V",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        405.13,
+        478.79
+      ],
+      "qualification_note": "100nF / X7R / qualified MPN pending"
+    },
+    {
+      "ref": "R16",
+      "part_id": "R0603",
+      "value": "10k",
+      "block": "fd",
+      "pins": {
+        "1": "CAN_FD_CS",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        458.47,
+        478.79
+      ],
+      "qualification_note": "10k"
+    },
+    {
+      "ref": "R17",
+      "part_id": "R0603",
+      "value": "10k",
+      "block": "fd",
+      "pins": {
+        "1": "CAN_FD_INT",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        510.54,
+        478.79
+      ],
+      "qualification_note": "10k"
+    },
+    {
+      "ref": "J5",
+      "part_id": "HDR3",
+      "value": "CANH",
+      "block": "fd",
+      "pins": {
+        "1": "CAN_F_H",
+        "2": "CAN_F_L",
+        "3": "GND"
+      },
+      "schematic_position_mm": [
+        563.88,
+        478.79
+      ],
+      "qualification_note": "CANH / CANL / GND"
+    },
+    {
+      "ref": "JP3",
+      "part_id": "JMP",
+      "value": "120R TERMINATION",
+      "block": "fd",
+      "pins": {
+        "1": "CAN_F_H",
+        "2": "CAN_F_TERM"
+      },
+      "schematic_position_mm": [
+        617.22,
+        478.79
+      ],
+      "qualification_note": "120R TERMINATION / OPEN default"
+    },
+    {
+      "ref": "R18",
+      "part_id": "R1206",
+      "value": "120R",
+      "block": "fd",
+      "pins": {
+        "1": "CAN_F_TERM",
+        "2": "CAN_F_L"
+      },
+      "schematic_position_mm": [
+        670.56,
+        478.79
+      ],
+      "qualification_note": "120R / power qualification pending"
+    },
+    {
+      "ref": "D3",
+      "part_id": "CANTVS",
+      "value": "CANTVS",
+      "block": "fd",
+      "pins": {
+        "1": "CAN_F_H",
+        "2": "CAN_F_L",
+        "3": "GND"
+      },
+      "schematic_position_mm": [
+        405.13,
+        523.24
+      ],
+      "qualification_note": "CANTVS"
+    },
+    {
+      "ref": "U6",
+      "part_id": "THVD1450DR",
+      "value": "THVD1450DR",
+      "block": "rs485",
+      "pins": {
+        "1": "RS485_RX",
+        "2": "RS485_DE",
+        "3": "RS485_DE",
+        "4": "RS485_TX",
+        "5": "GND",
+        "6": "RS485_A",
+        "7": "RS485_B",
+        "8": "3V3"
+      },
+      "schematic_position_mm": [
+        900.43,
+        350.52
+      ]
+    },
+    {
+      "ref": "C24",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "rs485",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        764.54,
+        435.61
+      ],
+      "qualification_note": "100nF / X7R / qualified MPN pending"
+    },
+    {
+      "ref": "R19",
+      "part_id": "R0603",
+      "value": "10k",
+      "block": "rs485",
+      "pins": {
+        "1": "RS485_DE",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        817.88,
+        435.61
+      ],
+      "qualification_note": "10k"
+    },
+    {
+      "ref": "J6",
+      "part_id": "HDR3",
+      "value": "RS485 A",
+      "block": "rs485",
+      "pins": {
+        "1": "RS485_A",
+        "2": "RS485_B",
+        "3": "GND"
+      },
+      "schematic_position_mm": [
+        871.22,
+        435.61
+      ],
+      "qualification_note": "RS485 A / B / GND"
+    },
+    {
+      "ref": "JP4",
+      "part_id": "JMP",
+      "value": "120R TERMINATION",
+      "block": "rs485",
+      "pins": {
+        "1": "RS485_A",
+        "2": "RS485_TERM"
+      },
+      "schematic_position_mm": [
+        924.56,
+        435.61
+      ],
+      "qualification_note": "120R TERMINATION / OPEN default"
+    },
+    {
+      "ref": "R20",
+      "part_id": "R1206",
+      "value": "120R",
+      "block": "rs485",
+      "pins": {
+        "1": "RS485_TERM",
+        "2": "RS485_B"
+      },
+      "schematic_position_mm": [
+        976.63,
+        435.61
+      ],
+      "qualification_note": "120R / power qualification pending"
+    },
+    {
+      "ref": "D4",
+      "part_id": "RS485TVS",
+      "value": "ASYMMETRIC RS485 TVS",
+      "block": "rs485",
+      "pins": {
+        "1": "RS485_A",
+        "2": "RS485_B",
+        "3": "GND"
+      },
+      "schematic_position_mm": [
+        1029.97,
+        435.61
+      ],
+      "qualification_note": "ASYMMETRIC RS485 TVS / exact MPN pending"
+    },
+    {
+      "ref": "U7",
+      "part_id": "MAX3232IDR",
+      "value": "MAX3232IDR",
+      "block": "rs232",
+      "pins": {
+        "1": "RS232_C1P",
+        "2": "RS232_VP",
+        "3": "RS232_C1N",
+        "4": "RS232_C2P",
+        "5": "RS232_C2N",
+        "6": "RS232_VN",
+        "7": null,
+        "8": "GND",
+        "9": null,
+        "10": "GND",
+        "11": "RS232_TX",
+        "12": "RS232_RX",
+        "13": "RS232_PORT_RX",
+        "14": "RS232_PORT_TX",
+        "15": "GND",
+        "16": "3V3"
+      },
+      "schematic_position_mm": [
+        180.34,
+        609.6
+      ]
+    },
+    {
+      "ref": "C25",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "rs232",
+      "pins": {
+        "1": "RS232_C1P",
+        "2": "RS232_C1N"
+      },
+      "schematic_position_mm": [
+        44.45,
+        694.69
+      ],
+      "qualification_note": "100nF / 25V X7R / pump effective cap pending"
+    },
+    {
+      "ref": "C26",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "rs232",
+      "pins": {
+        "1": "RS232_C2P",
+        "2": "RS232_C2N"
+      },
+      "schematic_position_mm": [
+        97.79,
+        694.69
+      ],
+      "qualification_note": "100nF / 25V X7R / pump effective cap pending"
+    },
+    {
+      "ref": "C27",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "rs232",
+      "pins": {
+        "1": "RS232_VP",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        151.13,
+        694.69
+      ],
+      "qualification_note": "100nF / 25V X7R / pump effective cap pending"
+    },
+    {
+      "ref": "C28",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "rs232",
+      "pins": {
+        "1": "RS232_VN",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        204.47,
+        694.69
+      ],
+      "qualification_note": "100nF / 25V X7R / pump effective cap pending"
+    },
+    {
+      "ref": "C29",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "rs232",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        256.54,
+        694.69
+      ],
+      "qualification_note": "100nF / 25V X7R / pump effective cap pending"
+    },
+    {
+      "ref": "J7",
+      "part_id": "HDR3",
+      "value": "RS232 TX",
+      "block": "rs232",
+      "pins": {
+        "1": "RS232_PORT_TX",
+        "2": "RS232_PORT_RX",
+        "3": "GND"
+      },
+      "schematic_position_mm": [
+        309.88,
+        694.69
+      ],
+      "qualification_note": "RS232 TX / RX / GND"
+    },
+    {
+      "ref": "M1",
+      "part_id": "WIZ550io_v1_2_candidate",
+      "value": "WIZ550io v1.2",
+      "block": "ethernet",
+      "pins": {
+        "1": "GND",
+        "2": "GND",
+        "3": "ETH_MOSI",
+        "4": "ETH_MISO",
+        "5": "ETH_SCK",
+        "6": "ETH_CS",
+        "7": "3V3",
+        "8": "3V3",
+        "9": "3V3",
+        "10": "ETH_READY",
+        "11": "ETH_RESET",
+        "12": null,
+        "13": "ETH_INT",
+        "14": "GND"
+      },
+      "schematic_position_mm": [
+        539.75,
+        609.6
+      ],
+      "qualification_note": "WIZ550io v1.2 / v1.1 CAD candidate"
+    },
+    {
+      "ref": "C30",
+      "part_id": "C0805",
+      "value": "10uF",
+      "block": "ethernet",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        405.13,
+        694.69
+      ],
+      "qualification_note": "10uF / local module bulk candidate"
+    },
+    {
+      "ref": "C31",
+      "part_id": "C0603",
+      "value": "100nF",
+      "block": "ethernet",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "schematic_position_mm": [
+        458.47,
+        694.69
+      ],
+      "qualification_note": "100nF / X7R / qualified MPN pending"
+    },
+    {
+      "ref": "R21",
+      "part_id": "R0603",
+      "value": "10k",
+      "block": "ethernet",
+      "pins": {
+        "1": "ETH_CS",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        510.54,
+        694.69
+      ],
+      "qualification_note": "10k"
+    },
+    {
+      "ref": "R22",
+      "part_id": "R0603",
+      "value": "10k",
+      "block": "ethernet",
+      "pins": {
+        "1": "ETH_RESET",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        563.88,
+        694.69
+      ],
+      "qualification_note": "10k"
+    },
+    {
+      "ref": "R23",
+      "part_id": "R0603",
+      "value": "10k",
+      "block": "ethernet",
+      "pins": {
+        "1": "ETH_INT",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        617.22,
+        694.69
+      ],
+      "qualification_note": "10k"
+    },
+    {
+      "ref": "J8",
+      "part_id": "HDR3",
+      "value": "UART 3V3 LOGIC",
+      "block": "headers",
+      "pins": {
+        "1": "UART_TX",
+        "2": "UART_RX",
+        "3": "GND"
+      },
+      "schematic_position_mm": [
+        764.54,
+        694.69
+      ],
+      "qualification_note": "UART 3V3 LOGIC / no supply"
+    },
+    {
+      "ref": "J9",
+      "part_id": "HDR4",
+      "value": "I2C 3V3 ONLY",
+      "block": "headers",
+      "pins": {
+        "1": "I2C_SCL",
+        "2": "I2C_SDA",
+        "3": "GND",
+        "4": "3V3"
+      },
+      "schematic_position_mm": [
+        817.88,
+        694.69
+      ],
+      "qualification_note": "I2C 3V3 ONLY / load budget shared"
+    },
+    {
+      "ref": "R24",
+      "part_id": "R0603",
+      "value": "4.7k",
+      "block": "headers",
+      "pins": {
+        "1": "I2C_SCL",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        871.22,
+        694.69
+      ],
+      "qualification_note": "4.7k / bus C pending"
+    },
+    {
+      "ref": "R25",
+      "part_id": "R0603",
+      "value": "4.7k",
+      "block": "headers",
+      "pins": {
+        "1": "I2C_SDA",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        924.56,
+        694.69
+      ],
+      "qualification_note": "4.7k / bus C pending"
+    },
+    {
+      "ref": "J10",
+      "part_id": "HDR6",
+      "value": "SPI1 3V3",
+      "block": "headers",
+      "pins": {
+        "1": "SHARED_SCK",
+        "2": "SHARED_MISO",
+        "3": "SHARED_MOSI",
+        "4": "EXTERNAL_SPI_CS",
+        "5": "GND",
+        "6": "3V3"
+      },
+      "schematic_position_mm": [
+        976.63,
+        694.69
+      ],
+      "qualification_note": "SPI1 3V3 / qualified slaves only"
+    },
+    {
+      "ref": "R26",
+      "part_id": "R0603",
+      "value": "10k",
+      "block": "headers",
+      "pins": {
+        "1": "EXTERNAL_SPI_CS",
+        "2": "3V3"
+      },
+      "schematic_position_mm": [
+        1029.97,
+        694.69
+      ],
+      "qualification_note": "10k"
+    },
+    {
+      "ref": "H1",
+      "part_id": "MH",
+      "value": "M3",
+      "block": "mechanical",
+      "pins": {
+        "1": "GND"
+      },
+      "schematic_position_mm": [
+        764.54,
+        759.46
+      ],
+      "qualification_note": "M3 / grounded / clearance pending"
+    },
+    {
+      "ref": "H2",
+      "part_id": "MH",
+      "value": "M3",
+      "block": "mechanical",
+      "pins": {
+        "1": "GND"
+      },
+      "schematic_position_mm": [
+        817.88,
+        759.46
+      ],
+      "qualification_note": "M3 / grounded / clearance pending"
+    },
+    {
+      "ref": "H3",
+      "part_id": "MH",
+      "value": "M3",
+      "block": "mechanical",
+      "pins": {
+        "1": "GND"
+      },
+      "schematic_position_mm": [
+        871.22,
+        759.46
+      ],
+      "qualification_note": "M3 / grounded / clearance pending"
+    },
+    {
+      "ref": "H4",
+      "part_id": "MH",
+      "value": "M3",
+      "block": "mechanical",
+      "pins": {
+        "1": "GND"
+      },
+      "schematic_position_mm": [
+        924.56,
+        759.46
+      ],
+      "qualification_note": "M3 / grounded / clearance pending"
+    },
+    {
+      "ref": "TP1",
+      "part_id": "TP",
+      "value": "5V",
+      "block": "power",
+      "pins": {
+        "1": "5V"
+      },
+      "schematic_position_mm": [
+        764.54,
+        218.44
+      ],
+      "qualification_note": "5V"
+    },
+    {
+      "ref": "TP2",
+      "part_id": "TP",
+      "value": "3V3",
+      "block": "power",
+      "pins": {
+        "1": "3V3"
+      },
+      "schematic_position_mm": [
+        817.88,
+        218.44
+      ],
+      "qualification_note": "3V3"
+    },
+    {
+      "ref": "TP3",
+      "part_id": "TP",
+      "value": "GND",
+      "block": "power",
+      "pins": {
+        "1": "GND"
+      },
+      "schematic_position_mm": [
+        871.22,
+        218.44
+      ],
+      "qualification_note": "GND"
+    },
+    {
+      "ref": "TP4",
+      "part_id": "TP",
+      "value": "NRST",
+      "block": "headers",
+      "pins": {
+        "1": "NRST"
+      },
+      "schematic_position_mm": [
+        764.54,
+        739.14
+      ],
+      "qualification_note": "NRST"
+    },
+    {
+      "ref": "TP5",
+      "part_id": "TP",
+      "value": "BOOT0",
+      "block": "headers",
+      "pins": {
+        "1": "BOOT0"
+      },
+      "schematic_position_mm": [
+        817.88,
+        739.14
+      ],
+      "qualification_note": "BOOT0"
+    },
+    {
+      "ref": "TP6",
+      "part_id": "TP",
+      "value": "CAN_CLASSICAL_CS",
+      "block": "headers",
+      "pins": {
+        "1": "CAN_CLASSICAL_CS"
+      },
+      "schematic_position_mm": [
+        871.22,
+        739.14
+      ],
+      "qualification_note": "CAN_CLASSICAL_CS"
+    },
+    {
+      "ref": "TP7",
+      "part_id": "TP",
+      "value": "CAN_FD_CS",
+      "block": "headers",
+      "pins": {
+        "1": "CAN_FD_CS"
+      },
+      "schematic_position_mm": [
+        924.56,
+        739.14
+      ],
+      "qualification_note": "CAN_FD_CS"
+    },
+    {
+      "ref": "TP8",
+      "part_id": "TP",
+      "value": "ETH_CS",
+      "block": "headers",
+      "pins": {
+        "1": "ETH_CS"
+      },
+      "schematic_position_mm": [
+        976.63,
+        739.14
+      ],
+      "qualification_note": "ETH_CS"
+    },
+    {
+      "ref": "TP9",
+      "part_id": "TP",
+      "value": "BUCK_PG",
+      "block": "headers",
+      "pins": {
+        "1": "BUCK_PG"
+      },
+      "schematic_position_mm": [
+        1029.97,
+        739.14
+      ],
+      "qualification_note": "BUCK_PG"
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "usb",
+      "kind": "USB",
+      "instance_id": "U1",
+      "peripheral": "USB",
+      "pin_ids": [
+        "p32",
+        "p33",
+        "p10"
+      ]
+    },
+    {
+      "id": "uart",
+      "kind": "UART",
+      "instance_id": "U1",
+      "peripheral": "USART1",
+      "pin_ids": [
+        "p30",
+        "p31"
+      ]
+    },
+    {
+      "id": "rs485",
+      "kind": "RS485",
+      "instance_id": "U1",
+      "peripheral": "USART2",
+      "pin_ids": [
+        "p11",
+        "p12",
+        "p13"
+      ]
+    },
+    {
+      "id": "rs232",
+      "kind": "RS232",
+      "instance_id": "U1",
+      "peripheral": "USART3",
+      "pin_ids": [
+        "p21",
+        "p22"
+      ]
+    },
+    {
+      "id": "i2c",
+      "kind": "I2C",
+      "instance_id": "U1",
+      "peripheral": "I2C1",
+      "pin_ids": [
+        "p42",
+        "p43"
+      ]
+    },
+    {
+      "id": "spi",
+      "kind": "SPI",
+      "instance_id": "U1",
+      "peripheral": "SPI1",
+      "pin_ids": [
+        "p15",
+        "p16",
+        "p17",
+        "p46"
+      ]
+    },
+    {
+      "id": "can_classical",
+      "kind": "CAN",
+      "instance_id": "U2",
+      "peripheral": "EXTERNAL_MCP2518FD",
+      "pin_ids": [
+        "p1",
+        "p2",
+        "p4",
+        "p13"
+      ]
+    },
+    {
+      "id": "can_fd",
+      "kind": "CAN",
+      "instance_id": "U3",
+      "peripheral": "EXTERNAL_MCP2518FD",
+      "pin_ids": [
+        "p1",
+        "p2",
+        "p4",
+        "p13"
+      ]
+    },
+    {
+      "id": "ethernet",
+      "kind": "ETHERNET",
+      "instance_id": "M1",
+      "peripheral": "EXTERNAL_WIZ550io",
+      "pin_ids": [
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p10",
+        "p11",
+        "p13"
+      ]
+    }
+  ]
+}

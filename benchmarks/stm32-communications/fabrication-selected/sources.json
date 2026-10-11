@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "documents": [
+    {
+      "id": "jlcpcb-capabilities",
+      "url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+      "path": "runs/m4/fabrication-source-2026-10-10/capabilities.html",
+      "sha256": "bbcf76dd680e5fa1dff49ddc22b719b61b564a7b9f4b52de04bfd31b035038f0",
+      "human_confirmed": false
+    },
+    {
+      "id": "jlcpcb-stackup",
+      "url": "https://jlcpcb.com/impedance",
+      "path": "runs/m4/fabrication-source-2026-10-10/stackup.html",
+      "sha256": "a56802a989ebabbcd0635d9937d835149aa122c96fd6fb95e43b4258b294532e",
+      "human_confirmed": false
+    },
+    {
+      "id": "jlcpcb-assembly",
+      "url": "https://jlcpcb.com/help/article/minimum-spacing-for-smd-components",
+      "path": "runs/m4/fabrication-source-2026-10-10/assembly.html",
+      "sha256": "1d559d294704a246d01e8b8754f4cfe2065dd10d5d2adca510c105279638f369",
+      "human_confirmed": false
+    }
+  ]
+}

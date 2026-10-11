@@ -1,0 +1,1902 @@
+{
+  "schema_version": 1,
+  "parts": {
+    "R_10K0": {
+      "id": "R_10K0",
+      "mpn": "CRCW060310K0FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_10K0",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 10000,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_100K": {
+      "id": "R_100K",
+      "mpn": "CRCW0603100KFKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_100K",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 100000,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_47K0": {
+      "id": "R_47K0",
+      "mpn": "CRCW060347K0FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_47K0",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 47000,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_5K10": {
+      "id": "R_5K10",
+      "mpn": "CRCW06035K10FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_5K10",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 5100,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_22R0": {
+      "id": "R_22R0",
+      "mpn": "CRCW060322R0FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_22R0",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 22,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_1K50": {
+      "id": "R_1K50",
+      "mpn": "CRCW06031K50FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_1K50",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 1500,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_4K70": {
+      "id": "R_4K70",
+      "mpn": "CRCW06034K70FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_4K70",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 4700,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_3K32": {
+      "id": "R_3K32",
+      "mpn": "CRCW06033K32FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_3K32",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 3320,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_6K65": {
+      "id": "R_6K65",
+      "mpn": "CRCW06036K65FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_6K65",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 6650,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_49K9": {
+      "id": "R_49K9",
+      "mpn": "CRCW060349K9FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_49K9",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 49900,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_25K5": {
+      "id": "R_25K5",
+      "mpn": "CRCW060325K5FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_25K5",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 25500,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_10K2": {
+      "id": "R_10K2",
+      "mpn": "CRCW060310K2FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_10K2",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 10200,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_33K0": {
+      "id": "R_33K0",
+      "mpn": "CRCW060333K0FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_33K0",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 33000,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_470R": {
+      "id": "R_470R",
+      "mpn": "CRCW0603470RFKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_470R",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 470,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_1K00": {
+      "id": "R_1K00",
+      "mpn": "CRCW06031K00FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_1K00",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 1000,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_2K21": {
+      "id": "R_2K21",
+      "mpn": "CRCW06032K21FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_2K21",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 2210,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_34K0": {
+      "id": "R_34K0",
+      "mpn": "CRCW060334K0FKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_34K0",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 34000,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_330R": {
+      "id": "R_330R",
+      "mpn": "CRCW0603330RFKEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        8
+      ],
+      "symbol_template": "SupportQualified:R_330R",
+      "footprint_template": "Resistor_SMD:R_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "1%,100ppm/K; 0.10W standard operation at70C; derate above70C. Nonpolar.",
+      "ratings": {
+        "ohm": 330,
+        "power_w_at70": 0.1,
+        "tolerance_fraction": 0.01
+      },
+      "library_footprint_sha256": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_383K": {
+      "id": "R_383K",
+      "mpn": "TNPW0805383KBEEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "precision-resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        4,
+        10
+      ],
+      "symbol_template": "SupportQualified:R_383K",
+      "footprint_template": "Resistor_SMD:R_0805_2012Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "0.1%,25ppm/K;0805range1Mohm;0.21Wstandard;0.25%engineeringbound incl0..50C anddrift. Topdivider>=350k for TPS25947reversepolarity recommendation.",
+      "ratings": {
+        "ohm": 383000,
+        "tolerance_fraction": 0.001,
+        "model_tolerance_fraction": 0.0025
+      },
+      "library_footprint_sha256": "f050b6a50cc7e6f86291fb7aa8f87b0d02255e21cfbddf291cdccc87e5889794",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_150K": {
+      "id": "R_150K",
+      "mpn": "TNPW0805150KBEEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "precision-resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        4,
+        10
+      ],
+      "symbol_template": "SupportQualified:R_150K",
+      "footprint_template": "Resistor_SMD:R_0805_2012Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "0.1%,25ppm/K;0805range1Mohm;0.21Wstandard;0.25%engineeringbound incl0..50C anddrift. Topdivider>=350k for TPS25947reversepolarity recommendation.",
+      "ratings": {
+        "ohm": 150000,
+        "tolerance_fraction": 0.001,
+        "model_tolerance_fraction": 0.0025
+      },
+      "library_footprint_sha256": "f050b6a50cc7e6f86291fb7aa8f87b0d02255e21cfbddf291cdccc87e5889794",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_510K": {
+      "id": "R_510K",
+      "mpn": "TNPW0805510KBEEA",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "precision-resistor"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        4,
+        10
+      ],
+      "symbol_template": "SupportQualified:R_510K",
+      "footprint_template": "Resistor_SMD:R_0805_2012Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "0.1%,25ppm/K;0805range1Mohm;0.21Wstandard;0.25%engineeringbound incl0..50C anddrift. Topdivider>=350k for TPS25947reversepolarity recommendation.",
+      "ratings": {
+        "ohm": 510000,
+        "tolerance_fraction": 0.001,
+        "model_tolerance_fraction": 0.0025
+      },
+      "library_footprint_sha256": "f050b6a50cc7e6f86291fb7aa8f87b0d02255e21cfbddf291cdccc87e5889794",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "R_120_HP": {
+      "id": "R_120_HP",
+      "mpn": "CRCW1206120RFKEAHP",
+      "manufacturer": "Vishay",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "resistor-hp"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        11
+      ],
+      "symbol_template": "SupportQualified:R_120_HP",
+      "footprint_template": "Resistor_SMD:R_1206_3216Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "120ohm1%;0.75W at70C requires assembled thermal resistance<=110K/W. At5.5V differential:0.255W incl1%low R. Selectable open by default.",
+      "ratings": {
+        "ohm": 120,
+        "power_w_at70": 0.75,
+        "thermal_requirement_k_w": 110
+      },
+      "library_footprint_sha256": "c7320668dc81bbb954cb4f15e4e7a766c120059343d43551468c8f7ccc8fde37",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Resistor_SMD.pretty/R_1206_3216Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "C_100N": {
+      "id": "C_100N",
+      "mpn": "C1608X7R1H104K080AA",
+      "manufacturer": "TDK",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "cap100n"
+      ],
+      "evidence_pages": [
+        1
+      ],
+      "symbol_template": "SupportQualified:C_100N",
+      "footprint_template": "Capacitor_SMD:C_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "Nonpolar; exact package and voltage/tolerance from characteristic sheet. X7R DCbias plots are characterization, not guaranteed minima; engineering margins are reported separately.",
+      "ratings": {
+        "capacitance_uf": 0.1,
+        "voltage_v": 50,
+        "dielectric": "X7R",
+        "tolerance_fraction": 0.1
+      },
+      "library_footprint_sha256": "fe0dbfefbb181a0466f93a8de52d84ba7b00fcd9acdbb69575f4128a0af4e405",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "C_1U": {
+      "id": "C_1U",
+      "mpn": "C1608X7R1C105K080AC",
+      "manufacturer": "TDK",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "cap1u"
+      ],
+      "evidence_pages": [
+        1
+      ],
+      "symbol_template": "SupportQualified:C_1U",
+      "footprint_template": "Capacitor_SMD:C_0603_1608Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "Nonpolar; exact package and voltage/tolerance from characteristic sheet. X7R DCbias plots are characterization, not guaranteed minima; engineering margins are reported separately.",
+      "ratings": {
+        "capacitance_uf": 1,
+        "voltage_v": 16,
+        "dielectric": "X7R",
+        "tolerance_fraction": 0.1
+      },
+      "library_footprint_sha256": "fe0dbfefbb181a0466f93a8de52d84ba7b00fcd9acdbb69575f4128a0af4e405",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "C_4U7": {
+      "id": "C_4U7",
+      "mpn": "C2012X7R1C475K125AB",
+      "manufacturer": "TDK",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "cap47u"
+      ],
+      "evidence_pages": [
+        1
+      ],
+      "symbol_template": "SupportQualified:C_4U7",
+      "footprint_template": "Capacitor_SMD:C_0805_2012Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "Nonpolar; exact package and voltage/tolerance from characteristic sheet. X7R DCbias plots are characterization, not guaranteed minima; engineering margins are reported separately.",
+      "ratings": {
+        "capacitance_uf": 4.7,
+        "voltage_v": 16,
+        "dielectric": "X7R",
+        "tolerance_fraction": 0.1
+      },
+      "library_footprint_sha256": "62775a51fe74ba7f1b572de327bdbd3fc92582721b2abcaa47787865590d89cb",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "C_10U": {
+      "id": "C_10U",
+      "mpn": "C3225X7R1E106K250AC",
+      "manufacturer": "TDK",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "cap10u"
+      ],
+      "evidence_pages": [
+        1
+      ],
+      "symbol_template": "SupportQualified:C_10U",
+      "footprint_template": "Capacitor_SMD:C_1210_3225Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "Nonpolar; exact package and voltage/tolerance from characteristic sheet. X7R DCbias plots are characterization, not guaranteed minima; engineering margins are reported separately.",
+      "ratings": {
+        "capacitance_uf": 10,
+        "voltage_v": 25,
+        "dielectric": "X7R",
+        "tolerance_fraction": 0.1
+      },
+      "library_footprint_sha256": "e1dae516e079b70c4736d001fb81bfb4ef5f9c2a37c8175223a44f83a04ff75f",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Capacitor_SMD.pretty/C_1210_3225Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "C_22U": {
+      "id": "C_22U",
+      "mpn": "C3225X7R1C226K250AC",
+      "manufacturer": "TDK",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "cap22u"
+      ],
+      "evidence_pages": [
+        1
+      ],
+      "symbol_template": "SupportQualified:C_22U",
+      "footprint_template": "Capacitor_SMD:C_1210_3225Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "Nonpolar; exact package and voltage/tolerance from characteristic sheet. X7R DCbias plots are characterization, not guaranteed minima; engineering margins are reported separately.",
+      "ratings": {
+        "capacitance_uf": 22,
+        "voltage_v": 16,
+        "dielectric": "X7R",
+        "tolerance_fraction": 0.1
+      },
+      "library_footprint_sha256": "e1dae516e079b70c4736d001fb81bfb4ef5f9c2a37c8175223a44f83a04ff75f",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Capacitor_SMD.pretty/C_1210_3225Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "C_PUMP": {
+      "id": "C_PUMP",
+      "mpn": "C3216C0G1H104J160AA",
+      "manufacturer": "TDK",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "cog-pump"
+      ],
+      "evidence_pages": [
+        1
+      ],
+      "symbol_template": "SupportQualified:C_PUMP",
+      "footprint_template": "Capacitor_SMD:C_1206_3216Metric",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "Nonpolar; exact package and voltage/tolerance from characteristic sheet. X7R DCbias plots are characterization, not guaranteed minima; engineering margins are reported separately.",
+      "ratings": {
+        "capacitance_uf": 0.1,
+        "voltage_v": 50,
+        "dielectric": "C0G",
+        "tolerance_fraction": 0.05
+      },
+      "library_footprint_sha256": "b2e4a08e3aaf40bc587090190c0e3969e962d7ae962c172cce0581ae8327651c",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Capacitor_SMD.pretty/C_1206_3216Metric.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "OSC_8": {
+      "id": "OSC_8",
+      "mpn": "ASE-8.000MHZ-L-C-T",
+      "manufacturer": "Abracon",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "oscillator"
+      ],
+      "evidence_pages": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "symbol_template": "SupportQualified:OSC_8",
+      "footprint_template": "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm",
+      "pin_functions": {
+        "1": "EN",
+        "2": "GND",
+        "3": "OUT",
+        "4": "VDD"
+      },
+      "note": "CMOS3.3V; enabled1=VDD;50ppm incl temp/tolerance/supply/load, aging3ppm firstyear additional;7mA max;45-55%duty;4nsrise/fall;2msstartup;<=15pF load.",
+      "ratings": {
+        "frequency_hz": 8000000,
+        "stability_ppm": 50,
+        "aging_ppm_first_year": 3,
+        "idd_max_ma": 7,
+        "load_max_pf": 15,
+        "startup_max_ms": 2
+      },
+      "library_footprint_sha256": "a7da23f9e2a289bc195be220f531fd340d95c851b6015507e4ca973816290e10",
+      "footprint_pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Oscillator.pretty/Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "OSC_20": {
+      "id": "OSC_20",
+      "mpn": "ASE-20.000MHZ-L-C-T",
+      "manufacturer": "Abracon",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "oscillator"
+      ],
+      "evidence_pages": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "symbol_template": "SupportQualified:OSC_20",
+      "footprint_template": "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm",
+      "pin_functions": {
+        "1": "EN",
+        "2": "GND",
+        "3": "OUT",
+        "4": "VDD"
+      },
+      "note": "CMOS3.3V; enabled1=VDD;50ppm incl temp/tolerance/supply/load, aging3ppm firstyear additional;7mA max;45-55%duty;4nsrise/fall;2msstartup;<=15pF load.",
+      "ratings": {
+        "frequency_hz": 20000000,
+        "stability_ppm": 50,
+        "aging_ppm_first_year": 3,
+        "idd_max_ma": 7,
+        "load_max_pf": 15,
+        "startup_max_ms": 2
+      },
+      "library_footprint_sha256": "a7da23f9e2a289bc195be220f531fd340d95c851b6015507e4ca973816290e10",
+      "footprint_pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Oscillator.pretty/Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "L_BUCK": {
+      "id": "L_BUCK",
+      "mpn": "XAL4030-332MEC",
+      "manufacturer": "Coilcraft",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "coilcraft"
+      ],
+      "evidence_pages": [
+        1,
+        4
+      ],
+      "symbol_template": "SupportQualified:L_BUCK",
+      "footprint_template": "Inductor_SMD:L_Coilcraft_XAL4030-XXX",
+      "pin_functions": {
+        "1": "terminal",
+        "2": "terminal"
+      },
+      "note": "3.3uH20%;28.6mohm maxDCR at25C;5.9A typical30%Isat;5A typical20C rise not absolute rated; lowinput fullcurrent uses3.3uH perTPS6216xsource.",
+      "ratings": {
+        "inductance_uh": 3.3,
+        "dcr_max_ohm_25c": 0.0286,
+        "isat_typ_a": 5.9,
+        "irms_typ_a_20c_rise": 5
+      },
+      "library_footprint_sha256": "a429878475acea86ad5be28d722a446c7e30c047ef60e14a63bfaafb1ad85d27",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Inductor_SMD.pretty/L_Coilcraft_XAL4030-XXX.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "USB_CONNECTOR": {
+      "id": "USB_CONNECTOR",
+      "mpn": "USB4105-GF-A",
+      "manufacturer": "GCT",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "usb-drawing",
+        "usb-spec"
+      ],
+      "evidence_pages": [
+        1,
+        2
+      ],
+      "symbol_template": "SupportQualified:USB_CONNECTOR",
+      "footprint_template": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "pin_functions": {
+        "A1": "A1",
+        "A4": "A4",
+        "A5": "A5",
+        "A6": "A6",
+        "A7": "A7",
+        "A8": "A8",
+        "A9": "A9",
+        "A12": "A12",
+        "B1": "B1",
+        "B4": "B4",
+        "B5": "B5",
+        "B6": "B6",
+        "B7": "B7",
+        "B8": "B8",
+        "B9": "B9",
+        "B12": "B12",
+        "SH": "SH"
+      },
+      "note": "16PUSB2 TypeC; A/B D+/D- short by circuit; shellGND. Retention slots and NPTH bosses from source drawing; no power delivered from VBUS.",
+      "ratings": {},
+      "library_footprint_sha256": "3b8d7da3cae5114ec83022a759a78925113bc2eeec100ea447594f6d8687e4b8",
+      "footprint_pad_numbers": [
+        "A1",
+        "A12",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B12",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "SH"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Connector_USB.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "USB_TVS": {
+      "id": "USB_TVS",
+      "mpn": "PESD2USB5UX-T,215",
+      "manufacturer": "Nexperia",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "usb-tvs-new"
+      ],
+      "evidence_pages": [
+        1,
+        2,
+        3,
+        10
+      ],
+      "symbol_template": "SupportQualified:USB_TVS",
+      "footprint_template": "Package_TO_SOT_SMD:SOT-23",
+      "pin_functions": {
+        "1": "K1",
+        "2": "K2",
+        "3": "CA"
+      },
+      "note": "5Vstandoff;0.6pFmax;IEC8kV component test only; eliminates VBUS steering rail and poweredoff railbackfeed.",
+      "ratings": {
+        "capacitance_max_pf": 0.6
+      },
+      "library_footprint_sha256": "0d88c86c1b6d8c1aae4aa8c09386264c089d4451a128b6ccd63ed253f4300b15",
+      "footprint_pad_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "CAN_TVS": {
+      "id": "CAN_TVS",
+      "mpn": "PESD2CANFD24V-T,215",
+      "manufacturer": "Nexperia",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "can-tvs-new"
+      ],
+      "evidence_pages": [
+        1,
+        2,
+        3,
+        4,
+        10
+      ],
+      "symbol_template": "SupportQualified:CAN_TVS",
+      "footprint_template": "Package_TO_SOT_SMD:SOT-23",
+      "pin_functions": {
+        "1": "K1",
+        "2": "K2",
+        "3": "CC"
+      },
+      "note": "24Vstandoff;42Vmaxclamp at1A8/20us;10pFmax;MCP2562FD58Vbusabsmax margin. Component-levelIEC test not boardcompliance.",
+      "ratings": {
+        "capacitance_max_pf": 10,
+        "clamp_max_v_at1a": 42
+      },
+      "library_footprint_sha256": "0d88c86c1b6d8c1aae4aa8c09386264c089d4451a128b6ccd63ed253f4300b15",
+      "footprint_pad_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "RS485_TVS": {
+      "id": "RS485_TVS",
+      "mpn": "SM712-02HTG",
+      "manufacturer": "Littelfuse",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "sm712"
+      ],
+      "evidence_pages": [
+        1,
+        2,
+        4
+      ],
+      "symbol_template": "SupportQualified:RS485_TVS",
+      "footprint_template": "Package_TO_SOT_SMD:SOT-23",
+      "pin_functions": {
+        "1": "lineA",
+        "2": "lineB",
+        "3": "GND"
+      },
+      "note": "Asymmetric+12/-7Vstand-off matches RS485commonmode;clamp19/-11V at1A per source;sourcepage pin1/2lines3common.",
+      "ratings": {},
+      "library_footprint_sha256": "0d88c86c1b6d8c1aae4aa8c09386264c089d4451a128b6ccd63ed253f4300b15",
+      "footprint_pad_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "NPN_SENSE": {
+      "id": "NPN_SENSE",
+      "mpn": "MMBT3904,215",
+      "manufacturer": "Nexperia",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "mmbt3904"
+      ],
+      "evidence_pages": [
+        1,
+        2,
+        3
+      ],
+      "symbol_template": "SupportQualified:NPN_SENSE",
+      "footprint_template": "Package_TO_SOT_SMD:SOT-23",
+      "pin_functions": {
+        "1": "B",
+        "2": "E",
+        "3": "C"
+      },
+      "note": "NPNVBUSpresence;47kinput100kbias;10kcollectorpullup;~0.33mAcollector.",
+      "ratings": {},
+      "library_footprint_sha256": "0d88c86c1b6d8c1aae4aa8c09386264c089d4451a128b6ccd63ed253f4300b15",
+      "footprint_pad_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "HDR_2": {
+      "id": "HDR_2",
+      "mpn": "HTSW-102-07-G-S",
+      "manufacturer": "Samtec",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "header",
+        "header-catalog",
+        "header-land"
+      ],
+      "evidence_pages": [
+        1,
+        2
+      ],
+      "symbol_template": "SupportQualified:HDR_2",
+      "footprint_template": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pin_functions": {
+        "1": "contact1",
+        "2": "contact2"
+      },
+      "note": "HTSWLCP260Cleadsolderable;2.54mm0.64mm squarepins;0.99mmnominalboardhole. -07 lead10.92mm;shunts apply JP positions; no supply from external powered header.",
+      "ratings": {},
+      "library_footprint_sha256": "5301303268f72ba9cc94b7fdbac355951933e6854272ce8d300b679b86b5d45d",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "HDR_3": {
+      "id": "HDR_3",
+      "mpn": "HTSW-103-07-G-S",
+      "manufacturer": "Samtec",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "header",
+        "header-catalog",
+        "header-land"
+      ],
+      "evidence_pages": [
+        1,
+        2
+      ],
+      "symbol_template": "SupportQualified:HDR_3",
+      "footprint_template": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pin_functions": {
+        "1": "contact1",
+        "2": "contact2",
+        "3": "contact3"
+      },
+      "note": "HTSWLCP260Cleadsolderable;2.54mm0.64mm squarepins;0.99mmnominalboardhole. -07 lead10.92mm;shunts apply JP positions; no supply from external powered header.",
+      "ratings": {},
+      "library_footprint_sha256": "e5f24b6fea852f86171042806da48490229c9c8025b6d266b8cad6485b26e79f",
+      "footprint_pad_numbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "HDR_4": {
+      "id": "HDR_4",
+      "mpn": "HTSW-104-07-G-S",
+      "manufacturer": "Samtec",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "header",
+        "header-catalog",
+        "header-land"
+      ],
+      "evidence_pages": [
+        1,
+        2
+      ],
+      "symbol_template": "SupportQualified:HDR_4",
+      "footprint_template": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "pin_functions": {
+        "1": "contact1",
+        "2": "contact2",
+        "3": "contact3",
+        "4": "contact4"
+      },
+      "note": "HTSWLCP260Cleadsolderable;2.54mm0.64mm squarepins;0.99mmnominalboardhole. -07 lead10.92mm;shunts apply JP positions; no supply from external powered header.",
+      "ratings": {},
+      "library_footprint_sha256": "571d2d16b49795f8f9a91f96cc83fd2adf49890cd66c377189c44204ebd03c29",
+      "footprint_pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "HDR_6": {
+      "id": "HDR_6",
+      "mpn": "HTSW-106-07-G-S",
+      "manufacturer": "Samtec",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "header",
+        "header-catalog",
+        "header-land"
+      ],
+      "evidence_pages": [
+        1,
+        2
+      ],
+      "symbol_template": "SupportQualified:HDR_6",
+      "footprint_template": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+      "pin_functions": {
+        "1": "contact1",
+        "2": "contact2",
+        "3": "contact3",
+        "4": "contact4",
+        "5": "contact5",
+        "6": "contact6"
+      },
+      "note": "HTSWLCP260Cleadsolderable;2.54mm0.64mm squarepins;0.99mmnominalboardhole. -07 lead10.92mm;shunts apply JP positions; no supply from external powered header.",
+      "ratings": {},
+      "library_footprint_sha256": "5f2993c50dbd5024384bf6fa972fcd10d40d0837039e1e371b326a27d9f5b8b7",
+      "footprint_pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Connector_PinHeader_2.54mm.pretty/PinHeader_1x06_P2.54mm_Vertical.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "SWD_EXACT": {
+      "id": "SWD_EXACT",
+      "mpn": "FTSH-105-01-L-DV-K",
+      "manufacturer": "Samtec",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "ftsh",
+        "swd-land"
+      ],
+      "evidence_pages": [
+        1,
+        2,
+        3
+      ],
+      "symbol_template": "SupportQualified:SWD_EXACT",
+      "footprint_template": "SupportQualified:FTSH105_DV_K",
+      "pin_functions": {
+        "1": "contact1",
+        "2": "contact2",
+        "3": "contact3",
+        "4": "contact4",
+        "5": "contact5",
+        "6": "contact6",
+        "8": "contact8",
+        "9": "contact9",
+        "10": "contact10"
+      },
+      "note": "1.27mmpitch-01lead;K removeskeypin7;generic footprint must remove pad7;keyed FFSD-05-D-xx cable optional.",
+      "ratings": {},
+      "footprint_pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "8",
+        "9",
+        "10"
+      ],
+      "custom_footprint_required": false,
+      "remove_footprint_pads": [
+        "7"
+      ],
+      "derived_footprint_path": "benchmarks/stm32-communications/support-qualified/library/footprints/SupportQualified.pretty/FTSH105_DV_K.kicad_mod",
+      "derived_footprint_sha256": "d06179fb4fa54bb383f83ada80f62aa21c8dce6c628a2f02ecc2a3851400f80e",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "RESET_EXACT": {
+      "id": "RESET_EXACT",
+      "mpn": "B3F-1000",
+      "manufacturer": "Omron",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "reset"
+      ],
+      "evidence_pages": [
+        1,
+        6
+      ],
+      "symbol_template": "SupportQualified:RESET_EXACT",
+      "footprint_template": "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x",
+      "pin_functions": {
+        "1": "contactA",
+        "2": "contactB"
+      },
+      "note": "Fourphysicalleads duplicated1,1,2,2inKiCadfootprint;two electricalnodes;0.33mA3.3Vresetload above10uA1V reference minimum.",
+      "ratings": {},
+      "library_footprint_sha256": "36862b8b3c700f3002c35b9ffc1cd32902f2330236a1c1974acba16a83d75d03",
+      "footprint_pad_numbers": [
+        "1",
+        "2"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Button_Switch_THT.pretty/SW_TH_Tactile_Omron_B3F-100x.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "M3_PCB": {
+      "id": "M3_PCB",
+      "mpn": "PCB-FAB:M3-3.2-GND",
+      "manufacturer": "PCBfabricator",
+      "procurement": "pcb_feature",
+      "qualification": "source_reviewed",
+      "source_ids": [],
+      "evidence_pages": [],
+      "symbol_template": "SupportQualified:M3_PCB",
+      "footprint_template": "MountingHole:MountingHole_3.2mm_M3_Pad",
+      "pin_functions": {
+        "1": "GND"
+      },
+      "note": "Fabricatedboardfeature not purchasedcomponent;3.2mmdrill;groundedannulus;assembly M3 standoff/washer screw clearance reserved; humanmechanicsreview independent.",
+      "ratings": {},
+      "library_footprint_sha256": "8eb6a47c889b4aae89dca05264d1860d3ad1c78a0ccf15b72e54fdb7e9bb1a74",
+      "footprint_pad_numbers": [
+        "1"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/MountingHole.pretty/MountingHole_3.2mm_M3_Pad.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "TP_PCB": {
+      "id": "TP_PCB",
+      "mpn": "PCB-FAB:TESTPAD-1.0",
+      "manufacturer": "PCBfabricator",
+      "procurement": "pcb_feature",
+      "qualification": "source_reviewed",
+      "source_ids": [],
+      "evidence_pages": [],
+      "symbol_template": "SupportQualified:TP_PCB",
+      "footprint_template": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pin_functions": {
+        "1": "testnet"
+      },
+      "note": "Fabricatedcoppertestpad1mm, soldermaskopening; no purchasedpart; keepprobeaccess.",
+      "ratings": {},
+      "library_footprint_sha256": "6d602c576b4ab0de29fa4cc096f419a62e828ba45ceee30c1263d86b420b2b12",
+      "footprint_pad_numbers": [
+        "1"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/TestPoint.pretty/TestPoint_Pad_D1.0mm.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "USB_MUX": {
+      "id": "USB_MUX",
+      "mpn": "TMUX1574PWR",
+      "manufacturer": "TI",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "tmux1574"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        24,
+        33
+      ],
+      "symbol_template": "SupportQualified:USB_MUX",
+      "footprint_template": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "pin_functions": {
+        "1": "SEL",
+        "2": "S1A",
+        "3": "S1B",
+        "4": "D1",
+        "5": "S2A",
+        "6": "S2B",
+        "7": "D2",
+        "8": "GND",
+        "9": "D3",
+        "10": "S3B",
+        "11": "S3A",
+        "12": "D4",
+        "13": "S4B",
+        "14": "S4A",
+        "15": "EN_N",
+        "16": "VDD"
+      },
+      "note": "ENhigh alloff;SEL0A;poweredoffisolation0-3.6V;bidirectional2ohmtyp,7.5pFon;USB12Mbpssignalintegritystilllayouttest.",
+      "ratings": {},
+      "library_footprint_sha256": "fbac79fc5f310754726589d67071a422c429216f843ecd6013bbe2e6a49e7064",
+      "footprint_pad_numbers": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Package_SO.pretty/TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "MISO_BUFFER": {
+      "id": "MISO_BUFFER",
+      "mpn": "SN74LVC1G125DBVR",
+      "manufacturer": "TI",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "lvc1g125"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "symbol_template": "SupportQualified:MISO_BUFFER",
+      "footprint_template": "Package_TO_SOT_SMD:SOT-23-5",
+      "pin_functions": {
+        "1": "OE_N",
+        "2": "A",
+        "3": "GND",
+        "4": "Y",
+        "5": "VCC"
+      },
+      "note": "OEhigh3state;OE=externalactive-lowCS,R26pullup;Ioffbackdriveprotection;max3.7nsat3.3V;header<=1MHz.",
+      "ratings": {},
+      "library_footprint_sha256": "455a3f7c3e5eb5b8847eaa5df23e18651e78ab9f75afd09a0883758a0d901761",
+      "footprint_pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Package_TO_SOT_SMD.pretty/SOT-23-5.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "HEADER_BUFFER": {
+      "id": "HEADER_BUFFER",
+      "mpn": "SN74LVC125APWR",
+      "manufacturer": "TI",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "lvc125"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "symbol_template": "SupportQualified:HEADER_BUFFER",
+      "footprint_template": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "pin_functions": {
+        "1": "1OE_N",
+        "2": "1A",
+        "3": "1Y",
+        "4": "2OE_N",
+        "5": "2A",
+        "6": "2Y",
+        "7": "GND",
+        "8": "3Y",
+        "9": "3A",
+        "10": "3OE_N",
+        "11": "4Y",
+        "12": "4A",
+        "13": "4OE_N",
+        "14": "VCC"
+      },
+      "note": "AllchannelsnormalenabledGND;Ioffisolatesexternalsignalswhenboardoff;3.3Vonly external;unusedinputstied.",
+      "ratings": {},
+      "library_footprint_sha256": "e4bf82cea6d3b3259ddf42469b1407628ad1181a28ae6f3f340190c0cca31ccd",
+      "footprint_pad_numbers": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Package_SO.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "I2C_BUFFER": {
+      "id": "I2C_BUFFER",
+      "mpn": "TCA9511ADR",
+      "manufacturer": "TI",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "i2c-buffer"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        5,
+        6,
+        10,
+        11
+      ],
+      "symbol_template": "SupportQualified:I2C_BUFFER",
+      "footprint_template": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pin_functions": {
+        "1": "EN",
+        "2": "SCLOUT",
+        "3": "SCLIN",
+        "4": "GND",
+        "5": "READY",
+        "6": "SDAIN",
+        "7": "SDAOUT",
+        "8": "VCC"
+      },
+      "note": "PoweredoffhighZ;1Vprecharge;I2C100kHz externalbus<=200pF;existing4.7khostpullupplus4.7kportpullup;connectsonidle;READYnotrequiredfirmware.",
+      "ratings": {},
+      "library_footprint_sha256": "074ecb2092b24fa4b4b9cdd7c926fc587b0d7d6d21e7341e57935fd42d36894f",
+      "footprint_pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Package_SO.pretty/SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "BRANCH_LIMIT": {
+      "id": "BRANCH_LIMIT",
+      "mpn": "TPS2553DBVR",
+      "manufacturer": "TI",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "wiz-limit"
+      ],
+      "evidence_pages": [
+        1,
+        5,
+        6,
+        7,
+        8,
+        15,
+        16
+      ],
+      "symbol_template": "SupportQualified:BRANCH_LIMIT",
+      "footprint_template": "Package_TO_SOT_SMD:SOT-23-6",
+      "pin_functions": {
+        "1": "IN",
+        "2": "GND",
+        "3": "EN",
+        "4": "FAULT_N",
+        "5": "ILIM",
+        "6": "OUT"
+      },
+      "note": "Currentlimit source guaranteedR49.9k:475-565mAfullrange;RILIMshortIN:50-100mA. 135mohmmaxON. Reverseblockhas4mstypdelay so not perfecthotplugnocharge guarantee.",
+      "ratings": {},
+      "library_footprint_sha256": "f341c73aac9dcb553456f68bf3fee3d26eb14acf6d8a1cae82b50418fe1d71ca",
+      "footprint_pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "library_footprint_path": "benchmarks/stm32-communications/support-qualified/library-footprints/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    },
+    "INPUT_EFUSE": {
+      "id": "INPUT_EFUSE",
+      "mpn": "TPS259470ARPWR",
+      "manufacturer": "TI",
+      "procurement": "component",
+      "qualification": "source_reviewed",
+      "source_ids": [
+        "input-protection"
+      ],
+      "evidence_pages": [
+        1,
+        3,
+        5,
+        6,
+        9,
+        10,
+        23,
+        72,
+        73,
+        74
+      ],
+      "symbol_template": "SupportQualified:INPUT_EFUSE",
+      "footprint_template": "SupportQualified:TPS25947_RPW0010A",
+      "pin_functions": {
+        "1": "EN_UVLO",
+        "2": "OVLO",
+        "3": "AUXOFF",
+        "4": "FAULT_N",
+        "5": "IN",
+        "6": "OUT",
+        "7": "DVDT",
+        "8": "GND",
+        "9": "ILM",
+        "10": "ITIMER"
+      },
+      "note": "True reverseblockingincludingboardoff;negativeinputprotection;OVLOdivider510k/150kprecision0.1%;UVLO383k/150k;top>=350k protectsreverseinputEN/OVLO pinclampcurrent;sourceleakage0.1uAincludedinthresholdmodel;3.32kILMmin0.85Amax1.15AbeforeRtol;ITIMERopenfastfault,DVDT100nFsoftstart. No12/24Vsupported.",
+      "ratings": {},
+      "footprint_pad_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "custom_footprint_required": false,
+      "derived_footprint_path": "benchmarks/stm32-communications/support-qualified/library/footprints/SupportQualified.pretty/TPS25947_RPW0010A.kicad_mod",
+      "derived_footprint_sha256": "d6b0e8fe2b726a87f04e4d87e1fa8e4746874fed650574f5e0b58d52f504b878",
+      "derived_symbol_path": "benchmarks/stm32-communications/support-qualified/library/symbols/SupportQualified.kicad_sym",
+      "derived_symbol_sha256": "beb9696511126fa213c07984ab4f073a0c1a827de9d3649d313fef7863268581"
+    }
+  },
+  "assembly_accessories": [
+    {
+      "ref": "JPA1-JPA6",
+      "quantity": 6,
+      "mpn": "SNT-100-BK-G",
+      "manufacturer": "Samtec",
+      "source_id": "shunt",
+      "note": "Removable2.54mmshunt;alltermination,bias,BOOTshunts initiallyremoved."
+    },
+    {
+      "ref": "M1_SOCKET_1",
+      "quantity": 1,
+      "mpn": "SSW-106-01-G-S",
+      "manufacturer": "Samtec",
+      "source_id": "female-catalog",
+      "note": "WIZ550io6pin2.54mmsocket;orientation/source modulegeometry required."
+    },
+    {
+      "ref": "M1_SOCKET_2",
+      "quantity": 1,
+      "mpn": "SSW-108-01-G-S",
+      "manufacturer": "Samtec",
+      "source_id": "female-catalog",
+      "note": "WIZ550io8pin2.54mmsocket;socketheight8.51mm source;envelope remainsparent."
+    }
+  ]
+}

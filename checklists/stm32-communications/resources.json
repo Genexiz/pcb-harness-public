@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "id": "stm32-c8-default-pins-v1",
+  "human_confirmed": false,
+  "source_ids": [
+    "stm32-ds",
+    "stm32-rm",
+    "stm32-errata"
+  ],
+  "mcu": "STM32F103C8T6",
+  "package": "LQFP48",
+  "flash_bytes": 65536,
+  "ram_bytes": 20480,
+  "physical_pins": {
+    "VBAT": 1,
+    "PC14": 3,
+    "PC15": 4,
+    "PD0": 5,
+    "PD1": 6,
+    "NRST": 7,
+    "VSSA": 8,
+    "VDDA": 9,
+    "PA0": 10,
+    "PA1": 11,
+    "PA2": 12,
+    "PA3": 13,
+    "PA4": 14,
+    "PA5": 15,
+    "PA6": 16,
+    "PA7": 17,
+    "PB0": 18,
+    "PB1": 19,
+    "PB2": 20,
+    "PB10": 21,
+    "PB11": 22,
+    "VSS1": 23,
+    "VDD1": 24,
+    "PB12": 25,
+    "PB13": 26,
+    "PB14": 27,
+    "PB15": 28,
+    "PA8": 29,
+    "PA9": 30,
+    "PA10": 31,
+    "PA11": 32,
+    "PA12": 33,
+    "PA13": 34,
+    "VSS2": 35,
+    "VDD2": 36,
+    "PA14": 37,
+    "PB5": 41,
+    "PB6": 42,
+    "PB7": 43,
+    "BOOT0": 44,
+    "PB8": 45,
+    "PB9": 46,
+    "VSS3": 47,
+    "VDD3": 48,
+    "PC13": 2,
+    "PA15": 38,
+    "PB3": 39,
+    "PB4": 40
+  },
+  "reserved_signals": [
+    "VBAT",
+    "LSE_IN",
+    "LSE_OUT",
+    "HSE_IN",
+    "HSE_OUT",
+    "RESET",
+    "VSSA",
+    "VDDA",
+    "BOOT1",
+    "VSS1",
+    "VDD1",
+    "SWDIO",
+    "VSS2",
+    "VDD2",
+    "SWCLK",
+    "BOOT0",
+    "VSS3",
+    "VDD3"
+  ],
+  "allowed_signals": {
+    "VBAT": {
+      "pin": "VBAT",
+      "function": "power"
+    },
+    "LSE_IN": {
+      "pin": "PC14",
+      "function": "reserved"
+    },
+    "LSE_OUT": {
+      "pin": "PC15",
+      "function": "reserved"
+    },
+    "HSE_IN": {
+      "pin": "PD0",
+      "function": "clock"
+    },
+    "HSE_OUT": {
+      "pin": "PD1",
+      "function": "clock"
+    },
+    "RESET": {
+      "pin": "NRST",
+      "function": "reset"
+    },
+    "VSSA": {
+      "pin": "VSSA",
+      "function": "power"
+    },
+    "VDDA": {
+      "pin": "VDDA",
+      "function": "power"
+    },
+    "USB_VBUS_SENSE": {
+      "pin": "PA0",
+      "function": "gpio"
+    },
+    "RS485_DE": {
+      "pin": "PA1",
+      "function": "gpio"
+    },
+    "RS485_TX": {
+      "pin": "PA2",
+      "function": "USART2_TX"
+    },
+    "RS485_RX": {
+      "pin": "PA3",
+      "function": "USART2_RX"
+    },
+    "CAN_CLASSICAL_CS": {
+      "pin": "PA4",
+      "function": "gpio"
+    },
+    "SHARED_SCK": {
+      "pin": "PA5",
+      "function": "SPI1_SCK"
+    },
+    "SHARED_MISO": {
+      "pin": "PA6",
+      "function": "SPI1_MISO"
+    },
+    "SHARED_MOSI": {
+      "pin": "PA7",
+      "function": "SPI1_MOSI"
+    },
+    "CAN_CLASSICAL_INT": {
+      "pin": "PB0",
+      "function": "gpio"
+    },
+    "CAN_FD_INT": {
+      "pin": "PB1",
+      "function": "gpio"
+    },
+    "BOOT1": {
+      "pin": "PB2",
+      "function": "boot"
+    },
+    "RS232_TX": {
+      "pin": "PB10",
+      "function": "USART3_TX"
+    },
+    "RS232_RX": {
+      "pin": "PB11",
+      "function": "USART3_RX"
+    },
+    "VSS1": {
+      "pin": "VSS1",
+      "function": "power"
+    },
+    "VDD1": {
+      "pin": "VDD1",
+      "function": "power"
+    },
+    "ETH_CS": {
+      "pin": "PB12",
+      "function": "gpio"
+    },
+    "ETH_SCK": {
+      "pin": "PB13",
+      "function": "SPI2_SCK"
+    },
+    "ETH_MISO": {
+      "pin": "PB14",
+      "function": "SPI2_MISO"
+    },
+    "ETH_MOSI": {
+      "pin": "PB15",
+      "function": "SPI2_MOSI"
+    },
+    "CAN_FD_CS": {
+      "pin": "PA8",
+      "function": "gpio"
+    },
+    "UART_TX": {
+      "pin": "PA9",
+      "function": "USART1_TX"
+    },
+    "UART_RX": {
+      "pin": "PA10",
+      "function": "USART1_RX"
+    },
+    "USB_DM": {
+      "pin": "PA11",
+      "function": "USB_DM"
+    },
+    "USB_DP": {
+      "pin": "PA12",
+      "function": "USB_DP"
+    },
+    "SWDIO": {
+      "pin": "PA13",
+      "function": "debug"
+    },
+    "VSS2": {
+      "pin": "VSS2",
+      "function": "power"
+    },
+    "VDD2": {
+      "pin": "VDD2",
+      "function": "power"
+    },
+    "SWCLK": {
+      "pin": "PA14",
+      "function": "debug"
+    },
+    "ETH_RESET": {
+      "pin": "PB5",
+      "function": "gpio"
+    },
+    "I2C_SCL": {
+      "pin": "PB6",
+      "function": "I2C1_SCL"
+    },
+    "I2C_SDA": {
+      "pin": "PB7",
+      "function": "I2C1_SDA"
+    },
+    "BOOT0": {
+      "pin": "BOOT0",
+      "function": "boot"
+    },
+    "ETH_INT": {
+      "pin": "PB8",
+      "function": "gpio"
+    },
+    "EXTERNAL_SPI_CS": {
+      "pin": "PB9",
+      "function": "gpio"
+    },
+    "VSS3": {
+      "pin": "VSS3",
+      "function": "power"
+    },
+    "VDD3": {
+      "pin": "VDD3",
+      "function": "power"
+    },
+    "ETH_READY": {
+      "pin": "PC13",
+      "function": "gpio"
+    }
+  },
+  "interfaces": {
+    "usb": {
+      "signals": [
+        "USB_DM",
+        "USB_DP",
+        "USB_VBUS_SENSE"
+      ],
+      "peripheral": "USB",
+      "io": "interrupt"
+    },
+    "uart": {
+      "signals": [
+        "UART_TX",
+        "UART_RX"
+      ],
+      "peripheral": "USART1",
+      "io": "dma"
+    },
+    "rs485": {
+      "signals": [
+        "RS485_TX",
+        "RS485_RX",
+        "RS485_DE"
+      ],
+      "peripheral": "USART2",
+      "io": "dma"
+    },
+    "rs232": {
+      "signals": [
+        "RS232_TX",
+        "RS232_RX"
+      ],
+      "peripheral": "USART3",
+      "io": "dma"
+    },
+    "i2c": {
+      "signals": [
+        "I2C_SCL",
+        "I2C_SDA"
+      ],
+      "peripheral": "I2C1",
+      "io": "interrupt"
+    },
+    "spi": {
+      "signals": [
+        "SHARED_SCK",
+        "SHARED_MISO",
+        "SHARED_MOSI",
+        "EXTERNAL_SPI_CS"
+      ],
+      "peripheral": "SPI1",
+      "io": "bounded-poll"
+    },
+    "can_classical": {
+      "signals": [
+        "SHARED_SCK",
+        "SHARED_MISO",
+        "SHARED_MOSI",
+        "CAN_CLASSICAL_CS",
+        "CAN_CLASSICAL_INT"
+      ],
+      "peripheral": "external:MCP2518FD",
+      "io": "bounded-poll"
+    },
+    "can_fd": {
+      "signals": [
+        "SHARED_SCK",
+        "SHARED_MISO",
+        "SHARED_MOSI",
+        "CAN_FD_CS",
+        "CAN_FD_INT"
+      ],
+      "peripheral": "external:MCP2518FD",
+      "io": "bounded-poll"
+    },
+    "ethernet": {
+      "signals": [
+        "ETH_SCK",
+        "ETH_MISO",
+        "ETH_MOSI",
+        "ETH_CS",
+        "ETH_INT",
+        "ETH_RESET",
+        "ETH_READY"
+      ],
+      "peripheral": "SPI2:WIZ550io",
+      "io": "bounded-poll"
+    }
+  },
+  "dma_requests": {
+    "USART1_TX": 4,
+    "USART1_RX": 5,
+    "USART2_TX": 7,
+    "USART2_RX": 6,
+    "USART3_TX": 2,
+    "USART3_RX": 3,
+    "SPI1_TX": 3,
+    "SPI1_RX": 2,
+    "SPI2_TX": 5,
+    "SPI2_RX": 4,
+    "I2C1_TX": 6,
+    "I2C1_RX": 7
+  },
+  "required_exti": {
+    "CAN_CLASSICAL_INT": 0,
+    "CAN_FD_INT": 1,
+    "ETH_INT": 8
+  },
+  "max_spi_hz": {
+    "SPI1": 18000000,
+    "SPI2": 18000000
+  },
+  "source_locators": {
+    "stm32-ds": "DS5319 Rev20 Figure8/Table5",
+    "stm32-rm": "DMA1 channel request mapping; AFIO default mappings",
+    "stm32-errata": "ES096 Rev15: silicon revision and I2C limitations"
+  }
+}

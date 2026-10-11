@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "documents": [
+    {
+      "id": "stm32-ds",
+      "title": "DS5319 Rev 20",
+      "url": "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf",
+      "path": "stm32-ds.pdf",
+      "locator": "Table 5; Figure 8; device feature table",
+      "human_confirmed": false,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "stm32-rm",
+      "title": "RM0008",
+      "url": "https://www.st.com/resource/en/reference_manual/rm0008-stm32f101xx-stm32f102xx-stm32f103xx-stm32f105xx-and-stm32f107xx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf",
+      "path": "stm32-rm.pdf",
+      "locator": "DMA1 request mapping; AFIO; SPI/I2C/USART/USB",
+      "human_confirmed": false,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "stm32-errata",
+      "title": "ES096 Rev 15",
+      "url": "https://www.st.com/resource/en/errata_sheet/es096-stm32f101x8b-stm32f102x8b-and-stm32f103x8b-mediumdensity-device-limitations-stmicroelectronics.pdf",
+      "path": "stm32-errata.pdf",
+      "locator": "Applicable silicon revisions; I2C and USB limitations",
+      "human_confirmed": false,
+      "status": "unavailable",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "mcp2518fd",
+      "title": "DS20006027B",
+      "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/External-CAN-FD-Controller-with-SPI-Interface-DS20006027B.pdf",
+      "path": "mcp2518fd.pdf",
+      "locator": "SOIC-14 pinout; SPI clock; FIFOs; current",
+      "human_confirmed": false,
+      "retrieved_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/External-CAN-FD-Controller-with-SPI-Interface-DS20006027B.pdf",
+      "status": "retrieved",
+      "sha256": "0041b5bddb2a341794958f7a3195b931b349eb863f685935bb80aee377661ff5"
+    },
+    {
+      "id": "wiz550io",
+      "title": "WIZ550io online manual",
+      "url": "https://docs.wiznet.io/Product/ioModule/wiz550io",
+      "path": "wiz550io.html",
+      "locator": "J1/J2; electrical; mechanical; source downloads",
+      "human_confirmed": false,
+      "retrieved_url": "https://docs.wiznet.io/Product/ioModule/wiz550io",
+      "status": "retrieved",
+      "sha256": "9869c0e996064e670c65fbd7cefaf9f921e3b35312b105f8370e3e66139c1297"
+    },
+    {
+      "id": "wiz550io-schematic",
+      "title": "WIZ550io v1.2 schematic",
+      "url": "https://docs.wiznet.io/img/products/wiz550io/wiz550io_v1_2_schematic.pdf",
+      "path": "wiz550io-schematic.pdf",
+      "locator": "Module headers and physical implementation",
+      "human_confirmed": false,
+      "retrieved_url": "https://docs.wiznet.io/img/products/wiz550io/wiz550io_v1_2_schematic.pdf",
+      "status": "retrieved",
+      "sha256": "0489aeaf0da8f245d6de9e623662dc4d61ec821b4cb1e1dadaee3d6e3d08b4b2"
+    },
+    {
+      "id": "rs485",
+      "title": "THVD14xx",
+      "url": "https://www.ti.com/lit/ds/symlink/thvd1450.pdf",
+      "path": "rs485.pdf",
+      "locator": "THVD1450 SOIC-8; supply; termination; current",
+      "human_confirmed": false,
+      "retrieved_url": "https://www.ti.com/lit/ds/symlink/thvd1450.pdf",
+      "status": "retrieved",
+      "sha256": "58ecc4cc07dd1d3206c2e67ffa734ad21a6d3a9e3c8c307068e6385bd79ee897"
+    },
+    {
+      "id": "rs232",
+      "title": "MAX3232",
+      "url": "https://www.ti.com/lit/ds/symlink/max3232.pdf",
+      "path": "rs232.pdf",
+      "locator": "SOIC-16; capacitor/supply/current requirements",
+      "human_confirmed": false,
+      "retrieved_url": "https://www.ti.com/lit/ds/symlink/max3232.pdf",
+      "status": "retrieved",
+      "sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37"
+    },
+    {
+      "id": "buck",
+      "title": "SLVSAM2E",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62160.pdf",
+      "path": "buck.pdf",
+      "locator": "TPS62162 fixed 3.3V WSON-8; application and thermal",
+      "human_confirmed": false,
+      "retrieved_url": "https://www.ti.com/lit/ds/symlink/tps62160.pdf",
+      "status": "retrieved",
+      "sha256": "abc824ca04ee985ede3a513172ccdd2a42c8e1fdcfc3af5acdbe2c1af31aaa72"
+    },
+    {
+      "id": "can-phy",
+      "title": "MCP2561/2FD",
+      "url": "https://ww1.microchip.com/downloads/en/DeviceDoc/20005284A.pdf",
+      "path": "can-phy.pdf",
+      "locator": "MCP2562FD SOIC-8; VDD/VIO; CAN FD timing",
+      "human_confirmed": false,
+      "retrieved_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/20005284A.pdf",
+      "status": "retrieved",
+      "sha256": "79321323eb3295c5800a1aaabfea595f1486a26e2c17016b70bd26c52369fc14"
+    },
+    {
+      "id": "wiz550io-dimension",
+      "title": "WIZ550io v1.1 dimension drawing; manual states v1.2 dimensions shared",
+      "url": "https://docs.wiznet.io/img/products/wiz550io/wiz550io_v1.1_dimension.png",
+      "path": "wiz550io-dimension.png",
+      "locator": "Overall horizontal55, vertical26; origin/tolerance unresolved",
+      "human_confirmed": false,
+      "retrieved_url": "https://docs.wiznet.io/img/products/wiz550io/wiz550io_v1.1_dimension.png",
+      "status": "retrieved",
+      "sha256": "9aae61a24d7c43f2cfec778314448cd2678aa22a7efd081d287dffeb0d028d87"
+    }
+  ]
+}

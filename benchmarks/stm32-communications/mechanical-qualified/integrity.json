@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "artifacts": {
+    "mechanical-evidence.json": "bf1e4866714433373fafa0fec3ca512f897a11416e271f37325a1b50390c853e",
+    "report.json": "ebbae8099e4186f6b3b46dab9b6b6230ea60be146bbf953e09b1dd594bfa347e",
+    "source-manifest.json": "dd0daf1092f643e6d323a61edb10c4e252ff147055ecd7078ad684cb82a74960",
+    "validation.json": "91c1d1ad8362fffff2839f864b065ae05fab56f24ffe3d7d94a65f5101add8ea"
+  },
+  "source_artifacts": {
+    "runs/m4/integrated-source-set-2026-10-10/wiz550io.html": "9869c0e996064e670c65fbd7cefaf9f921e3b35312b105f8370e3e66139c1297",
+    "runs/m4/integrated-source-set-2026-10-10/wiz550io-dimension.png": "9aae61a24d7c43f2cfec778314448cd2678aa22a7efd081d287dffeb0d028d87",
+    "runs/m4/integrated-source-set-2026-10-10/wiz550io-schematic.pdf": "0489aeaf0da8f245d6de9e623662dc4d61ec821b4cb1e1dadaee3d6e3d08b4b2",
+    "runs/m4/support-qualification-2026-10-10/sources/usb-drawing.pdf": "fb331fbabee8392ed2937ed757c1610cb0f174b84625147c0b580a18eea8c0e5",
+    "runs/m4/support-qualification-2026-10-10/sources/header.pdf": "047ecedcc921fb0aed7127f08b9ba0fc1200d92d33fb7ded1b311d0ed8f42063",
+    "runs/m4/support-qualification-2026-10-10/sources/header-catalog.pdf": "3a5770b11668f4e5a11ba9ceeb4817a23f467b8507e3592f55fb6bd8f96e71bc",
+    "runs/m4/support-qualification-2026-10-10/sources/header-land.pdf": "264658121ff2dad25ebd6259e726b123bf1ea31f9145bc695607999181af028f",
+    "runs/m4/support-qualification-2026-10-10/sources/female-header.pdf": "281eaf2b78d84184cade49c841f7d5badb0f92cd2e012a50e764a45b53aeca0d",
+    "runs/m4/support-qualification-2026-10-10/sources/female-catalog.pdf": "6d89f5c186a49e0f52f37d7bf7b5095081aff8f98e5ba18a85b0811caaf6f509",
+    "runs/m4/support-qualification-2026-10-10/sources/ftsh.pdf": "fccf00541693d43ebe960af7ad6c8ce28f4dd4e4f5c05c69564f53eefccd8d25",
+    "runs/m4/support-qualification-2026-10-10/sources/swd-land.pdf": "caa205b92560423f3b0aea9c69d6c38340d1b7f01b0655092994450e935edcb3",
+    "runs/m4/support-qualification-2026-10-10/sources/keyed-cable.pdf": "46b65c82f5aa388bea0cd2e3cc590e7ac04f8d27dece36eec852c50d3e6f05fb",
+    "runs/m4/circuit-review-final-2026-10-10/inputs/wiz550io.lbr": "db43a64d52c1aa966f3067e599a15338ac6d56221db19f2a834e37f9f33fa0a3",
+    "runs/m4/mechanical-source-2026-10-11/wiz550io-v1.2-bom.pdf": "136d60d582a1eaee48a0015b7356981dedcb649ba2d46eb5c2d6455914ed7a7a",
+    "runs/m4/mechanical-source-2026-10-11/wiz550io-v1.2-altium.zip": "a12db477782182ee243d995dfeadbffad57a3d3a2314f56f34633431ca406844",
+    "runs/m4/mechanical-source-2026-10-11/WIZ550io V1.2.PcbDoc": "3552d4ad1f312b15a800263f0224901005e46507045377caaf854279298cc338"
+  },
+  "derived_artifacts": {
+    "runs/m4/mechanical-source-2026-10-11/wiz550io-v1.2-import.kicad_pcb": "f8697c58f981d5b276891c4647e4dfd6f16c0bfcf8d746e6bda15780989f3362",
+    "runs/m4/mechanical-source-2026-10-11/altium-import-report.json": "9f8a0da3a7dff7bd41a7bd41e50e4d2304ae610b162fb78e819289db04a876ad"
+  }
+}

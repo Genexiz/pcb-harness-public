@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "tiny",
+  "revision": "1",
+  "instances": [
+    {
+      "id": "r1",
+      "ref": "R1",
+      "part_id": "resistor",
+      "value": "1k",
+      "block": "Passive parallel",
+      "fact_ids": [
+        "fixture"
+      ],
+      "schematic_position_mm": [
+        50.8,
+        50.8
+      ],
+      "bootstrap_position_mm": [
+        20,
+        20
+      ]
+    },
+    {
+      "id": "r2",
+      "ref": "R2",
+      "part_id": "resistor",
+      "value": "1k",
+      "block": "Passive parallel",
+      "fact_ids": [
+        "fixture"
+      ],
+      "schematic_position_mm": [
+        81.28,
+        50.8
+      ],
+      "bootstrap_position_mm": [
+        40,
+        20
+      ]
+    },
+    {
+      "id": "r3",
+      "ref": "R3",
+      "part_id": "resistor",
+      "value": "1k",
+      "block": "Passive parallel",
+      "fact_ids": [
+        "fixture"
+      ],
+      "schematic_position_mm": [
+        111.75999999999999,
+        50.8
+      ],
+      "bootstrap_position_mm": [
+        60,
+        20
+      ]
+    }
+  ],
+  "nets": [
+    {
+      "id": "a",
+      "name": "/NET_A",
+      "net_class": "Default",
+      "voltage_range_v": null,
+      "endpoints": [
+        {
+          "instance_id": "r1",
+          "pin_id": "p1"
+        },
+        {
+          "instance_id": "r2",
+          "pin_id": "p1"
+        },
+        {
+          "instance_id": "r3",
+          "pin_id": "p1"
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "name": "/NET_B",
+      "net_class": "Default",
+      "voltage_range_v": null,
+      "endpoints": [
+        {
+          "instance_id": "r1",
+          "pin_id": "p2"
+        },
+        {
+          "instance_id": "r2",
+          "pin_id": "p2"
+        },
+        {
+          "instance_id": "r3",
+          "pin_id": "p2"
+        }
+      ]
+    }
+  ],
+  "no_connect": [],
+  "interfaces": [],
+  "errata_mitigations": []
+}

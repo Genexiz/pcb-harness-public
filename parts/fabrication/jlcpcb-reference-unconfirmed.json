@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "id": "jlcpcb-reference-unconfirmed",
+  "revision": "1",
+  "vendor": "JLCPCB",
+  "service": "standard-rigid-service-applicability-unconfirmed",
+  "source_fact_ids": [
+    "jlcpcb-capabilities-unconfirmed"
+  ],
+  "retrieved_at": "2026-10-09",
+  "layers": 4,
+  "material": "FR4",
+  "thickness_mm": 1.6,
+  "copper_oz": [
+    1,
+    0.5,
+    0.5,
+    1
+  ],
+  "finish": "unconfirmed",
+  "mask": "unconfirmed",
+  "via_process": "through",
+  "assembly": "none",
+  "categories": [
+    {
+      "id": "track_width",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": 0.2,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "clearance",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": 0.2,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "via_drill",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": 0.3,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "via_diameter",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": 0.6,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "annular_ring",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": null,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "inner_drill_clearance",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": null,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "pth_size",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": null,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "npth_size",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": null,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "hole_to_hole",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": null,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "copper_edge",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": 0.5,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "rule"
+    },
+    {
+      "id": "slots",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": null,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    },
+    {
+      "id": "mask_opening",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": null,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    },
+    {
+      "id": "mask_web",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": null,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    },
+    {
+      "id": "silk_width",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": null,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    },
+    {
+      "id": "silk_height",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": null,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    },
+    {
+      "id": "silk_clearance",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": null,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    },
+    {
+      "id": "assembly_spacing",
+      "applicable": true,
+      "reason": "",
+      "fact_ids": [
+        "jlcpcb-capabilities-unconfirmed"
+      ],
+      "manufacturer_floor": null,
+      "design_target": null,
+      "units": "mm",
+      "status": "unconfirmed",
+      "critical": true,
+      "evaluator": "manual"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+    },
+    "functional": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "required_constraint_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "id",
+          "description",
+          "required_constraint_ids"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "power_inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+          },
+          "voltage_v": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "max_current_a": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "required": [
+          "id",
+          "voltage_v",
+          "max_current_a"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "board": {
+      "type": "object",
+      "properties": {
+        "width_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "layers": {
+          "enum": [
+            2,
+            4
+          ]
+        },
+        "thickness_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "width_mm",
+        "height_mm",
+        "layers",
+        "thickness_mm"
+      ],
+      "additionalProperties": false
+    },
+    "interfaces": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+          },
+          "kind": {
+            "type": "string",
+            "minLength": 1
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rate": {
+            "type": "object",
+            "properties": {
+              "value": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "units": {
+                "enum": [
+                  "baud",
+                  "Hz",
+                  "bit/s"
+                ]
+              }
+            },
+            "required": [
+              "value",
+              "units"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "count",
+          "role",
+          "rate"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "concurrent_groups": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:/-]*$"
+        },
+        "minItems": 2,
+        "uniqueItems": true
+      }
+    },
+    "environment": {
+      "type": "object",
+      "properties": {
+        "temperature_range_c": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        }
+      },
+      "required": [
+        "temperature_range_c"
+      ],
+      "additionalProperties": false
+    },
+    "assembly": {
+      "enum": [
+        "none",
+        "top_smd",
+        "both_sides"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "functional",
+    "power_inputs",
+    "board",
+    "interfaces",
+    "concurrent_groups",
+    "environment",
+    "assembly"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

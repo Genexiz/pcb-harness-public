@@ -1,0 +1,625 @@
+{
+  "schema_version": 1,
+  "design_id": "stm32-communications-v1-prelayout",
+  "facts": [
+    {
+      "id": "can-clock",
+      "part": "MCP2518FD-E/SL",
+      "metric": "clock",
+      "unit": "Hz",
+      "minimum": 4000000,
+      "maximum": 40000000,
+      "coverage": "operating-range",
+      "source_id": "mcp2518fd",
+      "source_sha256": "0041b5bddb2a341794958f7a3195b931b349eb863f685935bb80aee377661ff5",
+      "locator": "DS20006027B pp1,76-77 oscillator options",
+      "conditions": "Selected40MHz crystal/SYSCLK; actual crystal tolerance and component selection pending.",
+      "supply_domain": null
+    },
+    {
+      "id": "mcu-supply",
+      "part": "STM32F103C8T6",
+      "metric": "supply",
+      "unit": "V",
+      "minimum": 2,
+      "maximum": 3.6,
+      "coverage": "operating-range",
+      "source_id": "stm32-ds",
+      "source_sha256": null,
+      "locator": "DS5319 Rev20 Tables9/13",
+      "conditions": "72MHz,TA85C, all peripherals enabled, Dhrystone-like Flash code, no GPIO load; original snapshot unavailable.",
+      "supply_domain": "VDD"
+    },
+    {
+      "id": "mcu-current",
+      "part": "STM32F103C8T6",
+      "metric": "current",
+      "unit": "A",
+      "minimum": null,
+      "maximum": 0.05,
+      "coverage": "specific-condition",
+      "source_id": "stm32-ds",
+      "source_sha256": null,
+      "locator": "DS5319 Rev20 Tables9/13",
+      "conditions": "72MHz,TA85C, all peripherals enabled, Dhrystone-like Flash code, no GPIO load; original snapshot unavailable.",
+      "supply_domain": "VDD"
+    },
+    {
+      "id": "ethernet-supply",
+      "part": "WIZ550io v1.2",
+      "metric": "supply",
+      "unit": "V",
+      "minimum": 2.97,
+      "maximum": 3.63,
+      "coverage": "operating-range",
+      "source_id": "wiz550io",
+      "source_sha256": "9869c0e996064e670c65fbd7cefaf9f921e3b35312b105f8370e3e66139c1297",
+      "locator": "Electrical Characteristics VDD/IDD rows",
+      "conditions": "141mA typical; condition-specific table is not a whole-module maximum.",
+      "supply_domain": "VDD"
+    },
+    {
+      "id": "ethernet-current",
+      "part": "WIZ550io v1.2",
+      "metric": "current",
+      "unit": "A",
+      "minimum": null,
+      "maximum": 0.141,
+      "coverage": "typical",
+      "source_id": "wiz550io",
+      "source_sha256": "9869c0e996064e670c65fbd7cefaf9f921e3b35312b105f8370e3e66139c1297",
+      "locator": "Electrical Characteristics VDD/IDD rows",
+      "conditions": "141mA typical; condition-specific table is not a whole-module maximum.",
+      "supply_domain": "VDD"
+    },
+    {
+      "id": "can-controllers-supply",
+      "part": "MCP2518FD-E/SL",
+      "metric": "supply",
+      "unit": "V",
+      "minimum": 2.7,
+      "maximum": 5.5,
+      "coverage": "operating-range",
+      "source_id": "mcp2518fd",
+      "source_sha256": "0041b5bddb2a341794958f7a3195b931b349eb863f685935bb80aee377661ff5",
+      "locator": "DS20006027B Table7-1 p78",
+      "conditions": "40MHz SYSCLK/20MHz SPI activity; selected SPI9MHz, external oscillator/IO-load review pending.",
+      "supply_domain": "VDD"
+    },
+    {
+      "id": "can-controllers-current",
+      "part": "MCP2518FD-E/SL",
+      "metric": "current",
+      "unit": "A",
+      "minimum": null,
+      "maximum": 0.02,
+      "coverage": "specific-condition",
+      "source_id": "mcp2518fd",
+      "source_sha256": "0041b5bddb2a341794958f7a3195b931b349eb863f685935bb80aee377661ff5",
+      "locator": "DS20006027B Table7-1 p78",
+      "conditions": "40MHz SYSCLK/20MHz SPI activity; selected SPI9MHz, external oscillator/IO-load review pending.",
+      "supply_domain": "VDD"
+    },
+    {
+      "id": "can-vdd-supply",
+      "part": "MCP2562FD-E/SN",
+      "metric": "supply",
+      "unit": "V",
+      "minimum": 4.5,
+      "maximum": 5.5,
+      "coverage": "operating-range",
+      "source_id": "can-phy",
+      "source_sha256": "79321323eb3295c5800a1aaabfea595f1486a26e2c17016b70bd26c52369fc14",
+      "locator": "DS20005284A p9 VDD/IDD",
+      "conditions": "Dominant,RL60ohm,CL100pF, rated voltage/temperature; fault/transient bound separate.",
+      "supply_domain": "VDD"
+    },
+    {
+      "id": "can-vdd-current",
+      "part": "MCP2562FD-E/SN",
+      "metric": "current",
+      "unit": "A",
+      "minimum": null,
+      "maximum": 0.07,
+      "coverage": "specific-condition",
+      "source_id": "can-phy",
+      "source_sha256": "79321323eb3295c5800a1aaabfea595f1486a26e2c17016b70bd26c52369fc14",
+      "locator": "DS20005284A p9 VDD/IDD",
+      "conditions": "Dominant,RL60ohm,CL100pF, rated voltage/temperature; fault/transient bound separate.",
+      "supply_domain": "VDD"
+    },
+    {
+      "id": "can-vio-supply",
+      "part": "MCP2562FD-E/SN",
+      "metric": "supply",
+      "unit": "V",
+      "minimum": 1.8,
+      "maximum": 5.5,
+      "coverage": "operating-range",
+      "source_id": "can-phy",
+      "source_sha256": "79321323eb3295c5800a1aaabfea595f1486a26e2c17016b70bd26c52369fc14",
+      "locator": "DS20005284A p9 VIO/IIO",
+      "conditions": "Dominant500uA maximum per digital IO rail under published conditions; local bypass per device.",
+      "supply_domain": "VIO"
+    },
+    {
+      "id": "can-vio-current",
+      "part": "MCP2562FD-E/SN",
+      "metric": "current",
+      "unit": "A",
+      "minimum": null,
+      "maximum": 0.0005,
+      "coverage": "specific-condition",
+      "source_id": "can-phy",
+      "source_sha256": "79321323eb3295c5800a1aaabfea595f1486a26e2c17016b70bd26c52369fc14",
+      "locator": "DS20005284A p9 VIO/IIO",
+      "conditions": "Dominant500uA maximum per digital IO rail under published conditions; local bypass per device.",
+      "supply_domain": "VIO"
+    },
+    {
+      "id": "rs232-supply",
+      "part": "MAX3232IDR",
+      "metric": "supply",
+      "unit": "V",
+      "minimum": 3,
+      "maximum": 5.5,
+      "coverage": "operating-range",
+      "source_id": "rs232",
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "locator": "SLLS410O pp4-5 sec6.3/6.5",
+      "conditions": "No-load current at3.3-5V; loaded driver/charge pump not bounded.",
+      "supply_domain": "VDD"
+    },
+    {
+      "id": "rs232-current",
+      "part": "MAX3232IDR",
+      "metric": "current",
+      "unit": "A",
+      "minimum": null,
+      "maximum": 0.001,
+      "coverage": "no-load",
+      "source_id": "rs232",
+      "source_sha256": "484d6bb1c92c5f2e993f1f3835c574bc4c03fea4b4d70a5e690b8d52674acf37",
+      "locator": "SLLS410O pp4-5 sec6.3/6.5",
+      "conditions": "No-load current at3.3-5V; loaded driver/charge pump not bounded.",
+      "supply_domain": "VDD"
+    },
+    {
+      "id": "rs485-supply",
+      "part": "THVD1450DR",
+      "metric": "supply",
+      "unit": "V",
+      "minimum": 3,
+      "maximum": 5.5,
+      "coverage": "operating-range",
+      "source_id": "rs485",
+      "source_sha256": "58ecc4cc07dd1d3206c2e67ffa734ad21a6d3a9e3c8c307068e6385bd79ee897",
+      "locator": "SLLSEY3E pp9-10 sec7.4/7.7",
+      "conditions": "Both driver/receiver enabled, no load; loaded current needs a bound.",
+      "supply_domain": "VDD"
+    },
+    {
+      "id": "rs485-current",
+      "part": "THVD1450DR",
+      "metric": "current",
+      "unit": "A",
+      "minimum": null,
+      "maximum": 0.003,
+      "coverage": "no-load",
+      "source_id": "rs485",
+      "source_sha256": "58ecc4cc07dd1d3206c2e67ffa734ad21a6d3a9e3c8c307068e6385bd79ee897",
+      "locator": "SLLSEY3E pp9-10 sec7.4/7.7",
+      "conditions": "Both driver/receiver enabled, no load; loaded current needs a bound.",
+      "supply_domain": "VDD"
+    },
+    {
+      "id": "support-supply",
+      "part": "LEDs/pullups/headers",
+      "metric": "supply",
+      "unit": "V",
+      "minimum": null,
+      "maximum": null,
+      "coverage": "unavailable",
+      "source_id": null,
+      "source_sha256": null,
+      "locator": "External device contract",
+      "conditions": "Exact support parts/external devices not selected.",
+      "supply_domain": "VDD"
+    },
+    {
+      "id": "support-current",
+      "part": "LEDs/pullups/headers",
+      "metric": "current",
+      "unit": "A",
+      "minimum": null,
+      "maximum": null,
+      "coverage": "unavailable",
+      "source_id": null,
+      "source_sha256": null,
+      "locator": "External device contract",
+      "conditions": "50mA combined reserve; protective/enforcement circuit pending.",
+      "supply_domain": "VDD"
+    },
+    {
+      "id": "module-length-manual",
+      "part": "WIZ550io v1.2",
+      "metric": "length",
+      "unit": "mm",
+      "minimum": 54,
+      "maximum": 54,
+      "coverage": "specific-condition",
+      "source_id": "wiz550io",
+      "source_sha256": "9869c0e996064e670c65fbd7cefaf9f921e3b35312b105f8370e3e66139c1297",
+      "locator": "Mechanical Information PCB Size",
+      "conditions": "Nominal length; linked drawing states55mm overall. Unresolved reference planes/tolerances.",
+      "supply_domain": null
+    },
+    {
+      "id": "module-length-drawing",
+      "part": "WIZ550io v1.2",
+      "metric": "length",
+      "unit": "mm",
+      "minimum": 55,
+      "maximum": 55,
+      "coverage": "specific-condition",
+      "source_id": "wiz550io-dimension",
+      "source_sha256": "9aae61a24d7c43f2cfec778314448cd2678aa22a7efd081d287dffeb0d028d87",
+      "locator": "Linked v1.1 drawing overall horizontal55",
+      "conditions": "Manual states v1.1/v1.2 dimensions shared; header origin/tolerance unresolved.",
+      "supply_domain": null
+    },
+    {
+      "id": "module-width",
+      "part": "WIZ550io v1.2",
+      "metric": "width",
+      "unit": "mm",
+      "minimum": 26,
+      "maximum": 26,
+      "coverage": "specific-condition",
+      "source_id": "wiz550io-dimension",
+      "source_sha256": "9aae61a24d7c43f2cfec778314448cd2678aa22a7efd081d287dffeb0d028d87",
+      "locator": "Linked v1.1 drawing vertical26",
+      "conditions": "Nominal; no manufacturing tolerance.",
+      "supply_domain": null
+    },
+    {
+      "id": "module-height",
+      "part": "WIZ550io v1.2",
+      "metric": "height",
+      "unit": "mm",
+      "minimum": 23.5,
+      "maximum": 24.5,
+      "coverage": "specific-condition",
+      "source_id": "wiz550io",
+      "source_sha256": "9869c0e996064e670c65fbd7cefaf9f921e3b35312b105f8370e3e66139c1297",
+      "locator": "Mechanical Information height24 +/-0.5",
+      "conditions": "Mating socket stack and height reference plane require qualification.",
+      "supply_domain": null
+    }
+  ],
+  "controllers": [
+    {
+      "interface": "can_classical",
+      "part": "MCP2518FD-E/SL",
+      "sysclk_hz": 40000000,
+      "clock_fact": "can-clock",
+      "rx_slots": 8,
+      "tx_slots": 8,
+      "tef_slots": 8,
+      "payload_bytes": 8,
+      "rx_timestamp": true,
+      "tef_timestamp": true,
+      "nominal": {
+        "brp": 1,
+        "tseg1": 63,
+        "tseg2": 16,
+        "sjw": 16,
+        "target_bps": 500000
+      },
+      "data": null
+    },
+    {
+      "interface": "can_fd",
+      "part": "MCP2518FD-E/SL",
+      "sysclk_hz": 40000000,
+      "clock_fact": "can-clock",
+      "rx_slots": 8,
+      "tx_slots": 8,
+      "tef_slots": 8,
+      "payload_bytes": 64,
+      "rx_timestamp": true,
+      "tef_timestamp": true,
+      "nominal": {
+        "brp": 1,
+        "tseg1": 63,
+        "tseg2": 16,
+        "sjw": 16,
+        "target_bps": 500000
+      },
+      "data": {
+        "brp": 1,
+        "tseg1": 15,
+        "tseg2": 4,
+        "sjw": 4,
+        "target_bps": 2000000
+      }
+    }
+  ],
+  "power": {
+    "rails": [
+      {
+        "voltage_v": 3.3,
+        "minimum_v": 3.135,
+        "maximum_v": 3.465
+      },
+      {
+        "voltage_v": 5,
+        "minimum_v": 4.75,
+        "maximum_v": 5.25
+      }
+    ],
+    "loads": [
+      {
+        "id": "mcu",
+        "part": "STM32F103C8T6",
+        "quantity": 1,
+        "rail_v": 3.3,
+        "reserve_per_device_a": 0.1,
+        "supply_fact": "mcu-supply",
+        "current_fact": "mcu-current",
+        "supply_domain": "VDD"
+      },
+      {
+        "id": "ethernet",
+        "part": "WIZ550io v1.2",
+        "quantity": 1,
+        "rail_v": 3.3,
+        "reserve_per_device_a": 0.25,
+        "supply_fact": "ethernet-supply",
+        "current_fact": "ethernet-current",
+        "supply_domain": "VDD"
+      },
+      {
+        "id": "can-controllers",
+        "part": "MCP2518FD-E/SL",
+        "quantity": 2,
+        "rail_v": 3.3,
+        "reserve_per_device_a": 0.03,
+        "supply_fact": "can-controllers-supply",
+        "current_fact": "can-controllers-current",
+        "supply_domain": "VDD"
+      },
+      {
+        "id": "can-vdd",
+        "part": "MCP2562FD-E/SN",
+        "quantity": 2,
+        "rail_v": 5,
+        "reserve_per_device_a": 0.08,
+        "supply_fact": "can-vdd-supply",
+        "current_fact": "can-vdd-current",
+        "supply_domain": "VDD"
+      },
+      {
+        "id": "can-vio",
+        "part": "MCP2562FD-E/SN",
+        "quantity": 2,
+        "rail_v": 3.3,
+        "reserve_per_device_a": 0.001,
+        "supply_fact": "can-vio-supply",
+        "current_fact": "can-vio-current",
+        "supply_domain": "VIO"
+      },
+      {
+        "id": "rs232",
+        "part": "MAX3232IDR",
+        "quantity": 1,
+        "rail_v": 3.3,
+        "reserve_per_device_a": 0.03,
+        "supply_fact": "rs232-supply",
+        "current_fact": "rs232-current",
+        "supply_domain": "VDD"
+      },
+      {
+        "id": "rs485",
+        "part": "THVD1450DR",
+        "quantity": 1,
+        "rail_v": 3.3,
+        "reserve_per_device_a": 0.08,
+        "supply_fact": "rs485-supply",
+        "current_fact": "rs485-current",
+        "supply_domain": "VDD"
+      },
+      {
+        "id": "support",
+        "part": "LEDs/pullups/headers",
+        "quantity": 1,
+        "rail_v": 3.3,
+        "reserve_per_device_a": 0.05,
+        "supply_fact": "support-supply",
+        "current_fact": "support-current",
+        "supply_domain": "VDD"
+      }
+    ]
+  },
+  "mechanical": {
+    "module_part": "WIZ550io v1.2",
+    "length_facts": [
+      "module-length-manual",
+      "module-length-drawing"
+    ],
+    "width_fact": "module-width",
+    "height_fact": "module-height",
+    "screening_length_mm": 56,
+    "screening_width_mm": 27,
+    "screening_height_mm": 25.5,
+    "connectors": [
+      {
+        "interface": "usb",
+        "part": null,
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "source_id": null,
+        "source_sha256": null,
+        "locator": "Exact connector/mating/courtyard evidence pending; see circuit-draft.md"
+      },
+      {
+        "interface": "uart",
+        "part": null,
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "source_id": null,
+        "source_sha256": null,
+        "locator": "Exact connector/mating/courtyard evidence pending; see circuit-draft.md"
+      },
+      {
+        "interface": "rs232",
+        "part": null,
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "source_id": null,
+        "source_sha256": null,
+        "locator": "Exact connector/mating/courtyard evidence pending; see circuit-draft.md"
+      },
+      {
+        "interface": "rs485",
+        "part": null,
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "source_id": null,
+        "source_sha256": null,
+        "locator": "Exact connector/mating/courtyard evidence pending; see circuit-draft.md"
+      },
+      {
+        "interface": "i2c",
+        "part": null,
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "source_id": null,
+        "source_sha256": null,
+        "locator": "Exact connector/mating/courtyard evidence pending; see circuit-draft.md"
+      },
+      {
+        "interface": "spi",
+        "part": null,
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "source_id": null,
+        "source_sha256": null,
+        "locator": "Exact connector/mating/courtyard evidence pending; see circuit-draft.md"
+      },
+      {
+        "interface": "can_classical",
+        "part": null,
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "source_id": null,
+        "source_sha256": null,
+        "locator": "Exact connector/mating/courtyard evidence pending; see circuit-draft.md"
+      },
+      {
+        "interface": "can_fd",
+        "part": null,
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "source_id": null,
+        "source_sha256": null,
+        "locator": "Exact connector/mating/courtyard evidence pending; see circuit-draft.md"
+      },
+      {
+        "interface": "ethernet",
+        "part": "WIZ550io integrated RJ45",
+        "length_mm": null,
+        "width_mm": null,
+        "height_mm": null,
+        "source_id": null,
+        "source_sha256": null,
+        "locator": "Exact connector/mating/courtyard evidence pending; see circuit-draft.md"
+      }
+    ]
+  },
+  "errata": {
+    "source_id": "stm32-errata",
+    "source_sha256": null,
+    "locator": "ES096 Rev15 web inspection2026-10-10; original file unavailable",
+    "device_marking": null,
+    "rev_id": null,
+    "items": [
+      {
+        "id": "2.2.8",
+        "policy": "Avoid WFE USB/PVD wakeup; verify interrupt handling before low-power modes."
+      },
+      {
+        "id": "2.2.9",
+        "policy": "Record physical marking and REV_ID;0x2003 aliases multiple markings; audit early-revision compiler workaround."
+      },
+      {
+        "id": "2.3.7",
+        "policy": "Keep default SPI1 PA5/6/7 mapping while I2C1 is clocked."
+      },
+      {
+        "id": "2.3.10",
+        "policy": "Keep TIM1_CH2 PWM inactive; audit remap before enabling alongside USART1."
+      },
+      {
+        "id": "2.4.1",
+        "policy": "Clear specific UART DMA HT/TC/TE flags; never clear global GIF on an active channel."
+      },
+      {
+        "id": "2.4.2",
+        "policy": "Use aligned32-bit DMA register access."
+      },
+      {
+        "id": "2.8.1",
+        "policy": "Highest application I2C IRQ priority; bound latency and test N=1/2/>2 receive sequences."
+      },
+      {
+        "id": "2.8.2",
+        "policy": "Implement a documented last-byte/STOP workaround; verify final bytes under worst IRQ load."
+      },
+      {
+        "id": "2.8.4",
+        "policy": "Bound START-to-SB wait and BERR handling; recover through source-correct timed reset."
+      },
+      {
+        "id": "2.8.5",
+        "policy": "Preserve100kHz target; qualify repeated-start rise time/slave stretching. Issue design revision if source conditions cannot be met."
+      },
+      {
+        "id": "2.8.7",
+        "policy": "Implement GPIO open-drain analog-filter unlock with bounded line readback and SWRST; distinguish an externally held bus."
+      },
+      {
+        "id": "2.9.2",
+        "policy": "Do not rely on UART IDLE alone for framing; periodic/HT/TC circular DMA service plus CRC/sequence counters."
+      },
+      {
+        "id": "2.10.2",
+        "policy": "Disable SPI hardware CRC when UART DMA shares request channels; use application/software CRC."
+      },
+      {
+        "id": "2.12.1",
+        "policy": "Audit suspend/FRES false-wakeup recovery per ES096."
+      },
+      {
+        "id": "2.12.2",
+        "policy": "Disable remote wakeup initially; if enabled mask SUSP for3ms after signaling resume."
+      },
+      {
+        "id": "2.12.3",
+        "policy": "Use USB hardware CRC validity; ignore wrong CRC16 bytes in PMA."
+      },
+      {
+        "id": "2.12.4",
+        "policy": "Maintain APB1 at36MHz during active USB; RCC readback/packet-count tests."
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "facts": [
+    {
+      "id": "fixture",
+      "document_id": "fixture-design",
+      "document_sha256": "62a515444ecec371a4882d2c4126127e5261f35d8b6eb05778f8275bdd043683",
+      "locator": "Synthetic M3 circuit oracle",
+      "claim": "Synthetic topology and authored assets; no hardware approval",
+      "status": "unconfirmed",
+      "critical": false,
+      "value": null,
+      "units": null,
+      "kind": "identity",
+      "confirmation": null
+    }
+  ]
+}

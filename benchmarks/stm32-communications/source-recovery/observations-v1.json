@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "revision": "m4-source-completion-v1",
+  "human_confirmed": false,
+  "mcu": {
+    "mpn": "STM32F103C8T6",
+    "package_code": "LQFP48",
+    "package": "LQFP48 7x7mm pitch0.5",
+    "pins": [
+      {
+        "number": "1",
+        "manufacturer_name": "VBAT",
+        "symbol_name": "VBAT"
+      },
+      {
+        "number": "2",
+        "manufacturer_name": "PC13",
+        "symbol_name": "PC13"
+      },
+      {
+        "number": "3",
+        "manufacturer_name": "PC14",
+        "symbol_name": "PC14"
+      },
+      {
+        "number": "4",
+        "manufacturer_name": "PC15",
+        "symbol_name": "PC15"
+      },
+      {
+        "number": "5",
+        "manufacturer_name": "PD0",
+        "symbol_name": "PD0"
+      },
+      {
+        "number": "6",
+        "manufacturer_name": "PD1",
+        "symbol_name": "PD1"
+      },
+      {
+        "number": "7",
+        "manufacturer_name": "NRST",
+        "symbol_name": "NRST"
+      },
+      {
+        "number": "8",
+        "manufacturer_name": "VSSA",
+        "symbol_name": "VSSA"
+      },
+      {
+        "number": "9",
+        "manufacturer_name": "VDDA",
+        "symbol_name": "VDDA"
+      },
+      {
+        "number": "10",
+        "manufacturer_name": "PA0",
+        "symbol_name": "PA0"
+      },
+      {
+        "number": "11",
+        "manufacturer_name": "PA1",
+        "symbol_name": "PA1"
+      },
+      {
+        "number": "12",
+        "manufacturer_name": "PA2",
+        "symbol_name": "PA2"
+      },
+      {
+        "number": "13",
+        "manufacturer_name": "PA3",
+        "symbol_name": "PA3"
+      },
+      {
+        "number": "14",
+        "manufacturer_name": "PA4",
+        "symbol_name": "PA4"
+      },
+      {
+        "number": "15",
+        "manufacturer_name": "PA5",
+        "symbol_name": "PA5"
+      },
+      {
+        "number": "16",
+        "manufacturer_name": "PA6",
+        "symbol_name": "PA6"
+      },
+      {
+        "number": "17",
+        "manufacturer_name": "PA7",
+        "symbol_name": "PA7"
+      },
+      {
+        "number": "18",
+        "manufacturer_name": "PB0",
+        "symbol_name": "PB0"
+      },
+      {
+        "number": "19",
+        "manufacturer_name": "PB1",
+        "symbol_name": "PB1"
+      },
+      {
+        "number": "20",
+        "manufacturer_name": "PB2",
+        "symbol_name": "PB2"
+      },
+      {
+        "number": "21",
+        "manufacturer_name": "PB10",
+        "symbol_name": "PB10"
+      },
+      {
+        "number": "22",
+        "manufacturer_name": "PB11",
+        "symbol_name": "PB11"
+      },
+      {
+        "number": "23",
+        "manufacturer_name": "VSS",
+        "symbol_name": "VSS"
+      },
+      {
+        "number": "24",
+        "manufacturer_name": "VDD",
+        "symbol_name": "VDD"
+      },
+      {
+        "number": "25",
+        "manufacturer_name": "PB12",
+        "symbol_name": "PB12"
+      },
+      {
+        "number": "26",
+        "manufacturer_name": "PB13",
+        "symbol_name": "PB13"
+      },
+      {
+        "number": "27",
+        "manufacturer_name": "PB14",
+        "symbol_name": "PB14"
+      },
+      {
+        "number": "28",
+        "manufacturer_name": "PB15",
+        "symbol_name": "PB15"
+      },
+      {
+        "number": "29",
+        "manufacturer_name": "PA8",
+        "symbol_name": "PA8"
+      },
+      {
+        "number": "30",
+        "manufacturer_name": "PA9",
+        "symbol_name": "PA9"
+      },
+      {
+        "number": "31",
+        "manufacturer_name": "PA10",
+        "symbol_name": "PA10"
+      },
+      {
+        "number": "32",
+        "manufacturer_name": "PA11",
+        "symbol_name": "PA11"
+      },
+      {
+        "number": "33",
+        "manufacturer_name": "PA12",
+        "symbol_name": "PA12"
+      },
+      {
+        "number": "34",
+        "manufacturer_name": "PA13",
+        "symbol_name": "PA13"
+      },
+      {
+        "number": "35",
+        "manufacturer_name": "VSS",
+        "symbol_name": "VSS"
+      },
+      {
+        "number": "36",
+        "manufacturer_name": "VDD",
+        "symbol_name": "VDD"
+      },
+      {
+        "number": "37",
+        "manufacturer_name": "PA14",
+        "symbol_name": "PA14"
+      },
+      {
+        "number": "38",
+        "manufacturer_name": "PA15",
+        "symbol_name": "PA15"
+      },
+      {
+        "number": "39",
+        "manufacturer_name": "PB3",
+        "symbol_name": "PB3"
+      },
+      {
+        "number": "40",
+        "manufacturer_name": "PB4",
+        "symbol_name": "PB4"
+      },
+      {
+        "number": "41",
+        "manufacturer_name": "PB5",
+        "symbol_name": "PB5"
+      },
+      {
+        "number": "42",
+        "manufacturer_name": "PB6",
+        "symbol_name": "PB6"
+      },
+      {
+        "number": "43",
+        "manufacturer_name": "PB7",
+        "symbol_name": "PB7"
+      },
+      {
+        "number": "44",
+        "manufacturer_name": "BOOT0",
+        "symbol_name": "BOOT0"
+      },
+      {
+        "number": "45",
+        "manufacturer_name": "PB8",
+        "symbol_name": "PB8"
+      },
+      {
+        "number": "46",
+        "manufacturer_name": "PB9",
+        "symbol_name": "PB9"
+      },
+      {
+        "number": "47",
+        "manufacturer_name": "VSS",
+        "symbol_name": "VSS"
+      },
+      {
+        "number": "48",
+        "manufacturer_name": "VDD",
+        "symbol_name": "VDD"
+      }
+    ],
+    "physical_pins": {
+      "VBAT": 1,
+      "PC14": 3,
+      "PC15": 4,
+      "PD0": 5,
+      "PD1": 6,
+      "NRST": 7,
+      "VSSA": 8,
+      "VDDA": 9,
+      "PA0": 10,
+      "PA1": 11,
+      "PA2": 12,
+      "PA3": 13,
+      "PA4": 14,
+      "PA5": 15,
+      "PA6": 16,
+      "PA7": 17,
+      "PB0": 18,
+      "PB1": 19,
+      "PB2": 20,
+      "PB10": 21,
+      "PB11": 22,
+      "VSS1": 23,
+      "VDD1": 24,
+      "PB12": 25,
+      "PB13": 26,
+      "PB14": 27,
+      "PB15": 28,
+      "PA8": 29,
+      "PA9": 30,
+      "PA10": 31,
+      "PA11": 32,
+      "PA12": 33,
+      "PA13": 34,
+      "VSS2": 35,
+      "VDD2": 36,
+      "PA14": 37,
+      "PB5": 41,
+      "PB6": 42,
+      "PB7": 43,
+      "BOOT0": 44,
+      "PB8": 45,
+      "PB9": 46,
+      "VSS3": 47,
+      "VDD3": 48,
+      "PC13": 2,
+      "PA15": 38,
+      "PB3": 39,
+      "PB4": 40
+    },
+    "flash_bytes": 65536,
+    "ram_bytes": 20480,
+    "default_peripheral_functions": {
+      "PA2": "USART2_TX",
+      "PA3": "USART2_RX",
+      "PA5": "SPI1_SCK",
+      "PA6": "SPI1_MISO",
+      "PA7": "SPI1_MOSI",
+      "PB10": "USART3_TX",
+      "PB11": "USART3_RX",
+      "PB13": "SPI2_SCK",
+      "PB14": "SPI2_MISO",
+      "PB15": "SPI2_MOSI",
+      "PA9": "USART1_TX",
+      "PA10": "USART1_RX",
+      "PA11": "USB_DM",
+      "PA12": "USB_DP",
+      "PB6": "I2C1_SCL",
+      "PB7": "I2C1_SDA"
+    },
+    "dma_requests": {
+      "USART1_TX": 4,
+      "USART1_RX": 5,
+      "USART2_TX": 7,
+      "USART2_RX": 6,
+      "USART3_TX": 2,
+      "USART3_RX": 3,
+      "SPI1_TX": 3,
+      "SPI1_RX": 2,
+      "SPI2_TX": 5,
+      "SPI2_RX": 4,
+      "I2C1_TX": 6,
+      "I2C1_RX": 7
+    },
+    "silicon_marking": null,
+    "rev_id": null,
+    "rev_id_marking_aliases": {
+      "0x0000": [
+        "A"
+      ],
+      "0x2000": [
+        "B"
+      ],
+      "0x2001": [
+        "Z"
+      ],
+      "0x2003": [
+        "Y",
+        "X",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "errata": [
+      {
+        "id": "2.2.8",
+        "policy": "Avoid WFE USB/PVD wakeup; verify interrupt handling before low-power modes.",
+        "physical_pdf_page": 9,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.2.9",
+        "policy": "Record physical marking and REV_ID;0x2003 aliases multiple markings; audit early-revision compiler workaround.",
+        "physical_pdf_page": 9,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.3.7",
+        "policy": "Keep default SPI1 PA5/6/7 mapping while I2C1 is clocked.",
+        "physical_pdf_page": 12,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.3.10",
+        "policy": "Keep TIM1_CH2 PWM inactive; audit remap before enabling alongside USART1.",
+        "physical_pdf_page": 13,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.4.1",
+        "policy": "Clear specific UART DMA HT/TC/TE flags; never clear global GIF on an active channel.",
+        "physical_pdf_page": 13,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.4.2",
+        "policy": "Use aligned32-bit DMA register access.",
+        "physical_pdf_page": 13,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.8.1",
+        "policy": "Highest application I2C IRQ priority; bound latency and test N=1/2/>2 receive sequences.",
+        "physical_pdf_page": 17,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.8.2",
+        "policy": "Implement a documented last-byte/STOP workaround; verify final bytes under worst IRQ load.",
+        "physical_pdf_page": 17,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.8.4",
+        "policy": "Bound START-to-SB wait and BERR handling; recover through source-correct timed reset.",
+        "physical_pdf_page": 19,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.8.5",
+        "policy": "Preserve100kHz target; qualify repeated-start rise time/slave stretching. Issue design revision if source conditions cannot be met.",
+        "physical_pdf_page": 19,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.8.7",
+        "policy": "Implement GPIO open-drain analog-filter unlock with bounded line readback and SWRST; distinguish an externally held bus.",
+        "physical_pdf_page": 20,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.9.2",
+        "policy": "Do not rely on UART IDLE alone for framing; periodic/HT/TC circular DMA service plus CRC/sequence counters.",
+        "physical_pdf_page": 21,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.10.2",
+        "policy": "Disable SPI hardware CRC when UART DMA shares request channels; use application/software CRC.",
+        "physical_pdf_page": 22,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.12.1",
+        "policy": "Audit suspend/FRES false-wakeup recovery per ES096.",
+        "physical_pdf_page": 23,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.12.2",
+        "policy": "Disable remote wakeup initially; if enabled mask SUSP for3ms after signaling resume.",
+        "physical_pdf_page": 23,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.12.3",
+        "policy": "Use USB hardware CRC validity; ignore wrong CRC16 bytes in PMA.",
+        "physical_pdf_page": 24,
+        "implementation_status": "planned-not-verified"
+      },
+      {
+        "id": "2.12.4",
+        "policy": "Maintain APB1 at36MHz during active USB; RCC readback/packet-count tests.",
+        "physical_pdf_page": 24,
+        "implementation_status": "planned-not-verified"
+      }
+    ]
+  },
+  "rs232": {
+    "ref": "U7",
+    "old_mpn": "MAX3232IDR",
+    "mpn": "MAX3232IDWR",
+    "package_code": "DW",
+    "package": "SOIC16 DW 7.5x10.3mm pitch1.27",
+    "manufacturer": "Texas Instruments",
+    "documented_lifecycle": "active",
+    "documented_temperature_c": [
+      -40,
+      85
+    ],
+    "drawing": "DW0016A 4220721/A 07/2016",
+    "body_width_mm": [
+      7.4,
+      7.6
+    ],
+    "body_length_mm": [
+      10.1,
+      10.5
+    ],
+    "lead_span_mm": [
+      9.97,
+      10.63
+    ],
+    "height_max_mm": 2.65,
+    "pitch_mm": 1.27,
+    "example_pad_size_mm": [
+      2.0,
+      0.6
+    ],
+    "example_row_center_spacing_mm": 9.3,
+    "pins": [
+      {
+        "number": "1",
+        "manufacturer_name": "C1+",
+        "symbol_name": "C1+"
+      },
+      {
+        "number": "2",
+        "manufacturer_name": "V+",
+        "symbol_name": "VS+"
+      },
+      {
+        "number": "3",
+        "manufacturer_name": "C1-",
+        "symbol_name": "C1-"
+      },
+      {
+        "number": "4",
+        "manufacturer_name": "C2+",
+        "symbol_name": "C2+"
+      },
+      {
+        "number": "5",
+        "manufacturer_name": "C2-",
+        "symbol_name": "C2-"
+      },
+      {
+        "number": "6",
+        "manufacturer_name": "V-",
+        "symbol_name": "VS-"
+      },
+      {
+        "number": "7",
+        "manufacturer_name": "DOUT2",
+        "symbol_name": "T2OUT"
+      },
+      {
+        "number": "8",
+        "manufacturer_name": "RIN2",
+        "symbol_name": "R2IN"
+      },
+      {
+        "number": "9",
+        "manufacturer_name": "ROUT2",
+        "symbol_name": "R2OUT"
+      },
+      {
+        "number": "10",
+        "manufacturer_name": "DIN2",
+        "symbol_name": "T2IN"
+      },
+      {
+        "number": "11",
+        "manufacturer_name": "DIN1",
+        "symbol_name": "T1IN"
+      },
+      {
+        "number": "12",
+        "manufacturer_name": "ROUT1",
+        "symbol_name": "R1OUT"
+      },
+      {
+        "number": "13",
+        "manufacturer_name": "RIN1",
+        "symbol_name": "R1IN"
+      },
+      {
+        "number": "14",
+        "manufacturer_name": "DOUT1",
+        "symbol_name": "T1OUT"
+      },
+      {
+        "number": "15",
+        "manufacturer_name": "GND",
+        "symbol_name": "GND"
+      },
+      {
+        "number": "16",
+        "manufacturer_name": "VCC",
+        "symbol_name": "VCC"
+      }
+    ],
+    "footprint_template": "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm",
+    "footprint_qualification": "TI example geometry derivative; site-specific mask/stencil/assembly acceptance pending"
+  }
+}
